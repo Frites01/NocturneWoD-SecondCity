@@ -1262,15 +1262,14 @@ GLOBAL_LIST_EMPTY(blended_hair_icons_cache)
 	var/layer = BODY_LAYER
 	/// What kind of gender shaping this sprite accessory should use (in case your sprite gets a weird missing pixel in the center)
 	var/female_sprite_flags = FEMALE_UNIFORM_FULL
-
-/// Override to return a different icon state given a bodytype or physique
-/datum/sprite_accessory/clothing/proc/get_icon_state(physique, bodyshape)
-	return icon_state
-
 	// NOCTURNE EDIT START
 	///Whether the underwear uses a special sprite for digitigrade legs. Adds a "_d" suffix to the icon state. Overrides digi_icon_state.
 	var/has_digitigrade = FALSE
 	// NOCTURNE EDIT END
+
+/// Override to return a different icon state given a bodytype or physique
+/datum/sprite_accessory/clothing/proc/get_icon_state(physique, bodyshape)
+	return icon_state
 
 /**
  * Generate an appearance from this clothing datum
