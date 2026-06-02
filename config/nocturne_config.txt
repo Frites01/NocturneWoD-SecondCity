@@ -5,3 +5,12 @@
 ## YOU MUST HAVE MIN_FLAVOR_TEXT ENABLED FOR THIS TO WORK.
 ## Don't ever set this to 0, just disable MIN_FLAVOR_TEXT
 #FLAVOR_TEXT_CHARACTER_REQUIREMENT 150
+
+## Defines whether or not the whitelist (if configured using USEWHITELIST) uses the SQL system.
+## NOTE: This does not replace USEWHITELIST in config.txt. Both flags must be enabled if you want to use this feature.
+#SQL_WHITELIST
+
+## Message that gets displayed to non-whitelisted players when they try to join the server
+## while it has an active whitelist. The \n allows the message to be displayed on a separate line,
+## to make it more readable in the BYOND window.
+MISSING_WHITELIST_MESSAGE "\nReason: You are not on the white list for this server"
