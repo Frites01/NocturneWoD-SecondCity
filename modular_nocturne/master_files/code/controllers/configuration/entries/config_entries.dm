@@ -7,3 +7,14 @@
 // NEVER set this value to 0!!
 /datum/config_entry/number/flavor_text_character_requirement
 	default = 150
+
+
+/// Defines whether or not the whitelist (if configured using USEWHITELIST) uses the SQL system.
+/datum/config_entry/flag/sql_whitelist
+	protection = CONFIG_ENTRY_LOCKED
+
+/// Message that gets displayed to non-whitelisted players when they try to join the server
+/// while it has an active whitelist. The \n allows the message to be displayed on a separate line,
+/// to make it more readable in the BYOND window.
+/datum/config_entry/string/missing_whitelist_message
+	default = "\nReason: You are not on the white list for this server"

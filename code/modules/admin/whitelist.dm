@@ -1,3 +1,4 @@
+/* // NOCTURNE REMOVAL - SQL whitelist system in nocturne modular files
 #define WHITELISTFILE "[global.config.directory]/whitelist.txt"
 
 GLOBAL_LIST(whitelist)
@@ -39,3 +40,5 @@ ADMIN_VERB_CUSTOM_EXIST_CHECK(whitelist_player)
 	return CONFIG_GET(flag/usewhitelist)
 
 #undef WHITELISTFILE
+
+*/ // NOCTURNE REMOVAL END

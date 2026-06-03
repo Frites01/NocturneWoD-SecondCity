@@ -8068,4 +8068,5 @@
 #include "modular_nocturne\modules\title_screen\code\preferences\middleware\title_screen.dm"
 #include "modular_nocturne\modules\title_screen\code\subsystem\title_screen.dm"
 #include "modular_nocturne\modules\title_screen\code\verbs\title_screen_verbs.dm"
+#include "modular_nocturne\modules\whitelist\code\whitelist.dm"
 // END_INCLUDE

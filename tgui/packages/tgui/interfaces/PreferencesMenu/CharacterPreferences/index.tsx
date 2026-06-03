@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useBackend } from 'tgui/backend';
-import { Button, Stack } from 'tgui-core/components';
+import { Dropdown, Flex, Stack } from 'tgui-core/components'; // NOCTURNE EDIT - ORIGINAL: import { Button, Stack } from 'tgui-core/components';
 import { exhaustiveCheck } from 'tgui-core/exhaustive';
 
 import { PageButton } from '../components/PageButton';
@@ -35,7 +35,9 @@ type ProfileProps = {
 
 function CharacterProfiles(props: ProfileProps) {
   const { activeSlot, onClick, profiles } = props;
+  // NOCTURNE EDIT - DROPDOWN MENU
 
+  /* // ORIGINAL
   return (
     <Stack justify="center" wrap>
       {profiles.map((profile, slot) => (
@@ -53,6 +55,31 @@ function CharacterProfiles(props: ProfileProps) {
       ))}
     </Stack>
   );
+  */
+
+  return (
+    <Flex
+      align="center"
+      justify="center"
+    >
+      <Flex.Item width="25%">
+        <Dropdown
+          width="100%"
+          selected={activeSlot as unknown as string}
+          displayText={profiles[activeSlot]}
+          options={profiles.map((profile, slot) => ({
+            value: slot,
+            displayText: profile ?? 'New Character',
+          }))}
+          onSelected={(slot) => {
+            onClick(slot);
+          }}
+        />
+      </Flex.Item>
+    </Flex>
+  );
+
+  // NOCTURNE EDIT END
 }
 
 export function CharacterPreferenceWindow(props) {
@@ -130,11 +157,15 @@ export function CharacterPreferenceWindow(props) {
           profiles={data.character_profiles}
         />
       </Stack.Item>
+      {/*
+      // NOCTURNE REMOVAL START - FUCK BYOND
       {!data.content_unlocked && (
         <Stack.Item align="center">
           Buy BYOND premium for more slots!
         </Stack.Item>
       )}
+      // NOCTURNE REMOVAL END
+      */}
       <Stack.Divider />
       <Stack.Item>
         <Stack fill>
