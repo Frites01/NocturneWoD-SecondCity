@@ -1,0 +1,6 @@
+author: "lpeapnni"
+delete-after: True
+changes:
+  - rscadd: "Changed character slots to dropdown menu"
+  - config: "Replaced legacy whitelist system with Nova Sector's SQL whitelist system"
+  - server: "Created nocturne_database_changelog.md file to track nocturne SQL schema changes"
