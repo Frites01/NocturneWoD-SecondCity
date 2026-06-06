@@ -155,8 +155,8 @@ GLOBAL_DATUM_INIT(latejoin_menu, /datum/latejoin_menu, new)
 			// NOCTURNE EDIT START - Flavourtext requirement
 			if(CONFIG_GET(flag/min_flavor_text))
 				if(length_char(owner.client.prefs.read_preference(/datum/preference/text/flavor_text)) < CONFIG_GET(number/flavor_text_character_requirement))
-					to_chat(owner, span_notice("You need at least [CONFIG_GET(number/flavor_text_character_requirement)] characters of flavor text to join the round. You have [length_char(owner.client.prefs.read_preference(/datum/preference/text/flavor_text))] characters."))
-					return
+					tgui_alert(owner, "You need at least [CONFIG_GET(number/flavor_text_character_requirement)] characters of flavor text to join the round. You have [length_char(owner.client.prefs.read_preference(/datum/preference/text/flavor_text))] characters.", "Oh No!")
+					return TRUE
 			// NOCTURNE EDIT END
 
 			//Determines Relevent Population Cap
