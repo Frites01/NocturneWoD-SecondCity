@@ -60,9 +60,7 @@ map westfieldmall
     default
 endmap
 
-#map palmdesert
-    votable
-    default
+map palmdesert
 endmap
 
 # Debug-only maps.

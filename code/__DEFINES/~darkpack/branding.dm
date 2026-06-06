@@ -1,4 +1,4 @@
-#define CITY_NAME "San Francisco"
+#define CITY_NAME "Palm Desert" // NOCTURNE EDIT - ORIGINAL: #define CITY_NAME "San Francisco"
 #define CITY_POLICE_DEPARTMENT CITY_NAME + " Police Department"
 
 #define NEWSPAPER_COMPANY "Angel Times"
