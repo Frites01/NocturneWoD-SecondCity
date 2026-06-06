@@ -4299,8 +4299,7 @@
 "aot" = (
 /obj/structure/table/wood,
 /obj/machinery/chem_dispenser/drinks/fullupgrade{
-	dir = 4;
-	pixel_x = -4
+	dir = 4
 	},
 /obj/effect/decal/rugs,
 /obj/machinery/light/small/directional/west,
@@ -12283,7 +12282,7 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/anarch)
 "aOz" = (
-/obj/machinery/vending/boozeomat,
+/obj/machinery/vending/boozeomat/private,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/anarch)
 "aOA" = (
