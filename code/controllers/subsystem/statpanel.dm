@@ -45,6 +45,15 @@ SUBSYSTEM_DEF(statpanels)
 			"Masquerade: [SSmasquerade.get_description()]", // DARKPACK EDIT ADD
 		)
 
+		// NOCTURNE ADDITION START
+		if(SSticker.HasRoundStarted())
+			if(city_time_passed() < SScity_time.time_till_daytime)
+				global_data += "Time Until Daylight: [time2text((SScity_time.time_till_daytime - city_time_passed()) / SSticker.city_time_rate_multiplier, "hh:mm:ss", NO_TIMEZONE)]"
+
+			if(city_time_passed() < SScity_time.time_till_roundend)
+				global_data += "Time Until Round End: [time2text((SScity_time.time_till_roundend - city_time_passed()) / SSticker.city_time_rate_multiplier, "hh:mm:ss", NO_TIMEZONE)]"
+		// NOCTURNE ADDITION END
+
 		if(SSshuttle.emergency)
 			var/ETA = SSshuttle.emergency.getModeStr()
 			if(ETA)
