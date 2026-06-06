@@ -1,0 +1,7 @@
+author: "lpeapnni"
+delete-after: True
+changes:
+  - rscadd: "Added roundend and daylight timers to stat panel"
+  - balance: "0 finance players now have money and a small paycheck"
+  - bugfix: "Mall bar now has FREE booze vendor"
+  - bugfix: "Flavor text requirement messages now actually appear"
