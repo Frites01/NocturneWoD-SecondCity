@@ -2568,6 +2568,10 @@
 /obj/structure/closet/crate/large,
 /turf/open/floor/city/circled/large,
 /area/vtm/palm_desert/interior/restaurant)
+"ss" = (
+/obj/effect/landmark/latejoin_masquerade,
+/turf/open/floor/plating/asphalt,
+/area/vtm/palm_desert/outside/commercial)
 "su" = (
 /obj/structure/table/wood,
 /obj/item/stack/dollar/hundred,
@@ -6652,7 +6656,6 @@
 	pixel_x = -1;
 	pixel_y = 9
 	},
-/obj/machinery/light/directional/north,
 /turf/open/floor/city/plating,
 /area/vtm/palm_desert/interior/salon)
 "Vq" = (
@@ -6910,6 +6913,10 @@
 /obj/structure/lamppost/three,
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/palm_desert/outside/commercial)
+"WX" = (
+/obj/effect/landmark/latejoin,
+/turf/open/floor/plating/asphalt,
+/area/vtm/palm_desert/outside/commercial)
 "Xa" = (
 /obj/structure/flora/bush/sparsegrass/style_random{
 	pixel_x = -2
@@ -6939,6 +6946,10 @@
 /obj/effect/decal/cleanable/litter,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/laundromat)
+"Xh" = (
+/obj/effect/landmark/observer_start,
+/turf/open/floor/plating/asphalt,
+/area/vtm/palm_desert/outside/commercial)
 "Xj" = (
 /obj/effect/landmark/navigate_destination,
 /turf/open/floor/city/gummaguts,
@@ -41627,9 +41638,9 @@ jM
 jM
 jM
 jM
+Xh
 jM
-jM
-jM
+ss
 jM
 jM
 hI
@@ -41933,7 +41944,7 @@ jM
 jM
 jM
 jM
-jM
+WX
 jM
 jM
 hI
@@ -47427,7 +47438,7 @@ iQ
 iQ
 iQ
 iQ
-vZ
+iQ
 iQ
 iQ
 iQ
