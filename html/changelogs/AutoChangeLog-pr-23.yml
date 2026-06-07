@@ -1,0 +1,6 @@
+author: "lpeapnni"
+delete-after: True
+changes:
+  - rscadd: "added server tagline"
+  - bugfix: "fixed finance AGAIN"
+  - bugfix: "time sense now isnt need to tell the time in the stat panel"
