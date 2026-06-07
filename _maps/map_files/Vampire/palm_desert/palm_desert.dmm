@@ -4471,9 +4471,7 @@
 /turf/open/floor/carpet/darkpack/bluesilver,
 /area/vtm/interior/ghetto)
 "zP" = (
-/obj/structure/stairs/east{
-	color = s
-	},
+/obj/structure/stairs/east,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/library)
 "zS" = (
