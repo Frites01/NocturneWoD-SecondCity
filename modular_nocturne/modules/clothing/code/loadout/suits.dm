@@ -111,6 +111,9 @@
 
 // flannels
 
+/datum/loadout_item/suit/jacket/flannel
+	abstract_type = /datum/loadout_item/suit/jacket/flannel
+
 /datum/loadout_item/suit/jacket/flannel/grey
     name = "Flannel (Grey)"
     item_path = /obj/item/clothing/suit/vampire/flannel
