@@ -22,8 +22,16 @@
 // letterman jackets
 
 /datum/loadout_item/suit/jacket/letterman
-    name = "Letterman Jacket"
+    name = "Letterman Jacket (Blue)"
     item_path = /obj/item/clothing/suit/vampire/letterman
+
+/datum/loadout_item/suit/jacket/letterman_brown
+	name = "Letterman Jacket (Brown)"
+	item_path = /obj/item/clothing/suit/jacket/letterman
+
+/datum/loadout_item/suit/jacket/letterman_red
+	name = "Letterman Jacket (Red)"
+	item_path = /obj/item/clothing/suit/jacket/letterman_red
 
 
 // military jackets

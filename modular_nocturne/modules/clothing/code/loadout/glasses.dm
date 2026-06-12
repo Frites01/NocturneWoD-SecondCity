@@ -49,6 +49,10 @@
 	name = "Safety Goggles"
 	item_path = /obj/item/clothing/glasses/vampire/safety
 
+/datum/loadout_item/glasses/monocle
+	name = "Monocle"
+	item_path = /obj/item/clothing/glasses/monocle
+
 
 // eyepatches
 
