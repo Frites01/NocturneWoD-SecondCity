@@ -76,3 +76,15 @@
 	fire_controled = TRUE
 	show_area_name = TRUE
 	domain = TRUE
+
+
+// misc
+
+/area/vtm/palm_desert/interior/hotel
+	name = "Chilton Hotel"
+	icon_state = "hotel"
+	ambience_index = AMBIENCE_OFFICE
+	zone_type = ZONE_ELYSIUM
+	fire_controled = TRUE
+	show_area_name = TRUE
+	domain = TRUE
