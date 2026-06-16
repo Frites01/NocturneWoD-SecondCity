@@ -377,6 +377,19 @@
 	},
 /turf/open/floor/plating/rough,
 /area/vtm/interior/caves)
+"bu" = (
+/obj/structure/table/wood,
+/obj/item/flashlight/lamp{
+	light_color = "#FFA500";
+	light_range = 3;
+	pixel_x = -8;
+	pixel_y = 11
+	},
+/obj/item/folder/blue{
+	pixel_x = 4
+	},
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior/police)
 "bv" = (
 /obj/structure/stone_tile/block{
 	dir = 1
@@ -400,7 +413,7 @@
 	},
 /obj/machinery/light/directional/west,
 /turf/open/floor/city/factory,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "bB" = (
 /obj/structure/table/countertop/red,
 /obj/machinery/processor,
@@ -516,7 +529,7 @@
 	dir = 4
 	},
 /turf/open/floor/city/toilet,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "bV" = (
 /turf/open/misc/grass/nosmooth,
 /area/vtm/palm_desert/outside/office)
@@ -533,7 +546,7 @@
 /obj/item/clothing/head/vampire/police,
 /obj/item/clothing/suit/costume/wellworn_shirt/graphic/ian,
 /turf/open/floor/city/toilet,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "ca" = (
 /obj/effect/turf_decal/bordur{
 	dir = 4
@@ -550,9 +563,8 @@
 /turf/open/floor/city/plating,
 /area/vtm/palm_desert/interior/salon)
 "cc" = (
-/obj/machinery/light/directional/north,
 /turf/open/floor/city/factory,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "cd" = (
 /obj/machinery/light/directional/west,
 /turf/open/floor/plating/concrete,
@@ -568,7 +580,7 @@
 	pixel_x = 7
 	},
 /turf/open/floor/wood/smooth/old,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "ch" = (
 /obj/structure/table/wood,
 /obj/item/kirbyplants/organic/plant17{
@@ -587,7 +599,7 @@
 /turf/open/floor/plating/concrete{
 	color = "#bfbfbf"
 	},
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "cj" = (
 /obj/structure/vampdoor/woodglass,
 /obj/effect/mapping_helpers/door/access/bank,
@@ -670,7 +682,7 @@
 /obj/machinery/light/directional/north,
 /obj/structure/window/reinforced/tinted/spawner/directional/west,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "cx" = (
 /obj/structure/table/countertop/red,
 /obj/machinery/microwave{
@@ -689,7 +701,7 @@
 "cz" = (
 /obj/effect/turf_decal/asphaltline/alt,
 /turf/open/floor/plating/asphalt,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "cA" = (
 /obj/structure/platform/lowwall/rich,
 /obj/structure/table/wood,
@@ -714,7 +726,7 @@
 	},
 /obj/structure/platform/lowwall/market/window,
 /turf/open/floor/plating/rough,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "cE" = (
 /obj/effect/turf_decal/siding/wideplating/dark{
 	dir = 10
@@ -742,8 +754,11 @@
 /obj/effect/mapping_helpers/door/access/police,
 /obj/effect/mapping_helpers/door/lock,
 /obj/effect/mapping_helpers/door/lock_difficulty/eight,
+/obj/effect/turf_decal/siding/grey{
+	dir = 4
+	},
 /turf/open/floor/city/factory,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "cM" = (
 /obj/structure/vampdoor/glass,
 /obj/effect/turf_decal/siding/white,
@@ -817,8 +832,10 @@
 /area/vtm/palm_desert/interior/farm)
 "dc" = (
 /obj/machinery/light/directional/north,
+/obj/structure/chair/comfy/darkpack/dark,
+/obj/effect/landmark/start/darkpack/law_enforcement/captain,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "de" = (
 /obj/effect/decal/wallpaper/grey{
 	color = "#e8bdff"
@@ -876,7 +893,7 @@
 	},
 /obj/machinery/light/directional/east,
 /turf/open/floor/plating/concrete,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "dv" = (
 /obj/structure/vampdoor/reinf{
 	dir = 4
@@ -884,8 +901,11 @@
 /obj/effect/turf_decal/siding/wood/dark{
 	dir = 8
 	},
+/obj/effect/mapping_helpers/door/lock,
+/obj/effect/mapping_helpers/door/lock_difficulty/eight,
+/obj/effect/mapping_helpers/door/access/police,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "dx" = (
 /obj/structure/vampfence/rich{
 	dir = 4;
@@ -996,7 +1016,7 @@
 /turf/open/floor/plating/concrete{
 	color = "#bfbfbf"
 	},
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "dS" = (
 /obj/structure/platform/lowwall/rich,
 /obj/structure/table,
@@ -1020,7 +1040,7 @@
 /turf/open/floor/plating/concrete{
 	color = "#bfbfbf"
 	},
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "dW" = (
 /obj/effect/decal/wallpaper/paper/green,
 /turf/closed/wall/vampwall/brick,
@@ -1045,20 +1065,37 @@
 /area/vtm/palm_desert)
 "ec" = (
 /obj/structure/closet,
+/obj/item/clothing/suit/vampire/eod{
+	desc = "SFPD Breacher equipment. Provides best protection against nearly everything.";
+	name = "SFPD EOD suit"
+	},
+/obj/item/clothing/suit/vampire/eod{
+	desc = "SFPD Breacher equipment. Provides best protection against nearly everything.";
+	name = "SFPD EOD suit"
+	},
+/obj/item/clothing/head/vampire/eod{
+	desc = "Looks ready to butt heads with the hardest of criminals. Provides best protection against nearly everything.";
+	name = "SFPD EOD helmet"
+	},
+/obj/item/clothing/head/vampire/eod{
+	desc = "Looks ready to butt heads with the hardest of criminals. Provides best protection against nearly everything.";
+	name = "SFPD EOD helmet"
+	},
 /obj/effect/turf_decal/siding/white{
 	color = "#636363";
 	dir = 8
 	},
 /turf/open/floor/city/plating_mono,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "ee" = (
 /obj/machinery/light/directional/north,
 /obj/structure/reagent_dispensers/cleaningfluid,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/hotel)
 "ef" = (
+/obj/effect/decal/rugs,
 /turf/open/floor/city/factory,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "eg" = (
 /obj/structure/vampdoor,
 /obj/effect/mapping_helpers/door/access/bank,
@@ -1139,7 +1176,7 @@
 	pixel_x = 7
 	},
 /turf/open/floor/wood/smooth/old,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "ew" = (
 /obj/structure/sign/city/hotel/directional/east,
 /turf/open/openspace,
@@ -1360,7 +1397,7 @@
 /turf/open/floor/plating/concrete{
 	color = "#bfbfbf"
 	},
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "ft" = (
 /obj/structure/table/countertop/red,
 /obj/item/food/popcorn,
@@ -1451,7 +1488,7 @@
 "fK" = (
 /obj/machinery/light/directional/east,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "fL" = (
 /obj/structure/coclock,
 /obj/effect/decal/cleanable/litter,
@@ -1460,11 +1497,18 @@
 /area/vtm/interior/laundromat)
 "fM" = (
 /turf/closed/wall/vampwall/market,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
+"fN" = (
+/obj/structure/table/wood,
+/obj/machinery/fax/police{
+	pixel_y = 7
+	},
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior/police)
 "fO" = (
 /obj/item/kirbyplants/random,
 /turf/open/floor/plating/concrete,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "fP" = (
 /obj/structure/vampdoor/woodglass,
 /obj/effect/turf_decal/siding/wood/dark,
@@ -1510,8 +1554,11 @@
 /obj/effect/mapping_helpers/door/access/police,
 /obj/effect/mapping_helpers/door/lock,
 /obj/effect/mapping_helpers/door/lock_difficulty/two,
+/obj/effect/turf_decal/siding/white{
+	dir = 8
+	},
 /turf/open/floor/city/toilet,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "fY" = (
 /obj/structure/chair/plastic/darkpack{
 	dir = 4
@@ -1523,7 +1570,7 @@
 /turf/open/floor/plating/concrete{
 	color = "#bfbfbf"
 	},
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "ga" = (
 /obj/effect/turf_decal/bordur{
 	dir = 5
@@ -1585,7 +1632,7 @@
 "gn" = (
 /obj/machinery/light/directional/south,
 /turf/open/floor/city/factory,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "go" = (
 /obj/structure/table/wood,
 /obj/vampire_computer,
@@ -1611,6 +1658,12 @@
 	},
 /turf/open/floor/city/circled,
 /area/vtm/interior)
+"gt" = (
+/obj/structure/chair/comfy/darkpack/dark{
+	dir = 1
+	},
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior/police)
 "gu" = (
 /obj/structure/vampdoor/wood,
 /obj/effect/turf_decal/siding/wood/light{
@@ -1673,6 +1726,17 @@
 /obj/effect/turf_decal/siding/grey,
 /turf/open/floor/plating/granite/black,
 /area/vtm/palm_desert/interior/millennium)
+"gJ" = (
+/obj/structure/table/wood,
+/obj/item/taperecorder{
+	pixel_x = 3
+	},
+/obj/item/storage/briefcase{
+	pixel_x = -3;
+	pixel_y = 2
+	},
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior/police)
 "gK" = (
 /obj/effect/turf_decal/bordur{
 	dir = 8
@@ -1905,7 +1969,7 @@
 	dir = 4
 	},
 /turf/open/floor/city/factory,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "hL" = (
 /obj/structure/table/wood,
 /obj/machinery/light/small/directional/west,
@@ -1988,12 +2052,25 @@
 /obj/effect/landmark/start/darkpack/farmer,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/palm_desert/interior/farm)
+"ih" = (
+/obj/structure/closet,
+/obj/effect/turf_decal/siding/white{
+	dir = 1;
+	color = "#636363"
+	},
+/obj/item/storage/box/baggie/meth,
+/turf/open/floor/city/plating_mono,
+/area/vtm/interior/police)
 "ii" = (
 /obj/structure/vampdoor/glass{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/door/unlock,
+/obj/effect/mapping_helpers/door/lock_difficulty/six,
+/obj/effect/mapping_helpers/door/access/police,
+/obj/effect/mapping_helpers/door/autoname,
 /turf/open/floor/plating/concrete,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "ij" = (
 /obj/item/kirbyplants/random,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -2183,7 +2260,7 @@
 /turf/open/floor/plating/concrete{
 	color = "#bfbfbf"
 	},
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "je" = (
 /obj/structure/railing{
 	dir = 5
@@ -2212,11 +2289,11 @@
 	pixel_x = -2
 	},
 /turf/open/floor/plating/asphalt,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "ji" = (
 /obj/effect/landmark/start/darkpack/law_enforcement/officer,
 /turf/open/floor/plating/concrete,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "jj" = (
 /obj/item/food/meat/slab,
 /turf/open/floor/plating/rough/cave{
@@ -2233,7 +2310,7 @@
 "jn" = (
 /obj/structure/table,
 /turf/open/floor/plating/concrete,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "jo" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/city/toilet,
@@ -2276,7 +2353,7 @@
 "jz" = (
 /obj/structure/extinguisher_cabinet/directional/north,
 /turf/open/floor/plating/concrete,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "jA" = (
 /obj/machinery/light/cold/directional/south,
 /turf/open/floor/city/circled,
@@ -2294,7 +2371,7 @@
 	name = "bars"
 	},
 /turf/open/floor/wood/smooth/old,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "jD" = (
 /obj/effect/decal/rugs,
 /turf/open/floor/city/plating,
@@ -2409,7 +2486,7 @@
 	},
 /obj/structure/platform/lowwall/market,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "ka" = (
 /obj/machinery/light/directional/east,
 /turf/open/floor/mineral/plastitanium,
@@ -2528,7 +2605,7 @@
 	dir = 8
 	},
 /turf/open/floor/city/toilet,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "kF" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 4
@@ -2595,7 +2672,7 @@
 /obj/effect/turf_decal/siding/white,
 /obj/machinery/shower/directional/south,
 /turf/open/floor/plating/rough,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "kO" = (
 /turf/closed/wall/vampwall/market,
 /area/vtm/interior/shop)
@@ -2641,7 +2718,7 @@
 	dir = 1
 	},
 /turf/open/floor/plating/concrete,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "la" = (
 /obj/structure/railing{
 	dir = 8
@@ -2657,7 +2734,7 @@
 	dir = 1
 	},
 /turf/open/floor/plating/concrete,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "ld" = (
 /obj/structure/closet/cabinet,
 /turf/open/floor/carpet/darkpack/redsilver,
@@ -2670,6 +2747,18 @@
 /obj/structure/platform/lowwall/junk/window,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior)
+"lg" = (
+/obj/structure/table/wood,
+/obj/item/clothing/head/costume/spacepolice{
+	name = "SFPD Captains cap";
+	pixel_y = 5;
+	pixel_x = -6
+	},
+/obj/item/storage/box/deputy{
+	pixel_x = 7
+	},
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior/police)
 "li" = (
 /obj/structure/dresser,
 /turf/open/floor/wood/smooth/old,
@@ -2752,7 +2841,7 @@
 /obj/machinery/vending/snack,
 /obj/machinery/light/directional/east,
 /turf/open/floor/plating/concrete,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "lu" = (
 /obj/machinery/light/prince/directional/south,
 /turf/open/floor/wood/smooth/old,
@@ -2807,8 +2896,11 @@
 /obj/structure/vampdoor/reinf{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/door/access/police,
+/obj/effect/mapping_helpers/door/lock,
+/obj/effect/mapping_helpers/door/lock_difficulty/eight,
 /turf/open/floor/plating/concrete,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "lH" = (
 /obj/effect/decal/rugs,
 /turf/open/floor/wood/smooth/old,
@@ -2832,7 +2924,7 @@
 	pixel_y = 10
 	},
 /turf/open/floor/city/factory,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "lK" = (
 /obj/structure/table/wood/fancy/royalblack,
 /obj/item/reagent_containers/blood/vitae,
@@ -3128,7 +3220,7 @@
 	color = "#636363"
 	},
 /turf/open/floor/city/plating_mono,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "mz" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 8
@@ -3687,7 +3779,7 @@
 "oO" = (
 /obj/structure/hedge,
 /turf/open/floor/plating/concrete,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "oQ" = (
 /obj/structure/closet/cabinet,
 /obj/item/clothing/under/vampire/burlesque,
@@ -3719,7 +3811,7 @@
 	},
 /obj/machinery/light/directional/north,
 /turf/open/floor/city/factory,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "oW" = (
 /obj/structure/closet/cabinet,
 /obj/item/clothing/shoes/vampire/heels,
@@ -3810,7 +3902,7 @@
 /obj/machinery/computer/order_console/mining/restricted/police,
 /obj/structure/platform/lowwall/market,
 /turf/open/floor/city/factory,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "pk" = (
 /obj/effect/turf_decal/darkpack/dirt{
 	dir = 4
@@ -4002,7 +4094,7 @@
 	},
 /obj/machinery/light/directional/north,
 /turf/open/floor/plating/concrete,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "ql" = (
 /obj/structure/curtain/bounty{
 	pixel_y = -27
@@ -4102,8 +4194,11 @@
 /obj/effect/mapping_helpers/door/access/police,
 /obj/effect/mapping_helpers/door/lock,
 /obj/effect/mapping_helpers/door/lock_difficulty/eight,
+/obj/effect/turf_decal/siding/wood/dark{
+	dir = 4
+	},
 /turf/open/floor/wood/smooth/old,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "qJ" = (
 /turf/closed/wall/vampwall/painted,
 /area/vtm/palm_desert/interior/restaurant)
@@ -4176,7 +4271,7 @@
 	dir = 8
 	},
 /turf/open/floor/city/toilet,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "re" = (
 /obj/structure/table/wood/fancy/royalblack,
 /obj/item/paper_bin{
@@ -4234,7 +4329,7 @@
 "rt" = (
 /obj/machinery/vending/coffee,
 /turf/open/floor/plating/concrete,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "rv" = (
 /obj/structure/platform/lowwall/rich/window/reinforced,
 /obj/structure/curtain/bounty{
@@ -4299,8 +4394,11 @@
 "rM" = (
 /obj/structure/vampdoor/reinf,
 /obj/effect/turf_decal/siding/wood/dark,
+/obj/effect/mapping_helpers/door/lock,
+/obj/effect/mapping_helpers/door/lock_difficulty/eight,
+/obj/effect/mapping_helpers/door/access/police,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "rN" = (
 /obj/machinery/light/small/directional/north,
 /obj/effect/decal/fakelattice{
@@ -4359,7 +4457,7 @@
 	pixel_y = 30
 	},
 /turf/open/floor/plating/concrete,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "rZ" = (
 /obj/structure/table/wood,
 /obj/item/stack/sheet/animalhide/generic,
@@ -4479,7 +4577,7 @@
 /obj/machinery/vending/cola,
 /obj/machinery/light/directional/west,
 /turf/open/floor/plating/concrete,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "sw" = (
 /obj/fake_platform/grey{
 	color = "#6d6d6d"
@@ -4611,13 +4709,13 @@
 	dir = 1
 	},
 /turf/open/floor/plating/concrete,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "tb" = (
 /obj/structure/sink/directional/east,
 /turf/open/floor/plating/concrete{
 	color = "#bfbfbf"
 	},
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "td" = (
 /obj/structure/curtain/bounty{
 	pixel_y = 15;
@@ -4641,7 +4739,7 @@
 /turf/open/floor/plating/concrete{
 	color = "#bfbfbf"
 	},
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "tk" = (
 /obj/effect/turf_decal/siding/wood/dark{
 	dir = 4
@@ -4688,7 +4786,7 @@
 /turf/open/floor/plating/concrete{
 	color = "#bfbfbf"
 	},
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "ts" = (
 /obj/structure/vampfence/corner{
 	dir = 8
@@ -4830,7 +4928,7 @@
 "tO" = (
 /obj/structure/chair/darkpack/green,
 /turf/open/floor/plating/concrete,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "tP" = (
 /obj/structure/vampfence/corner/rich{
 	dir = 4;
@@ -4848,8 +4946,11 @@
 /obj/effect/turf_decal/siding/wood/dark{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/door/lock,
+/obj/effect/mapping_helpers/door/lock_difficulty/eight,
+/obj/effect/mapping_helpers/door/access/police,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "tS" = (
 /mob/living/basic/frog,
 /turf/open/water,
@@ -5054,7 +5155,7 @@
 "uV" = (
 /obj/machinery/vending/snack,
 /turf/open/floor/plating/concrete,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "uW" = (
 /obj/structure/table,
 /obj/item/clothing/suit/costume/hawaiian,
@@ -5097,7 +5198,7 @@
 "vd" = (
 /obj/machinery/light/directional/west,
 /turf/open/floor/plating/concrete,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "vf" = (
 /obj/structure/vampfence,
 /turf/open/genturf,
@@ -5189,6 +5290,50 @@
 "vB" = (
 /turf/closed/wall/vampwall/brick,
 /area/vtm/palm_desert/interior/salon)
+"vC" = (
+/obj/structure/table/reinforced,
+/obj/item/melee/baton/vamp{
+	pixel_y = 5
+	},
+/obj/item/melee/baton/vamp{
+	pixel_y = 10
+	},
+/obj/item/melee/baton/vamp,
+/obj/item/flashlight/seclite{
+	pixel_y = 5
+	},
+/obj/item/flashlight/seclite,
+/obj/item/flashlight/seclite,
+/obj/item/flashlight/seclite,
+/obj/item/flashlight/seclite{
+	pixel_y = 5
+	},
+/obj/item/flashlight/seclite{
+	pixel_y = 5
+	},
+/obj/item/radio/headset/darkpack/police{
+	pixel_x = -9
+	},
+/obj/item/radio/headset/darkpack/police{
+	pixel_x = -9
+	},
+/obj/item/radio/headset/darkpack/police{
+	pixel_x = -9
+	},
+/obj/item/radio/headset/darkpack/police{
+	pixel_x = -9
+	},
+/obj/item/radio/headset/darkpack/police{
+	pixel_x = -9
+	},
+/obj/item/radio/headset/darkpack/police{
+	pixel_x = -9
+	},
+/obj/item/radio/headset/darkpack/police{
+	pixel_x = -9
+	},
+/turf/open/floor/city/factory,
+/area/vtm/interior/police)
 "vD" = (
 /obj/structure/rack/clothing{
 	dir = 4
@@ -5213,6 +5358,17 @@
 	},
 /turf/open/floor/wood/smooth/old,
 /area/vtm/palm_desert/interior/anarch)
+"vI" = (
+/obj/structure/table/wood,
+/obj/item/camera/detective{
+	pixel_x = -6
+	},
+/obj/item/detective_scanner/darkpack{
+	pixel_x = 7;
+	pixel_y = 6
+	},
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior/police)
 "vJ" = (
 /obj/effect/turf_decal/siding/wood/dark{
 	dir = 4
@@ -5279,8 +5435,9 @@
 /obj/effect/mapping_helpers/door/access/police,
 /obj/effect/mapping_helpers/door/lock,
 /obj/effect/mapping_helpers/door/lock_difficulty/eight,
+/obj/effect/turf_decal/siding/wood/dark,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "vX" = (
 /obj/structure/table/wood,
 /obj/item/pool_cue{
@@ -5340,13 +5497,31 @@
 /area/vtm/palm_desert/outside/office)
 "wg" = (
 /obj/structure/closet,
+/obj/item/gun/ballistic/automatic/darkpack/ar15{
+	desc = "A shiny new SFPD Carbine, courtesy of improved budgets and a dire need to clean these streets.";
+	name = "Police Issue CAR-15"
+	},
+/obj/item/gun/ballistic/automatic/darkpack/ar15{
+	desc = "A shiny new SFPD Carbine, courtesy of improved budgets and a dire need to clean these streets.";
+	name = "Police Issue CAR-15"
+	},
+/obj/item/gun/ballistic/automatic/darkpack/ar15{
+	desc = "A shiny new SFPD Carbine, courtesy of improved budgets and a dire need to clean these streets.";
+	name = "Police Issue CAR-15"
+	},
+/obj/item/storage/fancy/hardcase/mag_mp5,
+/obj/item/storage/fancy/hardcase/mag_mp5,
+/obj/item/storage/fancy/hardcase/mag_mp5,
+/obj/item/ammo_box/darkpack/c556,
+/obj/item/ammo_box/darkpack/c556,
+/obj/item/ammo_box/darkpack/c556,
 /obj/effect/turf_decal/siding/white{
 	color = "#636363";
 	dir = 8
 	},
 /obj/machinery/light/directional/east,
 /turf/open/floor/city/plating_mono,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "wh" = (
 /obj/structure/railing,
 /turf/open/floor/wood/smooth/old,
@@ -5377,14 +5552,15 @@
 	dir = 8
 	},
 /turf/open/floor/iron/stairs,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "wn" = (
 /obj/structure/vampdoor/reinf,
 /obj/effect/mapping_helpers/door/access/police,
 /obj/effect/mapping_helpers/door/lock,
 /obj/effect/mapping_helpers/door/lock_difficulty/ten,
+/obj/effect/turf_decal/siding/grey,
 /turf/open/floor/city/factory,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "wp" = (
 /obj/structure/platform/lowwall/rich,
 /obj/structure/vampstatue/angel{
@@ -5412,7 +5588,7 @@
 /obj/item/flashlight/seclite,
 /obj/item/flashlight/seclite,
 /turf/open/floor/city/toilet,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "wu" = (
 /obj/structure/chair/wood/darkpack,
 /turf/open/floor/wood/smooth/old,
@@ -5503,7 +5679,7 @@
 	name = "bars"
 	},
 /turf/open/floor/plating/concrete,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "wS" = (
 /obj/structure/dresser,
 /turf/open/floor/wood/smooth/old,
@@ -5524,7 +5700,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating/concrete,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "xa" = (
 /obj/effect/turf_decal/bordur,
 /turf/open/floor/plating/sidewalk/poor,
@@ -5577,7 +5753,7 @@
 	dir = 4
 	},
 /turf/open/floor/wood/smooth/old,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "xo" = (
 /obj/structure/bed,
 /obj/effect/spawner/random/bedsheet/any,
@@ -5708,8 +5884,11 @@
 "xV" = (
 /obj/structure/vampdoor/glass,
 /obj/effect/turf_decal/siding/wood/dark,
+/obj/effect/mapping_helpers/door/lock,
+/obj/effect/mapping_helpers/door/lock_difficulty/eight,
+/obj/effect/mapping_helpers/door/access/police,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "xY" = (
 /obj/machinery/bookbinder,
 /turf/open/floor/city/plating,
@@ -5895,8 +6074,9 @@
 /obj/effect/turf_decal/siding/white{
 	color = "#636363"
 	},
+/obj/item/storage/box/baggie/weed,
 /turf/open/floor/city/plating_mono,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "yL" = (
 /obj/effect/turf_decal/siding/wideplating/dark{
 	dir = 8
@@ -5908,7 +6088,7 @@
 	dir = 2
 	},
 /turf/open/floor/plating/asphalt,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "yR" = (
 /obj/structure/filingcabinet{
 	pixel_x = 7
@@ -5928,7 +6108,7 @@
 "yT" = (
 /obj/machinery/vending/cola,
 /turf/open/floor/plating/concrete,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "yU" = (
 /obj/structure/chair/plastic/darkpack{
 	dir = 1
@@ -6004,7 +6184,7 @@
 	pixel_y = 9
 	},
 /turf/open/floor/plating/concrete,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "zp" = (
 /obj/structure/roofstuff/vent_end{
 	dir = 8
@@ -6029,7 +6209,7 @@
 /area/vtm/interior/caves)
 "zu" = (
 /turf/open/floor/plating/asphalt,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "zv" = (
 /obj/structure/railing,
 /obj/effect/decal/pallet,
@@ -6114,7 +6294,7 @@
 /obj/item/storage/fancy/cigarettes/cigpack_robust,
 /obj/item/lighter/greyscale,
 /turf/open/floor/city/toilet,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "zS" = (
 /obj/structure/table/countertop/red,
 /obj/structure/sink/basin/directional/north{
@@ -6224,7 +6404,7 @@
 /turf/open/floor/plating/concrete{
 	color = "#bfbfbf"
 	},
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "Al" = (
 /obj/structure/stone_tile/surrounding_tile{
 	dir = 1
@@ -6275,7 +6455,7 @@
 /turf/open/floor/plating/concrete{
 	color = "#bfbfbf"
 	},
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "Ay" = (
 /obj/structure/table,
 /obj/structure/platform/lowwall/market,
@@ -6290,7 +6470,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating/asphalt,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "AB" = (
 /obj/structure/hedge,
 /turf/open/floor/carpet/darkpack/blackgold,
@@ -6349,7 +6529,7 @@
 	dir = 1
 	},
 /turf/open/floor/plating/concrete,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "AO" = (
 /obj/effect/turf_decal/asphaltline,
 /turf/open/floor/plating/asphalt,
@@ -6380,6 +6560,30 @@
 /obj/effect/decal/wallpaper/gold,
 /turf/closed/wall/vampwall/rich,
 /area/vtm/palm_desert/interior/hotel)
+"AV" = (
+/obj/structure/closet/cabinet,
+/obj/item/ammo_box/darkpack/c556,
+/obj/item/gun/ballistic/revolver/darkpack/magnum,
+/obj/item/ammo_box/darkpack/c44,
+/obj/item/storage/box/teargas,
+/obj/item/melee/baton/telescopic,
+/obj/item/storage/fancy/hardcase/mag_mp5,
+/obj/item/megaphone,
+/obj/item/vamp/keys/dispatch,
+/obj/item/vamp/keys/dispatch,
+/obj/item/vamp/keys/police,
+/obj/item/vamp/keys/police,
+/obj/item/vamp/keys/police/secure,
+/obj/item/gun/ballistic/automatic/darkpack/ar15{
+	desc = "A shiny new SFPD Carbine, courtesy of improved budgets and a dire need to clean these streets.";
+	name = "Police Issue CAR-15"
+	},
+/obj/item/ammo_box/magazine/darkpack556,
+/obj/item/ammo_box/magazine/darkpack556,
+/obj/item/ammo_box/magazine/darkpack556,
+/obj/item/ammo_box/magazine/darkpack556,
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior/police)
 "AX" = (
 /obj/effect/decal/pallet,
 /obj/structure/closet/crate/wooden/communitygardens/seeds,
@@ -6577,7 +6781,7 @@
 "BI" = (
 /obj/machinery/light/directional/east,
 /turf/open/floor/city/toilet,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "BJ" = (
 /obj/effect/decal/wallpaper/grey{
 	color = "#6d6d6d"
@@ -6729,7 +6933,7 @@
 /obj/machinery/light/directional/north,
 /obj/structure/table,
 /turf/open/floor/plating/concrete,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "Cw" = (
 /turf/open/floor/city/gummaguts,
 /area/vtm/palm_desert/interior/restaurant)
@@ -6777,7 +6981,7 @@
 /turf/open/floor/plating/concrete{
 	color = "#bfbfbf"
 	},
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "CG" = (
 /obj/structure/railing{
 	dir = 6
@@ -6831,7 +7035,7 @@
 "CR" = (
 /obj/structure/stairs/east,
 /turf/open/floor/plating/concrete,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "CS" = (
 /turf/open/floor/plating/asphalt,
 /area/vtm/palm_desert/outside/residential)
@@ -6920,6 +7124,10 @@
 /obj/effect/landmark/navigate_destination,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/palm_desert/interior/gun_store)
+"Dp" = (
+/obj/machinery/light/directional/north,
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior/police)
 "Dt" = (
 /obj/effect/decal/carpet{
 	icon_state = "greencarpet";
@@ -6936,7 +7144,7 @@
 /obj/item/toner/large,
 /obj/machinery/light/directional/north,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "Dy" = (
 /obj/structure/railing{
 	dir = 1
@@ -6976,6 +7184,20 @@
 "DI" = (
 /turf/open/floor/carpet/darkpack/greengold,
 /area/vtm/interior/ghetto)
+"DJ" = (
+/obj/structure/closet,
+/obj/effect/turf_decal/siding/white{
+	dir = 1;
+	color = "#636363"
+	},
+/obj/item/gun/ballistic/shotgun/vampire,
+/obj/item/gun/ballistic/shotgun/vampire,
+/obj/item/ammo_box/darkpack/c12g/incap,
+/obj/item/ammo_box/darkpack/c12g/incap,
+/obj/item/ammo_box/darkpack/c12g/incap,
+/obj/item/ammo_box/darkpack/c12g/incap,
+/turf/open/floor/city/plating_mono,
+/area/vtm/interior/police)
 "DK" = (
 /obj/structure/table/wood/fancy/royalblack,
 /obj/vampire_computer/prince,
@@ -7130,7 +7352,7 @@
 "Eo" = (
 /obj/effect/decal/cleanable/litter,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "Ep" = (
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/carpet/darkpack/redsilver,
@@ -7168,7 +7390,7 @@
 /turf/open/floor/plating/concrete{
 	color = "#bfbfbf"
 	},
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "Eu" = (
 /obj/structure/vampdoor/woodglass,
 /obj/effect/turf_decal/siding/wood/dark,
@@ -7571,7 +7793,7 @@
 /obj/item/clothing/head/vampire/police,
 /obj/item/clothing/head/vampire/police,
 /turf/open/floor/city/toilet,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "Gn" = (
 /obj/structure/chair/pew{
 	dir = 8
@@ -7612,8 +7834,14 @@
 	dir = 5;
 	color = "#636363"
 	},
+/obj/item/gun/ballistic/shotgun/vampire,
+/obj/item/gun/ballistic/shotgun/vampire,
+/obj/item/ammo_box/darkpack/c12g/rubber,
+/obj/item/ammo_box/darkpack/c12g/rubber,
+/obj/item/ammo_box/darkpack/c12g/rubber,
+/obj/item/ammo_box/darkpack/c12g/rubber,
 /turf/open/floor/city/plating_mono,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "Gv" = (
 /obj/structure/closet/mini_fridge,
 /turf/open/floor/wood/smooth/old,
@@ -7636,7 +7864,7 @@
 	dir = 1
 	},
 /turf/open/floor/wood/smooth/old,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "GA" = (
 /turf/open/floor/carpet/darkpack/redsilver,
 /area/vtm/palm_desert/interior/restaurant)
@@ -7737,6 +7965,22 @@
 /obj/structure/secure_safe/directional/west,
 /turf/open/floor/city/plating,
 /area/vtm/palm_desert/interior/giovanni)
+"GL" = (
+/obj/structure/closet,
+/obj/item/gun/ballistic/automatic/darkpack/mp5,
+/obj/item/gun/ballistic/automatic/darkpack/mp5,
+/obj/item/gun/ballistic/automatic/darkpack/mp5,
+/obj/item/storage/fancy/hardcase/mag_mp5,
+/obj/item/storage/fancy/hardcase/mag_mp5,
+/obj/item/ammo_box/darkpack/c9mm,
+/obj/item/ammo_box/darkpack/c9mm,
+/obj/item/ammo_box/darkpack/c9mm,
+/obj/effect/turf_decal/siding/white{
+	color = "#636363";
+	dir = 8
+	},
+/turf/open/floor/city/plating_mono,
+/area/vtm/interior/police)
 "GM" = (
 /obj/effect/decal/cleanable/trash,
 /turf/open/floor/plating/sidewalk/poor,
@@ -7943,7 +8187,7 @@
 /turf/open/floor/plating/concrete{
 	color = "#bfbfbf"
 	},
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "HE" = (
 /obj/structure/stone_tile/surrounding_tile{
 	dir = 8
@@ -7960,12 +8204,12 @@
 	dir = 4
 	},
 /turf/open/floor/plating/concrete,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "HI" = (
 /obj/structure/hedge,
 /obj/machinery/light/directional/west,
 /turf/open/floor/plating/concrete,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "HJ" = (
 /obj/darkpack_car/rand/anarch{
 	dir = 1
@@ -8027,6 +8271,9 @@
 /obj/structure/fuelstation,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/palm_desert/outside/commercial)
+"HV" = (
+/turf/open/floor/city/toilet,
+/area/vtm/interior/police)
 "HW" = (
 /obj/structure/vampdoor/old,
 /obj/effect/mapping_helpers/door/access/bar,
@@ -8061,7 +8308,7 @@
 /obj/item/clothing/head/vampire/police,
 /obj/machinery/light/directional/east,
 /turf/open/floor/city/toilet,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "Ie" = (
 /obj/structure/table/wood,
 /obj/item/hatchet/wooden{
@@ -8084,6 +8331,10 @@
 /obj/machinery/light/small/directional/east,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/palm_desert/interior/farm)
+"If" = (
+/obj/structure/table/wood,
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior/police)
 "Ih" = (
 /obj/structure/chair/sofa/corp/right{
 	dir = 4;
@@ -8111,7 +8362,7 @@
 /obj/item/clothing/head/vampire/police,
 /obj/machinery/light/directional/west,
 /turf/open/floor/city/toilet,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "Il" = (
 /obj/structure/sink/directional/west,
 /obj/structure/toilet{
@@ -8153,7 +8404,7 @@
 "Iu" = (
 /obj/structure/platform/lowwall/market/window,
 /turf/open/floor/plating/rough,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "Iv" = (
 /obj/structure/table/wood,
 /obj/structure/retail/library{
@@ -8234,7 +8485,7 @@
 	dir = 1
 	},
 /turf/open/floor/plating/concrete,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "IJ" = (
 /obj/structure/chair/sofa/corp/right{
 	dir = 4;
@@ -8374,7 +8625,7 @@
 	},
 /obj/structure/window/reinforced/tinted/spawner/directional/west,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "Ji" = (
 /obj/effect/decal/wallpaper/grey{
 	color = "#6d6d6d"
@@ -8499,7 +8750,7 @@
 /turf/open/floor/plating/concrete{
 	color = "#bfbfbf"
 	},
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "JO" = (
 /obj/machinery/light/directional/south,
 /turf/open/floor/city/circled/large,
@@ -8568,7 +8819,7 @@
 	dir = 4
 	},
 /turf/open/floor/city/toilet,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "Ka" = (
 /obj/structure/filingcabinet{
 	pixel_x = -6
@@ -8601,6 +8852,28 @@
 	},
 /turf/open/floor/iron/stairs,
 /area/vtm/interior/theatre)
+"Kg" = (
+/obj/structure/closet/crate{
+	name = "riot control crate"
+	},
+/obj/item/storage/box/flashbangs,
+/obj/item/storage/box/flashbangs,
+/obj/item/storage/box/teargas,
+/obj/item/storage/box/teargas,
+/obj/item/shield/riot,
+/obj/item/shield/riot,
+/obj/item/melee/baton/vamp,
+/obj/item/melee/baton/vamp,
+/obj/item/shield/riot,
+/obj/item/melee/baton/vamp,
+/obj/item/reagent_containers/spray/pepper,
+/obj/item/reagent_containers/spray/pepper,
+/obj/item/megaphone,
+/obj/item/reagent_containers/spray/pepper,
+/obj/item/gun/energy/taser/darkpack,
+/obj/item/gun/energy/taser/darkpack,
+/turf/open/floor/city/factory,
+/area/vtm/interior/police)
 "Kh" = (
 /obj/structure/table/countertop/red,
 /turf/open/floor/carpet/darkpack/purplegold,
@@ -8648,6 +8921,12 @@
 "Ks" = (
 /turf/closed/wall/vampwall/rich,
 /area/vtm/palm_desert/interior/hotel)
+"Kw" = (
+/obj/effect/decal/kopatich{
+	pixel_y = 14
+	},
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior/police)
 "Ky" = (
 /obj/structure/extinguisher_cabinet/directional/north,
 /turf/open/floor/city/gummaguts,
@@ -8661,6 +8940,13 @@
 /obj/effect/spawner/random/bedsheet,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/hotel)
+"KC" = (
+/obj/structure/closet,
+/obj/effect/turf_decal/siding/white{
+	color = "#636363"
+	},
+/turf/open/floor/city/plating_mono,
+/area/vtm/interior/police)
 "KD" = (
 /obj/structure/table/wood,
 /obj/item/gun/ballistic/shotgun/vampire,
@@ -8752,7 +9038,7 @@
 /obj/structure/table,
 /obj/item/folder/blue,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "La" = (
 /obj/effect/turf_decal/bordur/corner,
 /turf/open/floor/plating/roofwalk,
@@ -9059,7 +9345,7 @@
 "Ms" = (
 /obj/machinery/light/directional/east,
 /turf/open/floor/plating/concrete,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "Mt" = (
 /obj/structure/stone_tile/block,
 /obj/structure/railing{
@@ -9206,7 +9492,7 @@
 "MU" = (
 /obj/machinery/light/directional/east,
 /turf/open/floor/plating/asphalt,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "MV" = (
 /obj/effect/decal/wallpaper/paper,
 /turf/closed/wall/vampwall/old,
@@ -9216,7 +9502,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating/concrete,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "Na" = (
 /mob/living/carbon/human/npc/shop,
 /turf/open/floor/city/circled/large,
@@ -9228,8 +9514,9 @@
 "Ne" = (
 /obj/structure/table/wood,
 /obj/machinery/light/directional/south,
+/obj/item/camera/detective,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "Ng" = (
 /obj/structure/dresser,
 /turf/open/floor/wood/smooth/old,
@@ -9321,7 +9608,7 @@
 /obj/effect/mapping_helpers/door/lock_difficulty/eight,
 /obj/effect/mapping_helpers/door/access/police,
 /turf/open/floor/plating/concrete,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "NB" = (
 /obj/structure/fluff/tv{
 	icon_state = "tv_off";
@@ -9376,7 +9663,7 @@
 	pixel_y = 6
 	},
 /turf/open/floor/plating/concrete,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "NI" = (
 /obj/structure/table/wood,
 /obj/machinery/light/small/directional/east,
@@ -9473,11 +9760,10 @@
 /obj/structure/sign/flag/california/directional/north,
 /obj/machinery/photocopier/prebuilt,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "Of" = (
-/obj/effect/decal/rugs,
-/turf/open/floor/city/factory,
-/area/vtm/palm_desert)
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior/police)
 "Og" = (
 /obj/structure/hedge,
 /obj/effect/turf_decal/siding/grey{
@@ -9542,8 +9828,11 @@
 /obj/effect/mapping_helpers/door/access/police,
 /obj/effect/mapping_helpers/door/lock,
 /obj/effect/mapping_helpers/door/lock_difficulty/ten,
+/obj/effect/turf_decal/siding/grey{
+	dir = 8
+	},
 /turf/open/floor/city/factory,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "Ot" = (
 /obj/effect/turf_decal/bordur/corner,
 /turf/open/floor/plating/sidewalk,
@@ -9668,7 +9957,7 @@
 /obj/effect/turf_decal/asphaltline/alt,
 /obj/machinery/light/directional/east,
 /turf/open/floor/plating/asphalt,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "OO" = (
 /obj/structure/table/wood,
 /obj/structure/desk_bell,
@@ -9709,7 +9998,7 @@
 "OW" = (
 /obj/effect/decal/wallpaper,
 /turf/closed/wall/vampwall/market,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "OX" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/cup/bowl{
@@ -9839,7 +10128,7 @@
 /obj/structure/table,
 /obj/item/storage/fancy/donut_box,
 /turf/open/floor/plating/concrete,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "Py" = (
 /obj/effect/decal/cleanable/gasoline,
 /obj/structure/methlab,
@@ -9904,7 +10193,7 @@
 /obj/structure/chair/office/darkpack/blue,
 /obj/effect/landmark/start/darkpack/law_enforcement/officer,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "PM" = (
 /obj/structure/platform/lowwall/rich,
 /obj/structure/table/wood,
@@ -10002,7 +10291,7 @@
 	dir = 4
 	},
 /turf/open/floor/city/toilet,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "Qg" = (
 /obj/effect/decal/wallpaper/light,
 /turf/closed/wall/vampwall/brick,
@@ -10017,6 +10306,16 @@
 	},
 /turf/open/floor/city/gummaguts,
 /area/vtm/palm_desert/interior/hotel)
+"Qj" = (
+/obj/structure/table/wood,
+/obj/item/paper_bin{
+	pixel_y = 6
+	},
+/obj/item/pen{
+	pixel_y = 7
+	},
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior/police)
 "Ql" = (
 /obj/effect/turf_decal/crosswalk,
 /turf/open/floor/plating/asphalt,
@@ -10043,7 +10342,7 @@
 "Qo" = (
 /obj/effect/decal/wallpaper/light,
 /turf/closed/wall/vampwall/market,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "Qp" = (
 /obj/structure/table/wood/fancy/royalblack,
 /obj/machinery/bitcoin_miner{
@@ -10140,7 +10439,7 @@
 "QG" = (
 /obj/machinery/light/directional/north,
 /turf/open/floor/plating/concrete,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "QH" = (
 /obj/effect/decal/cleanable/ash{
 	pixel_x = -3;
@@ -10180,7 +10479,7 @@
 /obj/item/storage/fancy/donut_box,
 /obj/structure/coclock,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "QR" = (
 /turf/open/floor/wood/smooth/old,
 /area/vtm/palm_desert/interior/gun_store)
@@ -10237,7 +10536,7 @@
 "Rb" = (
 /obj/machinery/light/directional/south,
 /turf/open/floor/plating/concrete,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "Rc" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 1
@@ -10319,6 +10618,15 @@
 /obj/effect/turf_decal/bordur,
 /turf/open/floor/plating/roofwalk,
 /area/vtm/palm_desert)
+"Rw" = (
+/obj/structure/closet,
+/obj/effect/turf_decal/siding/white{
+	dir = 1;
+	color = "#636363"
+	},
+/obj/item/storage/box/baggie/cocaine,
+/turf/open/floor/city/plating_mono,
+/area/vtm/interior/police)
 "Rx" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 4
@@ -10328,7 +10636,7 @@
 "Ry" = (
 /obj/structure/reagent_dispensers/water_cooler,
 /turf/open/floor/plating/concrete,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "Rz" = (
 /obj/structure/stairs/west,
 /turf/open/floor/wood/smooth/old,
@@ -10357,12 +10665,12 @@
 "RD" = (
 /obj/structure/platform/lowwall/market/window,
 /turf/open/floor/plating/concrete,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "RF" = (
 /obj/structure/platform/lowwall/market,
 /obj/structure/table,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "RG" = (
 /obj/structure/chair/office/darkpack/red{
 	dir = 1
@@ -10395,7 +10703,7 @@
 /turf/open/floor/plating/concrete{
 	color = "#bfbfbf"
 	},
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "RN" = (
 /obj/structure/lamppost/sidewalk,
 /turf/open/misc/grass/nosmooth,
@@ -10451,14 +10759,14 @@
 	dir = 1
 	},
 /turf/open/floor/plating/asphalt,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "RZ" = (
 /obj/structure/table/wood,
 /turf/open/floor/carpet/darkpack/redsilver,
 /area/vtm/palm_desert/interior/restaurant)
 "Sa" = (
 /turf/open/floor/plating/concrete,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "Sb" = (
 /obj/structure/vampfence/corner{
 	dir = 1
@@ -10485,7 +10793,7 @@
 	},
 /obj/machinery/light/directional/north,
 /turf/open/floor/city/factory,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "Sj" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 8
@@ -10615,7 +10923,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating/concrete,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "SP" = (
 /obj/structure/vampfence/rich{
 	dir = 8
@@ -10712,7 +11020,7 @@
 /obj/effect/turf_decal/asphaltline/alt,
 /obj/machinery/light/directional/west,
 /turf/open/floor/plating/asphalt,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "To" = (
 /obj/effect/decal/pallet,
 /obj/structure/bonfire/prelit/fire_barrel{
@@ -10883,7 +11191,7 @@
 /turf/open/floor/plating/concrete{
 	color = "#bfbfbf"
 	},
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "TX" = (
 /obj/structure/chair/wood/darkpack/red,
 /turf/open/floor/plating/sidewalk/poor,
@@ -11110,6 +11418,9 @@
 	},
 /turf/open/floor/plating/sidewalk/rich,
 /area/vtm/palm_desert/outside/office)
+"UO" = (
+/turf/open/openspace,
+/area/vtm/interior/police)
 "UQ" = (
 /obj/structure/table/wood,
 /obj/vampire_computer,
@@ -11120,7 +11431,7 @@
 	dir = 8
 	},
 /turf/open/floor/city/toilet,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "UV" = (
 /obj/machinery/light/prince/directional/south,
 /turf/open/floor/wood/smooth,
@@ -11394,7 +11705,7 @@
 "VZ" = (
 /obj/machinery/logging_machine,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "Wb" = (
 /obj/structure/table/wood,
 /obj/structure/fluff/tv{
@@ -11412,7 +11723,7 @@
 /obj/item/clothing/head/vampire/police,
 /obj/item/storage/fancy/donut_box,
 /turf/open/floor/city/toilet,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "We" = (
 /turf/closed/wall/vampwall/painted,
 /area/vtm/palm_desert/interior/gun_store)
@@ -11422,7 +11733,7 @@
 /obj/item/tape,
 /obj/machinery/light/directional/north,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "Wg" = (
 /obj/structure/hedge,
 /obj/structure/flora/bush/flowers_br/style_random,
@@ -11514,7 +11825,7 @@
 /turf/open/floor/iron/stairs{
 	dir = 4
 	},
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "Ww" = (
 /obj/structure/chair/office/darkpack/red{
 	dir = 8
@@ -11586,6 +11897,24 @@
 /obj/structure/platform/lowwall/brick/window,
 /turf/open/floor/wood/herring,
 /area/vtm/palm_desert/interior/giovanni)
+"WL" = (
+/obj/structure/table/wood,
+/obj/item/flashlight/lamp{
+	light_color = "#FFA500";
+	light_range = 3;
+	pixel_x = -8;
+	pixel_y = 6
+	},
+/obj/item/paper_bin{
+	pixel_y = 4;
+	pixel_x = 7
+	},
+/obj/item/pen{
+	pixel_y = 4;
+	pixel_x = 7
+	},
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior/police)
 "WO" = (
 /obj/machinery/light/directional/east,
 /turf/open/floor/wood/smooth/old,
@@ -11772,7 +12101,7 @@
 /obj/effect/landmark/start/darkpack/law_enforcement/officer,
 /obj/structure/window/reinforced/tinted/spawner/directional/west,
 /turf/open/floor/wood/smooth/old,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "XL" = (
 /obj/structure/chair/pew{
 	dir = 4
@@ -11821,7 +12150,7 @@
 	pixel_x = -6
 	},
 /turf/open/floor/wood/smooth/old,
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "XR" = (
 /obj/machinery/light/small/directional/west,
 /turf/open/floor/plating/rough,
@@ -12036,6 +12365,14 @@
 "YW" = (
 /turf/open/floor/plating/rough,
 /area/vtm/interior/caves)
+"Za" = (
+/obj/structure/vampdoor/reinf,
+/obj/effect/mapping_helpers/door/access/police,
+/obj/effect/mapping_helpers/door/lock,
+/obj/effect/mapping_helpers/door/lock_difficulty/ten,
+/obj/effect/decal/rugs,
+/turf/open/floor/city/factory,
+/area/vtm/interior/police)
 "Zb" = (
 /obj/structure/sign/poster/city/tiamat/directional/north,
 /turf/open/floor/carpet/darkpack/bluegold,
@@ -12045,7 +12382,7 @@
 /turf/open/floor/plating/concrete{
 	color = "#bfbfbf"
 	},
-/area/vtm/palm_desert)
+/area/vtm/interior/police)
 "Ze" = (
 /obj/structure/curtain/bounty{
 	pixel_y = -27
@@ -49221,8 +49558,8 @@ LO
 LO
 Qo
 eu
-eb
-eb
+Of
+Of
 jZ
 Sa
 Sa
@@ -49373,7 +49710,7 @@ LO
 LO
 Qo
 Oe
-eb
+Of
 PL
 RF
 Sa
@@ -49525,8 +49862,8 @@ LO
 LO
 Qo
 Dx
-eb
-eb
+Of
+Of
 KY
 Sa
 Sa
@@ -49677,8 +50014,8 @@ LO
 LO
 Qo
 QO
-eb
-eb
+Of
+Of
 Qo
 jz
 Sa
@@ -49828,9 +50165,9 @@ gc
 LO
 LO
 Qo
-eb
-eb
-eb
+Of
+Of
+Of
 xV
 Sa
 yT
@@ -50753,8 +51090,8 @@ CF
 TW
 Qo
 xn
-eb
-eb
+Of
+Of
 Qo
 Sa
 Sa
@@ -50906,7 +51243,7 @@ dV
 Qo
 Wf
 Gz
-eb
+Of
 Qo
 CR
 kY
@@ -51361,8 +51698,8 @@ dR
 TW
 Qo
 XQ
-eb
-eb
+Of
+Of
 rM
 Sa
 Sa
@@ -72022,23 +72359,23 @@ gd
 gd
 Qo
 VZ
-XA
-XA
+If
+gJ
 cg
 Qo
-eb
-eb
-eb
-eb
+AV
+Of
+Of
+Of
 Qo
 fO
 Sa
 OW
-yK
-ef
+KC
+cc
 bz
-ef
-mv
+cc
+ih
 fM
 gd
 gd
@@ -72173,23 +72510,23 @@ gd
 gd
 gd
 Qo
-eb
-eb
-eb
-eb
+Of
+Of
+Of
+Of
 Qo
-eb
-XA
-eb
-eb
+Of
+WL
+Of
+Of
 Qo
 Sa
 Sa
 OW
 yK
-ef
-ef
-ef
+cc
+cc
+cc
 mv
 fM
 gd
@@ -72325,22 +72662,22 @@ gd
 gd
 gd
 Qo
-dc
-eb
-eb
+Dp
+Of
+Of
 Ne
 Qo
 dc
-XA
-eb
-eb
+vI
+gt
+Kw
 vW
 Sa
 Sa
 fM
 OW
 Sh
-ef
+cc
 gn
 fM
 fM
@@ -72477,24 +72814,24 @@ gd
 gd
 gd
 Qo
-eb
-eb
+Of
+Of
 Eo
-XA
+bu
 Qo
-eb
-XA
-eb
-eb
+Of
+lg
+gt
+Of
 Qo
 Sa
 Rb
 OW
-yK
-ef
-ef
-ef
-mv
+KC
+cc
+cc
+cc
+Rw
 fM
 gd
 gd
@@ -72630,22 +72967,22 @@ gd
 gd
 Qo
 Eo
-eb
-XA
-XA
+Of
+Qj
+fN
 Qo
-eb
-eb
+Of
+Of
 fK
-eb
+Of
 Qo
 Sa
 Sa
 OW
-yK
-ef
-ef
-ef
+KC
+cc
+cc
+cc
 mv
 fM
 gd
@@ -73541,23 +73878,23 @@ gd
 gd
 gd
 OW
-ef
+Kg
 hJ
 pj
-ef
-ef
-mv
+cc
+cc
+DJ
 Qo
 Gm
 zQ
 Ik
 Gm
 ws
-ib
-ib
-ib
+HV
+HV
+HV
 Qo
-gd
+UO
 kY
 fM
 gd
@@ -73695,21 +74032,21 @@ gd
 OW
 oU
 ef
-wn
+Za
 ef
-ef
+cc
 Gu
 Qo
 JZ
 bU
 bU
 Qf
-ib
-ib
+HV
+HV
 BI
-ib
+HV
 Qo
-gd
+UO
 kY
 fM
 gd
@@ -73846,17 +74183,17 @@ gd
 gd
 OW
 lJ
-ef
+cc
 OW
+vC
+cc
 ef
-ef
-Of
 wn
-ib
-ib
-ib
-ib
-ib
+HV
+HV
+HV
+HV
+HV
 fM
 Qo
 Wv
@@ -74001,17 +74338,17 @@ fM
 fM
 OW
 cc
-ef
-ef
+cc
+cc
 Qo
 kC
 US
 US
 rd
-ib
+HV
 Qo
 kN
-ib
+HV
 Qo
 QG
 Sa
@@ -74152,7 +74489,7 @@ fM
 fM
 fM
 OW
-ec
+GL
 wg
 ec
 Qo
@@ -74160,7 +74497,7 @@ Wd
 Gm
 Id
 bZ
-ib
+HV
 Qo
 kN
 BI
