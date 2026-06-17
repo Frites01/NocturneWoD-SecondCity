@@ -221,11 +221,10 @@
 		if(st_get_stat(STAT_FINANCE))
 			var/finance = st_get_stat(STAT_FINANCE)
 			switch(finance)
-				// NOCTURNE ADDITION START
 				if(0)
-					bank_account.account_balance = rand(50, 100)
-					bank_account.paycheck_amount = 25
-				// NOCTURNE ADDITION END
+					if(!CONFIG_GET(flag/punishing_zero_dots))
+						bank_account.account_balance = rand(50, 100)
+						bank_account.paycheck_amount = 15
 				if(1)
 					bank_account.account_balance = rand(100, 200)
 					bank_account.paycheck_amount = 40
@@ -244,12 +243,13 @@
 		// DARKPACK EDIT ADD END - Finance affects starting money
 		*/ // NOCTURNE REMOVAL END
 
-		// NOCTURNE ADDITION START
+		// NOCTURNE ADDITION START - UNDO THIS SHIT ONCE UPSTREAM FIXES FINANCE
 		var/finance = st_get_stat(STAT_FINANCE)
 		switch(finance)
 			if(0)
-				bank_account.account_balance = rand(50, 100)
-				bank_account.paycheck_amount = 20
+				if(!CONFIG_GET(flag/punishing_zero_dots))
+					bank_account.account_balance = rand(50, 100)
+					bank_account.paycheck_amount = 15
 			if(1)
 				bank_account.account_balance = rand(100, 200)
 				bank_account.paycheck_amount = 40
