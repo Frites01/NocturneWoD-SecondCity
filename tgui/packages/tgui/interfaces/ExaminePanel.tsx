@@ -112,7 +112,7 @@ export const ExaminePanel = (props) => {
                   selected={lowerTabIndex === 1}
                   onClick={() => setLowerTabIndex(1)}
                 >
-                Character Notes
+                OOC Notes {/* NOCTURNE EDIT - ORIGINAL: Character Notes */}
                 </Tabs.Tab>
                 {nsfw_content ?
                 <Tabs.Tab

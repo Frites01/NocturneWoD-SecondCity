@@ -112,7 +112,8 @@
 	if(!.)
 		return FALSE
 
-	if(CONFIG_GET(flag/nsfw_content) && preferences.read_preference(/datum/preference/toggle/nsfw_content_pref))
+
+	if(CONFIG_GET(flag/nsfw_content)) // NOCTURNE EDIT - ORIGINAL: if(CONFIG_GET(flag/nsfw_content) && preferences.read_preference(/datum/preference/toggle/nsfw_content_pref))
 		return TRUE
 
 	return FALSE
@@ -145,7 +146,7 @@
 	if(!.)
 		return FALSE
 
-	if(CONFIG_GET(flag/nsfw_content) && preferences.read_preference(/datum/preference/toggle/nsfw_content_pref))
+	if(CONFIG_GET(flag/nsfw_content)) // NOCTURNE EDIT - ORIGINAL: if(CONFIG_GET(flag/nsfw_content) && preferences.read_preference(/datum/preference/toggle/nsfw_content_pref))
 		return TRUE
 
 	return FALSE

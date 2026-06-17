@@ -27,7 +27,7 @@
 	var/name = ""
 	var/headshot = ""
 	// Whether or not the viewing user wants to see potential NSFW content in the holder's examine panel
-	var/nsfw_content = user.client?.prefs.read_preference(/datum/preference/toggle/nsfw_content_pref)
+	var/nsfw_content = TRUE // NOCTURNE EDIT - ORIGINAL: var/nsfw_content = user.client?.prefs.read_preference(/datum/preference/toggle/nsfw_content_pref)
 	var/flavor_text_nsfw = ""
 	var/ooc_notes = ""
 	var/show_flavor_text_when_masked = user.client?.prefs.read_preference(/datum/preference/toggle/show_flavor_text_when_masked)

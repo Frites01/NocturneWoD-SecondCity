@@ -29,15 +29,22 @@ export const nsfw_flavor_text: Feature<string> = {
 };
 
 export const character_notes: Feature<string> = {
+  /* // NOCTURNE REMOVAL START
   name: 'Character Notes',
   description:
     'OOC information about your character specifically! Like if you want a human ghouled or embraced.',
+  */ // NOCTURNE REMOVAL END
+
+  // NOCTURNE ADDITION START
+  name: 'OOC Notes',
+  description: 'Anything you want other players to know about you goes here, such as antag information, OOC triggers, etc.',
+  // NOCTURNE ADDITION END
   component: FeatureTextInput,
 };
 
 export const ooc_notes: Feature<string> = {
   name: 'OOC Notes (NSFW)',
-  description: 'Anything you want other players to know about you goes here, such as antag information, OOC triggers, etc.',
+  description: 'Anything you want other players to know about your sexual tastes goes here.', // NOCTURNE EDIT - ORIGINAL: description: 'Anything you want other players to know about you goes here, such as antag information, OOC triggers, etc.',
   component: FeatureTextInput,
 };
 
