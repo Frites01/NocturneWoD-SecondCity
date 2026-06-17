@@ -35,7 +35,7 @@
 
 	// NOCTURNE ADDITION END
 
-/obj/structure/retail/Initialize()
+/obj/structure/retail/Initialize(mapload)
 	. = ..()
 	if(owner_needed == TRUE)
 		my_owner = locate(/mob/living/carbon/human/npc) in range(2, src)
