@@ -41,7 +41,7 @@
 
 /datum/species/human/demihuman/get_species_lore()
 	return list(
- 		"\"...it was a giant fucking party trick! Ken casted these spells turning EVERYBODY into these weird animal creatures. \
+		"\"...it was a giant fucking party trick! Ken casted these spells turning EVERYBODY into these weird animal creatures. \
 		Purple, pink, cyan, dogpeople, catpeople-- Everybody thought they was on some weird designer drug, so nobody questioned it! \
 		Was fuckin' crazy to witness, especially when you knew what was really going on behind the curtain. \
 		To Ken, this was his art; the ability to escape reality for a few hours. The ability to do ANYTHING. \
