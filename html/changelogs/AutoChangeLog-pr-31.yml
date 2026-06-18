@@ -1,0 +1,6 @@
+author: "lpeapnni"
+delete-after: True
+changes:
+  - rscadd: "Added Roguetown-style examine panels"
+  - rscadd: "Added Roguetown-style flavor text formatting"
+  - rscadd: "Added headshot previews on examine (along with a preference to toggle them on or off)"
