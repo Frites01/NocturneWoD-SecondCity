@@ -1454,3 +1454,29 @@ $border-width-px: $border-width * 1px;
 }
 
 /* DARKPACK EDIT ADD END */
+
+/* NOCTURNE ADDITION START */
+.chat_headshot {
+  position: relative;
+  width: min(100px, 100%);
+  height: min(100px, 100%);
+  max-width: 100px;
+  max-height: 100px;
+  display: inline-block;
+}
+
+.chat_headshot img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: transform 0.35s ease;
+  transform-origin: top left;
+  will-change: transform;
+}
+
+.chat_headshot:hover img {
+  transform: scale(2.5);
+  z-index: 100;
+  border-radius: 2px;
+}
+/* NOCTURNE ADDITION END */

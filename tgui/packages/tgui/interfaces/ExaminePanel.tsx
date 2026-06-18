@@ -1,9 +1,9 @@
 // THIS IS A DARKPACK UI FILE
-import { useState } from 'react';
+import { useMemo, useState } from 'react'; // NOCTURNE EDIT - ORIGINAL: import { useState } from 'react';
 
 import { resolveAsset } from '../assets';
 import { useBackend } from '../backend';
-import { Section, Stack, Tabs, Box } from 'tgui-core/components';
+import { Section, Stack, Box, Button } from 'tgui-core/components'; // NOCTURNE EDIT - ORIGINAL: import { Section, Stack, Tabs, Box, } from 'tgui-core/components';
 import type { BooleanLike } from 'tgui-core/react';
 import { Window } from '../layouts';
 
@@ -61,6 +61,28 @@ export const ExaminePanel = (props) => {
     character_notes,
     nsfw_content,
   } = data;
+
+  // NOCTURNE ADDITION START
+  const [oocNotesIndex, setOocNotesIndex] = useState('SFW');
+  const [flavorTextIndex, setFlavorTextIndex] = useState('SFW');
+
+  const flavorHTML = useMemo(() => ({
+    __html: `<span className='Chat'>${flavor_text}</span>`,
+  }), [flavor_text]);
+
+  const nsfwHTML = useMemo(() => ({
+    __html: `<span className='Chat'>${flavor_text_nsfw}</span>`,
+  }), [flavor_text_nsfw]);
+
+  const oocHTML = useMemo(() => ({
+    __html: `<span className='Chat'>${character_notes}</span>`,
+  }), [character_notes]);
+
+  const oocnsfwHTML = useMemo(() => ({
+    __html: `<span className='Chat'>${ooc_notes}</span>`,
+  }), [ooc_notes]);
+  // NOCTURNE ADDITION END
+
   return (
     <Window
       title={`${character_name}'s Examine Panel`}
@@ -68,6 +90,7 @@ export const ExaminePanel = (props) => {
       height={670}
     >
       <Window.Content>
+        {/* NOCTURNE REMOVAL START
         <Stack fill>
           <Stack.Item>
             <Section title="Headshot">
@@ -138,6 +161,122 @@ export const ExaminePanel = (props) => {
             </Stack>
           </Stack.Item>
         </Stack>
+        NOCTURNE REMOVAL END */}
+
+        {/* NOCTURNE ADDITION START*/}
+        <Stack fill>
+          <Stack fill vertical>
+            <Stack.Item>
+              <Section title="Headshot">
+                <img
+                  src={resolveAsset(headshot)}
+                  height="300px"
+                  width="300px"
+                />
+              </Section>
+            </Stack.Item>
+
+            <Stack.Item grow>
+              <Stack fill>
+                <Stack.Item grow>
+                  <Section
+                    scrollable
+                    fill
+                    title="OOC Notes"
+                    preserveWhitespace
+                    buttons={nsfw_content ?
+                      <>
+                        <Button
+                          selected={oocNotesIndex === 'SFW'}
+                          bold={oocNotesIndex === 'SFW'}
+                          onClick={() => setOocNotesIndex('SFW')}
+                          textAlign="center"
+                          minWidth="60px"
+                        >
+                          SFW
+                        </Button>
+                        <Button
+                          selected={oocNotesIndex === 'NSFW'}
+                          disabled={!ooc_notes}
+                          bold={oocNotesIndex === 'NSFW'}
+                          onClick={() => setOocNotesIndex('NSFW')}
+                          textAlign="center"
+                          minWidth="60px"
+                        >
+                          NSFW
+                        </Button>
+                      </>
+                    : null}
+                  >
+                    {oocNotesIndex === 'SFW' && (
+                      <Box
+                      dangerouslySetInnerHTML={{
+                        __html: character_notes
+                        ? `<span class='Chat'>${character_notes}</span>`
+                        : "<i>No OOC notes provided.</i>",
+                      }}
+                      />
+                    )}
+                    {oocNotesIndex === 'NSFW' && (
+                      <Box
+                      dangerouslySetInnerHTML={oocnsfwHTML}
+                      />
+                    )}
+                  </Section>
+                </Stack.Item>
+              </Stack>
+            </Stack.Item>
+          </Stack>
+          <Stack.Item grow mb={1}>
+            <Stack vertical fill>
+              <Section
+                scrollable
+                fill
+                title="Flavor Text"
+                preserveWhitespace
+                buttons={nsfw_content ?
+                  <>
+                    <Button
+                      selected={flavorTextIndex === 'SFW'}
+                      bold={flavorTextIndex === 'SFW'}
+                      onClick={() => setFlavorTextIndex('SFW')}
+                      textAlign="center"
+                      minWidth="60px"
+                    >
+                      SFW
+                    </Button>
+                    <Button
+                      selected={flavorTextIndex === 'NSFW'}
+                      disabled={!flavor_text_nsfw}
+                      bold={flavorTextIndex === 'NSFW'}
+                      onClick={() => setFlavorTextIndex('NSFW')}
+                      textAlign="center"
+                      minWidth="60px"
+                    >
+                      NSFW
+                    </Button>
+                  </>
+                : null}
+              >
+                {flavorTextIndex === 'SFW' && (
+                <Box
+                  dangerouslySetInnerHTML={{
+                    __html: flavor_text
+                    ? `<span class='Chat'>${flavor_text}</span>`
+                    : "<i>No flavor text provided.</i>",
+                  }}
+                />
+                )}
+                {flavorTextIndex === 'NSFW' && (
+                  <Box
+                    dangerouslySetInnerHTML={nsfwHTML}
+                  />
+                )}
+              </Section>
+            </Stack>
+          </Stack.Item>
+        </Stack>
+        {/* NOCTURNE ADDITION END */}
       </Window.Content>
     </Window>
   );

@@ -27,7 +27,7 @@
 	var/name = ""
 	var/headshot = ""
 	// Whether or not the viewing user wants to see potential NSFW content in the holder's examine panel
-	var/nsfw_content = user.client?.prefs.read_preference(/datum/preference/toggle/nsfw_content_pref)
+	var/nsfw_content = TRUE // NOCTURNE EDIT - ORIGINAL: var/nsfw_content = user.client?.prefs.read_preference(/datum/preference/toggle/nsfw_content_pref)
 	var/flavor_text_nsfw = ""
 	var/ooc_notes = ""
 	var/show_flavor_text_when_masked = user.client?.prefs.read_preference(/datum/preference/toggle/show_flavor_text_when_masked)
@@ -46,16 +46,26 @@
 		//Check if the mob is obscured, then continue to headshot
 		if(isobserver(user) || show_flavor_text_when_masked || !obscured)
 			headshot = holder_human.dna.features[EXAMINE_DNA_HEADSHOT]
+			/* // NOCTURNE REMOVAL START
 			flavor_text = holder_human.dna.features[main_flavor_text_key]
 			flavor_text_nsfw = holder.dna.features[EXAMINE_DNA_NSFW_FLAVOR_TEXT]
 			ooc_notes = holder.dna.features[EXAMINE_DNA_OOC_NOTES]
 			character_notes = holder.dna.features[EXAMINE_DNA_CHARACTER_NOTES]
+			*/ // NOCTURNE REMOVAL END
+
+			// NOCTURNE ADDITION START
+			flavor_text = parsemarkdown_basic(html_encode(holder_human.dna.features[main_flavor_text_key]), color=TRUE)
+			flavor_text_nsfw = parsemarkdown_basic(html_encode(holder_human.dna.features[EXAMINE_DNA_NSFW_FLAVOR_TEXT]), color=TRUE)
+			ooc_notes = parsemarkdown_basic(html_encode(holder_human.dna.features[EXAMINE_DNA_OOC_NOTES]), color=TRUE)
+			character_notes = parsemarkdown_basic(html_encode(holder_human.dna.features[EXAMINE_DNA_CHARACTER_NOTES]), color=TRUE)
+			// NOCTURNE ADDITION END
+
 			name = holder.name
 		else if(obscured || !holder_human.dna)
 			flavor_text = "Obscured"
 			flavor_text_nsfw = "Obscured"
-			character_notes = "Obscured"
-			ooc_notes = "Obscured"
+			character_notes = parsemarkdown_basic(html_encode(holder_human.dna.features[EXAMINE_DNA_CHARACTER_NOTES]), color=TRUE) // NOCTURNE EDIT - ORIGINAL: character_notes = "Obscured"
+			ooc_notes = parsemarkdown_basic(html_encode(holder_human.dna.features[EXAMINE_DNA_OOC_NOTES]), color=TRUE) // NOCTURNE EDIT - ORIGINAL: ooc_notes = "Obscured"
 			name = "Unknown"
 
 	data["obscured"] = obscured ? TRUE : FALSE
@@ -71,6 +81,7 @@
 /mob/living/carbon/proc/flavor_text_creation()
 	var/flavor_text_to_show
 
+	/* // NOCTURNE REMOVAL START
 	var/main_flavor_text_key = EXAMINE_DNA_FLAVOR_TEXT
 	if(iscrinos(src))
 		main_flavor_text_key = EXAMINE_DNA_WAR_FORM_FLAVOR_TEXT
@@ -82,6 +93,9 @@
 	var/face_obscured = obscured_slots & HIDEFACE
 	if(!face_obscured || (face_obscured && client?.prefs.read_preference(/datum/preference/toggle/show_flavor_text_when_masked)))
 		flavor_text_to_show = span_notice("[preview_text]... <a href='byond://?src=[REF(src)];view_flavortext=1;'>\[Look closer?\]</a>")
+	*/ // NOCTURNE REMOVAL END
+
+	flavor_text_to_show = span_notice("<a href='byond://?src=[REF(src)];view_flavortext=1;'>\[Examine closer\]</a>") // NOCTURNE ADDITION
 
 	return flavor_text_to_show
 

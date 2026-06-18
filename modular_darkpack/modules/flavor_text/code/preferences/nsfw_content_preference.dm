@@ -1,3 +1,4 @@
+/* // NOCTURNE REMOVAL START - WE HAVE A FUCKING WHITELIST
 /datum/preference/toggle/nsfw_content_pref
 	category = PREFERENCE_CATEGORY_GAME_PREFERENCES
 	savefile_key = "nsfw_content_pref"
@@ -13,3 +14,4 @@
 		return TRUE
 
 	return FALSE
+*/ // NOCTURNE REMOVAL END

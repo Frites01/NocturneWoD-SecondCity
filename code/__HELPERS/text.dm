@@ -514,7 +514,7 @@ GLOBAL_LIST_INIT(binary, list("0","1"))
 			return
 	return 0
 
-/proc/parsemarkdown_basic_step1(t, limited=FALSE)
+/proc/parsemarkdown_basic_step1(t, limited=FALSE, color=FALSE) // NOCTURNE EDIT - ORIGINAL: /proc/parsemarkdown_basic_step1(t, limited=FALSE)
 	if(length(t) <= 0)
 		return
 
@@ -537,6 +537,17 @@ GLOBAL_LIST_INIT(binary, list("0","1"))
 	// Escape  single characters that will be used
 
 	t = replacetext(t, "!", "$a")
+
+	// Parse colour
+	if(color)
+		var/regex/hexgex = regex(@"(?<=-=)(.{6})", "g")
+		while(hexgex.Find(t))
+			var/endblock = findtext(t, "=-", hexgex.index)
+			if(!endblock)
+				break
+			t = replacetext(t, "=-", "</font>", hexgex.index, endblock+2)
+			var/c_code = sanitize_hexcolor(hexgex.match)
+			t = replacetext(t, "-=[hexgex.match]", "<font color='[c_code]'>", hexgex.index-2, endblock+2)
 
 	// Parse hr and small
 
@@ -640,8 +651,8 @@ GLOBAL_LIST_INIT(binary, list("0","1"))
 
 	return t
 
-/proc/parsemarkdown_basic(t, limited=FALSE)
-	t = parsemarkdown_basic_step1(t, limited)
+/proc/parsemarkdown_basic(t, limited=FALSE, color=FALSE)// NOCTURNE EDIT - ORIGINAL: /proc/parsemarkdown_basic(t, limited=FALSE)
+	t = parsemarkdown_basic_step1(t, limited, color)
 	t = parsemarkdown_basic_step2(t)
 	return t
 

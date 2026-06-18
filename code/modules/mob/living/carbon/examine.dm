@@ -17,6 +17,8 @@
 	var/t_is = p_are()
 
 	. = list()
+	. += get_headshot_examine(user) // NOCTURNE ADDITION
+
 	. += get_clothing_examine_info(user)
 	// give us some space between clothing examine and the rest
 	ADD_NEWLINE_IF_NECESSARY(.)
