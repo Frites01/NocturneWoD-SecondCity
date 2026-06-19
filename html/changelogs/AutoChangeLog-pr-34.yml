@@ -1,0 +1,5 @@
+author: "lpeapnni"
+delete-after: True
+changes:
+  - bugfix: "fixed Guardian requiring experience by default"
+  - bugfix: "A round end announcement for Masquerade failure has been added"
