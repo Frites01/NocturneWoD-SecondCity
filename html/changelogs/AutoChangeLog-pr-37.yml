@@ -1,0 +1,6 @@
+author: "lpeapnni"
+delete-after: True
+changes:
+  - rscdel: "Disables Cappadocian, Daughters of Cacophony, Tlacique, Trujah, and Ventrue antitribu"
+  - bugfix: "fixed clans with alternate body sprites not working with digitigrade limbs"
+  - bugfix: "fixed species previews having wings"
