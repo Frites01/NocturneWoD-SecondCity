@@ -42,6 +42,13 @@
 	/// daimoinon 1 text
 	var/sense_the_sin_text = "has been abandoned by the cold ocean of the night with nobody to keep them afloat."
 
+	// NOCTURNE ADDITION START
+
+	/// If this Clan should not be selectable for players
+	var/disabled = FALSE
+
+	// NOCTURNE ADDITION END
+
 /**
  * Applies Clan-specific effects to the mob
  * gaining this Clan. Will alter the mob's

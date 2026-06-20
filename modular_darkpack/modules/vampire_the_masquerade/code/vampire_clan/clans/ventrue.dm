@@ -26,3 +26,5 @@
 		/datum/discipline/fortitude,
 		/datum/discipline/auspex
 	)
+
+	disabled = TRUE // NOCTURNE ADDITION - bloat

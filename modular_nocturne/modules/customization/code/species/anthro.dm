@@ -69,6 +69,7 @@
 	human.dna.features[FEATURE_SNOUT_NOCTURNE] = "Lizard (Sharp)"
 	human.dna.features[FEATURE_TAIL_NOCTURNE] = SPRITE_ACCESSORY_NONE
 	human.dna.features[FEATURE_FLUFF_NOCTURNE] = SPRITE_ACCESSORY_NONE
+	human.dna.features[FEATURE_WINGS_NOCTURNE] = SPRITE_ACCESSORY_NONE
 	human.undershirt = "Tank Top (White)"
 	regenerate_organs(human)
 	human.update_body(is_creating = TRUE)

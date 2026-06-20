@@ -47,8 +47,14 @@
 	for (var/obj/item/bodypart/bodypart as anything in bodyparts)
 		if(!reset_icon)
 			var/icon_to_set
-			if(bodypart.bodyshape & BODYSHAPE_DIGITIGRADE) // we store digitigrade sprites in our modular folder
+
+			var/datum/component/digitigrade_limb/digitigrade_component = bodypart.GetComponent(/datum/component/digitigrade_limb)
+
+			if(digitigrade_component) // we store digitigrade sprites in our modular folder
 				icon_to_set = greyscale ? 'modular_nocturne/master_files/icons/mob/human/bodyparts_greyscale.dmi' : 'modular_nocturne/master_files/icons/mob/human/bodyparts.dmi'
+
+				digitigrade_component.squashed_id = sprite_name
+				digitigrade_component.free_id = "[sprite_name]_[BODYPART_ID_DIGITIGRADE]"
 			else
 				icon_to_set = greyscale ? DEFAULT_BODYPART_ICON_ORGANIC : bodypart.icon
 			bodypart.change_appearance(icon_to_set, sprite_name, greyscale)

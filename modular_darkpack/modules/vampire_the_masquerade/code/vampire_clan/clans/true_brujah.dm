@@ -14,4 +14,6 @@
 	male_clothes = /obj/item/clothing/under/vampire/rich
 	female_clothes = /obj/item/clothing/under/vampire/business
 	restricted_disciplines = list(/datum/discipline/celerity)
-	whitelisted = TRUE
+	// whitelisted = TRUE // NOCTURNE REMOVAL
+
+	disabled = TRUE // NOCTURNE ADDITION - even the people who were hesistant towards me disabling clans wanted them gone

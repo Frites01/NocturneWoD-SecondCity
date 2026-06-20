@@ -5,7 +5,18 @@
 
 /datum/preference/choiced/subsplat/vampire_clan/init_possible_values()
 	// DARKPACK TODO - implement whitelisting
-	return assoc_to_keys(GLOB.vampire_clan_list)
+	// return assoc_to_keys(GLOB.vampire_clan_list) // NOCTURNE REMOVAL
+
+	// NOCTURNE ADDITION START
+	var/list/enabled_clans = GLOB.vampire_clan_list
+	for (var/clan_name in enabled_clans)
+		var/datum/subsplat/vampire_clan/clan = GLOB.vampire_clans[GLOB.vampire_clan_list[clan_name]]
+		if(clan.disabled)
+			enabled_clans -= clan_name
+
+	return assoc_to_keys(enabled_clans)
+	// NOCTURNE ADDITION END
+
 
 /datum/preference/choiced/subsplat/vampire_clan/icon_for(value)
 	return uni_icon('modular_darkpack/modules/vampire_the_masquerade/icons/vampire_clans.dmi', get_vampire_clan(value).icon)

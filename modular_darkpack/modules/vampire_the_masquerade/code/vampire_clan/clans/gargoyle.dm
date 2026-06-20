@@ -39,7 +39,7 @@
 		"gargoyle_devil" = BODY_FRONT_LAYER,
 		"none" = BODY_FRONT_LAYER
 	)
-	whitelisted = TRUE
+	// whitelisted = TRUE // NOCTURNE REMOVAL
 
 /datum/subsplat/vampire_clan/gargoyle/on_gain(mob/living/carbon/human/gaining_mob, datum/splat/gaining_splat, joining_round)
 	. = ..()

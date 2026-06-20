@@ -1,5 +1,5 @@
 /datum/subsplat/vampire_clan/banu_haqim
-	name = "Banu Haqim Warrior"
+	name = "Banu Haqim (Warrior)" // NOCTURNE EDIT - ORIGINAL: name = "Banu Haqim Warrior"
 	id = VAMPIRE_CLAN_BANU_HAQIM
 	desc = "Banu Haqim, also known as Assamites, are traditionally seen by Western Kindred as dangerous assassins and diablerists, but in truth they are guardians, warriors, and scholars who seek to distance themselves from the Jyhad."
 	icon = "banu_haqim"
@@ -22,7 +22,7 @@
 	new /obj/effect/client_image_holder/baali_demon/banu(get_turf(target), list(target))
 
 /datum/subsplat/vampire_clan/banu_haqim/vizier
-	name = "Banu Haqim Vizier"
+	name = "Banu Haqim (Vizier)" // NOCTURNE EDIT - ORIGINAL: name = "Banu Haqim Vizier"
 	id = VAMPIRE_CLAN_BANU_HAQIM_VIZIER
 	icon = "banu_haqim_vizier"
 	curse = "Obsessive nature."

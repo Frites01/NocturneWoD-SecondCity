@@ -27,10 +27,12 @@
 		/datum/discipline/presence,
 		/datum/discipline/protean
 	)
-	whitelisted = TRUE
+	// whitelisted = TRUE // NOCTURNE REMOVAL
+
+	disabled = TRUE // NOCTURNE ADDITION - bloat
 
 /datum/subsplat/vampire_clan/setite/warrior
-	name = "Warrior Setite"
+	name = "Setite (Warrior)" // NOCTURNE EDIT - ORIGINAL: name = "Warrior Setite"
 	id = VAMPIRE_CLAN_WARRIOR_SETITE
 	icon = "warrior_setite"
 	clan_disciplines = list(
