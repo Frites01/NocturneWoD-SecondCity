@@ -13,5 +13,7 @@
 	male_clothes = /obj/item/clothing/under/vampire/sexy
 	female_clothes = /obj/item/clothing/under/vampire/toreador/female
 	enlightenment = FALSE
-	whitelisted = TRUE
+	// whitelisted = TRUE // NOCTURNE REMOVAL
 	subsplat_keys = /obj/item/vamp/keys/daughters
+
+	disabled = TRUE // NOCTURNE ADDITION - WHO?????

@@ -16,7 +16,7 @@
 	var/list/mob/living/madness_network
 
 /datum/subsplat/vampire_clan/malkavian/dominate
-	name = "Dominate Malkavian"
+	name = "Malkavian (Dominate)" // NOCTURNE EDIT - ORIGINAL: name = "Dominate Malkavian"
 	id = VAMPIRE_CLAN_DOMINATE_MALKAVIAN
 	icon = "dominate_malkavian"
 	clan_disciplines = list(

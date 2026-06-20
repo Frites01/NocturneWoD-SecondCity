@@ -13,7 +13,9 @@
 	alt_sprite = "rotten1"
 	alt_sprite_greyscale = TRUE
 
-	whitelisted = TRUE
+	// whitelisted = TRUE // NOCTURNE REMOVAL
+
+	disabled = TRUE // NOCTURNE ADDITION - dont wanna deal with weird technical issues from them, also kinda niche lorewise
 
 /datum/subsplat/vampire_clan/cappadocian/on_gain(mob/living/carbon/human/gaining_mob, datum/splat/gaining_splat, joining_round)
 	. = ..()

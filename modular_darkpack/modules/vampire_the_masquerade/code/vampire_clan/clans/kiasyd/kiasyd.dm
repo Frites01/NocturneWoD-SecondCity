@@ -17,7 +17,7 @@
 	no_facial = TRUE
 	male_clothes = /obj/item/clothing/under/vampire/archivist
 	female_clothes = /obj/item/clothing/under/vampire/archivist
-	whitelisted = TRUE
+	// whitelisted = TRUE // NOCTURNE REMOVAL
 	accessories = list("fae_ears", "none")
 	accessories_layers = list("fae_ears" = BODY_FRONT_LAYER, "none" = BODY_FRONT_LAYER)
 

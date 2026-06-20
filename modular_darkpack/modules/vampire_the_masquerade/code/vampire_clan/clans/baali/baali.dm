@@ -17,7 +17,7 @@
 	male_clothes = /obj/item/clothing/under/vampire/baali
 	female_clothes = /obj/item/clothing/under/vampire/baali/female
 	enlightenment = TRUE
-	whitelisted = TRUE
+	// whitelisted = TRUE // NOCTURNE REMOVAL
 	subsplat_keys = /obj/item/vamp/keys/baali
 
 /datum/subsplat/vampire_clan/baali/psychomania_effect(mob/living/target, mob/living/owner)

@@ -32,6 +32,7 @@
 	human.dna.features[FEATURE_HORNS_NOCTURNE] = SPRITE_ACCESSORY_NONE
 	human.dna.features[FEATURE_TAIL_NOCTURNE] = "Husky"
 	human.dna.features[FEATURE_FLUFF_NOCTURNE] = SPRITE_ACCESSORY_NONE
+	human.dna.features[FEATURE_WINGS_NOCTURNE] = SPRITE_ACCESSORY_NONE
 	human.undershirt = "Shirt (Band)"
 	regenerate_organs(human)
 	human.update_body(is_creating = TRUE)

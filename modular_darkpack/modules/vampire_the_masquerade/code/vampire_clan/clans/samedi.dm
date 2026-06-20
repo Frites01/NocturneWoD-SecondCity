@@ -13,7 +13,7 @@
 	clan_traits = list(
 		TRAIT_MASQUERADE_VIOLATING_FACE
 	)
-	whitelisted = TRUE
+	// whitelisted = TRUE // NOCTURNE REMOVAL
 
 /datum/subsplat/vampire_clan/samedi/on_gain(mob/living/carbon/human/gaining_mob, datum/splat/gaining_splat, joining_round)
 	. = ..()

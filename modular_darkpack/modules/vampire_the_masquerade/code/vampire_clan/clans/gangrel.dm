@@ -16,7 +16,7 @@
 	accessories_layers = list("beast_legs" = BODY_ADJ_LAYER, "beast_tail" = BODY_ADJ_LAYER, "beast_tail_and_legs" = BODY_ADJ_LAYER, "none" = BODY_ADJ_LAYER)
 
 /datum/subsplat/vampire_clan/gangrel/city
-	name = "City Gangrel"
+	name = "Gangrel (City)" // NOCTURNE EDIT - ORIGINAL: name = "City Gangrel"
 	id = VAMPIRE_CLAN_CITY_GANGREL
 	icon = "city_gangrel"
 	clan_disciplines = list(
