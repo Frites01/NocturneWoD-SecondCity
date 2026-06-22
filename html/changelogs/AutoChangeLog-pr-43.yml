@@ -1,0 +1,7 @@
+author: "lpeapnni"
+delete-after: True
+changes:
+  - bugfix: "Added daytime latejoin locations for vampires"
+  - bugfix: "Fixed dark shades of gray being unselectable as a mutant color"
+  - bugfix: "Added rolling pins, serving trays, a grinder, and enzyme to the mall kitchen"
+  - bugfix: "Entry-level Pentex roles no longer require Pentex experience"
