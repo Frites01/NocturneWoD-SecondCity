@@ -3170,6 +3170,7 @@
 /area/vtm/outside/pacificheights)
 "XX" = (
 /obj/machinery/light/dim/directional/east,
+/obj/effect/landmark/latejoin_daytime,
 /turf/open/floor/plating/rough,
 /area/vtm/graveyard/interior)
 "XY" = (
