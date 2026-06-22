@@ -2145,6 +2145,15 @@
 /obj/effect/turf_decal/siding/dark,
 /turf/open/floor/plating/rough,
 /area/vtm/palm_desert/interior/anarch)
+"hx" = (
+/obj/structure/railing,
+/obj/machinery/button/door{
+	id = 911;
+	name = "Clinic Parking Shutters Control";
+	pixel_y = 30
+	},
+/turf/open/floor/plating/concrete,
+/area/vtm/palm_desert)
 "hy" = (
 /obj/structure/sign/barber/directional/north{
 	pixel_y = 31;
@@ -8661,6 +8670,16 @@
 	},
 /turf/open/floor/plating/stone,
 /area/vtm/interior/caves)
+"Gp" = (
+/obj/machinery/door/poddoor/shutters{
+	damage_deflection = 60;
+	id = 911;
+	max_integrity = 300;
+	name = "Clinic Parking Shutter";
+	dir = 8
+	},
+/turf/open/floor/plating/asphalt,
+/area/vtm/palm_desert)
 "Gq" = (
 /obj/effect/decal/cleanable/litter,
 /turf/open/floor/plating/rough/cave{
@@ -9624,7 +9643,13 @@
 /turf/open/floor/carpet/darkpack/old,
 /area/vtm/palm_desert/interior/anarch)
 "JA" = (
-/obj/structure/platform/lowwall/brick/window/reinforced,
+/obj/structure/platform/lowwall/brick,
+/obj/structure/table,
+/obj/structure/vampfence/rich{
+	dir = 4;
+	pixel_y = 15;
+	name = "bars"
+	},
 /turf/open/floor/carpet/darkpack/blackgold,
 /area/vtm/palm_desert/interior/giovanni)
 "JB" = (
@@ -50755,9 +50780,9 @@ EK
 EK
 yZ
 yZ
-YC
-YC
-YC
+Gp
+Gp
+Gp
 yZ
 yZ
 EK
@@ -51365,7 +51390,7 @@ yZ
 YC
 YC
 YC
-YC
+rl
 YC
 yZ
 EK
@@ -51973,7 +51998,7 @@ io
 Iq
 YC
 YC
-rl
+YC
 YC
 yZ
 EK
@@ -52122,7 +52147,7 @@ yZ
 EK
 Pe
 yZ
-Iq
+hx
 YC
 aZ
 aZ
