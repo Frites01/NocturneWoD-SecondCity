@@ -40,7 +40,7 @@ SUBSYSTEM_DEF(city_time)
 		daytime_started = TRUE
 		shifting_colors = TRUE
 		transition_light("#faeacb", 1, 0.75)
-		to_chat(world, span_ghostalert("THE NIGHT IS OVER."))
+		to_chat(world, span_ghostalert("The night has ended, and the sun is rising.")) // NOCTURNE EDIT - ORIGINAL: to_chat(world, span_ghostalert("THE NIGHT IS OVER."))
 
 	if(city_time_passed() > time_till_roundend && !roundend_started)
 		roundend_started = TRUE

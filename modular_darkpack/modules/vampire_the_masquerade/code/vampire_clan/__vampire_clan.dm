@@ -120,6 +120,13 @@
 
 		var/obj/item/clothing/mask/vampire/venetian_mask/fancy/new_mask = new(joining.loc)
 		joining.equip_to_appropriate_slot(new_mask, FALSE)
+	// NOCTURNE ADDITION START
+	else if(SScity_time.daytime_started)
+		if(length(GLOB.daytime_latejoin))
+			var/obj/effect/landmark/latejoin_daytime/latejoin_location = pick(GLOB.daytime_latejoin)
+			if(latejoin_location)
+				joining.forceMove(get_turf(latejoin_location))
+	// NOCTURNE ADDITION END
 
 /// effect from daimonion psychomania
 /datum/subsplat/vampire_clan/proc/psychomania_effect(mob/living/target, mob/living/owner)

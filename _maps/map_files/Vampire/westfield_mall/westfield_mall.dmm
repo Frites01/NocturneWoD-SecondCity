@@ -17478,6 +17478,10 @@
 /obj/machinery/sprinkler,
 /turf/open/floor/city/plating,
 /area/vtm/westfield_mall/interior/salon)
+"lLD" = (
+/obj/effect/landmark/latejoin_daytime,
+/turf/open/floor/plating/asphalt,
+/area/vtm/westfield_mall/interior/underground_parking)
 "lMZ" = (
 /obj/structure/table/optable,
 /turf/open/floor/city/plating,
@@ -37052,8 +37056,8 @@ alK
 aVk
 alK
 aVk
-aVk
-aVk
+lLD
+lLD
 aVk
 aZK
 aVk
@@ -38422,7 +38426,7 @@ alK
 aVk
 aVk
 aVk
-aVk
+lLD
 ahN
 ayv
 aDZ
@@ -38574,7 +38578,7 @@ apj
 aVk
 aVk
 aVk
-aVk
+lLD
 ahN
 aju
 aWI
@@ -38726,7 +38730,7 @@ alK
 aVk
 aVk
 aVk
-aVk
+lLD
 apj
 aju
 agP
@@ -39324,7 +39328,7 @@ agv
 agv
 agv
 apj
-aVk
+lLD
 aVk
 aVk
 aVk
@@ -39476,7 +39480,7 @@ agv
 agv
 agv
 apj
-aVk
+lLD
 aVk
 aVk
 aVk

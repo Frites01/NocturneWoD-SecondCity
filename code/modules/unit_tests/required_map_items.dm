@@ -15,6 +15,7 @@
 /datum/unit_test/maptest_required_map_items/proc/setup_expected_types()
 	expected_types += /obj/item/blood_hunt
 	expected_types += /obj/effect/landmark/latejoin_masquerade
+	expected_types += /obj/effect/landmark/latejoin_daytime // NOCTURNE ADDITION
 	// DARKPACK EDIT REMOVAL START
 	// expected_types += subtypesof(/obj/item/stamp/head)
 	// expected_types += subtypesof(/obj/machinery/modular_computer/preset/cargochat)
