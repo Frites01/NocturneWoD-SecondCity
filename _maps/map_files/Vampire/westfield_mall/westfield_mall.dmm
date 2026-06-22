@@ -3066,7 +3066,9 @@
 /area/vtm/westfield_mall/interior/techshop)
 "ako" = (
 /obj/machinery/light/directional/south,
-/obj/structure/reagent_dispensers/watertank,
+/obj/structure/reagent_dispensers/watertank{
+	anchored = 1
+	},
 /turf/open/floor/plating/rough,
 /area/vtm/westfield_mall/interior/farm)
 "akp" = (
@@ -13850,6 +13852,24 @@
 /area/vtm/westfield_mall/interior/hot_ishu)
 "aTH" = (
 /obj/structure/table/countertop/black,
+/obj/item/kitchen/rollingpin{
+	pixel_x = 11
+	},
+/obj/item/storage/bag/tray{
+	pixel_x = -6;
+	pixel_y = 6
+	},
+/obj/item/storage/bag/tray{
+	pixel_x = -6;
+	pixel_y = 6
+	},
+/obj/item/storage/bag/tray{
+	pixel_x = -6;
+	pixel_y = 6
+	},
+/obj/item/kitchen/rollingpin{
+	pixel_x = 11
+	},
 /turf/open/floor/city/circled/large,
 /area/vtm/westfield_mall/interior/foodcourt/restaurant)
 "aTI" = (
@@ -15856,7 +15876,9 @@
 /area/vtm/interior/sewer)
 "brA" = (
 /obj/effect/decal/pallet,
-/obj/structure/closet/crate/wooden/communitygardens/tools,
+/obj/structure/closet/crate/wooden/communitygardens/tools{
+	anchored = 1
+	},
 /obj/item/storage/bag/plants,
 /obj/item/storage/bag/plants,
 /obj/item/storage/bag/plants,
@@ -17322,6 +17344,18 @@
 	},
 /turf/open/floor/carpet/darkpack/greengold,
 /area/vtm/westfield_mall/interior/games_store)
+"ktc" = (
+/obj/structure/table/countertop/black,
+/obj/item/reagent_containers/condiment/enzyme{
+	pixel_x = -6;
+	pixel_y = 8
+	},
+/obj/item/reagent_containers/condiment/enzyme{
+	pixel_x = -6;
+	pixel_y = 8
+	},
+/turf/open/floor/city/circled/large,
+/area/vtm/westfield_mall/interior/foodcourt/restaurant)
 "ktE" = (
 /obj/structure/table/wood,
 /obj/item/ritual_tome/arcane,
@@ -17343,7 +17377,9 @@
 "kZw" = (
 /obj/effect/decal/cleanable/litter,
 /obj/effect/decal/pallet,
-/obj/structure/closet/crate/wooden/communitygardens/seeds,
+/obj/structure/closet/crate/wooden/communitygardens/seeds{
+	anchored = 1
+	},
 /obj/item/seeds/wheat/meat,
 /obj/item/seeds/cotton,
 /obj/item/seeds/wheat,
@@ -17442,6 +17478,10 @@
 /obj/machinery/sprinkler,
 /turf/open/floor/city/plating,
 /area/vtm/westfield_mall/interior/salon)
+"lLD" = (
+/obj/effect/landmark/latejoin_daytime,
+/turf/open/floor/plating/asphalt,
+/area/vtm/westfield_mall/interior/underground_parking)
 "lMZ" = (
 /obj/structure/table/optable,
 /turf/open/floor/city/plating,
@@ -18472,6 +18512,13 @@
 /obj/effect/decal/pallet,
 /turf/open/water/vamp_sewer/border,
 /area/vtm/interior/sewer)
+"tEK" = (
+/obj/structure/table/countertop/black,
+/obj/machinery/reagentgrinder/kitchen{
+	pixel_y = 14
+	},
+/turf/open/floor/city/circled/large,
+/area/vtm/westfield_mall/interior/foodcourt/restaurant)
 "tFK" = (
 /obj/structure/chair/sofa/corp/left{
 	dir = 8
@@ -37009,8 +37056,8 @@ alK
 aVk
 alK
 aVk
-aVk
-aVk
+lLD
+lLD
 aVk
 aZK
 aVk
@@ -38379,7 +38426,7 @@ alK
 aVk
 aVk
 aVk
-aVk
+lLD
 ahN
 ayv
 aDZ
@@ -38531,7 +38578,7 @@ apj
 aVk
 aVk
 aVk
-aVk
+lLD
 ahN
 aju
 aWI
@@ -38683,7 +38730,7 @@ alK
 aVk
 aVk
 aVk
-aVk
+lLD
 apj
 aju
 agP
@@ -39281,7 +39328,7 @@ agv
 agv
 agv
 apj
-aVk
+lLD
 aVk
 aVk
 aVk
@@ -39433,7 +39480,7 @@ agv
 agv
 agv
 apj
-aVk
+lLD
 aVk
 aVk
 aVk
@@ -62030,7 +62077,7 @@ aJl
 aJE
 aVe
 aSu
-aTH
+ktc
 aSu
 afQ
 aRX
@@ -62182,7 +62229,7 @@ atF
 aJE
 aoZ
 aSu
-aTH
+tEK
 aSu
 aew
 aRX

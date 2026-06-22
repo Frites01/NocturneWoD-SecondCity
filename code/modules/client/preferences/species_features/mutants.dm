@@ -22,7 +22,9 @@
 	if (!..(value))
 		return FALSE
 
+	/* // NOCTURNE REMOVAL START
 	if (is_color_dark(value, 15))
 		return FALSE
+	*/ // NOCTURNE REMOVAL END
 
 	return TRUE
