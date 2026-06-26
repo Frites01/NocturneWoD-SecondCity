@@ -91,6 +91,28 @@
 	gauntlet_rating = 8
 
 
+// hunters
+
+/area/vtm/palm_desert/interior/hunter
+	name = "Abandonned Warehouse"
+	icon_state = "supply"
+	ambience_index = AMBIENCE_OFFICE
+	fire_controled = TRUE
+	show_area_name = TRUE
+	domain = TRUE
+
+
+// government/city services
+
+/area/vtm/palm_desert/interior/townhall
+	name = "Palm Desert Town Hall"
+	icon_state = "prince"
+	ambience_index = AMBIENCE_OFFICE
+	fire_controled = TRUE
+	show_area_name = TRUE
+	domain = TRUE
+
+
 // misc
 
 /area/vtm/palm_desert/interior/hotel
@@ -110,19 +132,26 @@
 	show_area_name = TRUE
 	domain = TRUE
 
-/area/vtm/palm_desert/interior/motel/outside
-	fire_controled = FALSE
-	ambience_index = AMBIENCE_CITY
-	music_index = MUSIC_SANTAMONICA
-
 /area/vtm/palm_desert/interior/gas_station
 	name = "Gas Station"
 	icon_state = "shop"
-	icon_state = "shop"
+	ambience_index = AMBIENCE_OFFICE
 	fire_controled = TRUE
 	show_area_name = TRUE
 
-/area/vtm/palm_desert/interior/gas_station/outside
-	fire_controled = FALSE
-	ambience_index = AMBIENCE_CITY
-	music_index = MUSIC_SANTAMONICA
+/area/vtm/palm_desert/interior/supply
+	name = "Warehouse"
+	icon_state = "supply"
+	ambience_index = AMBIENCE_OFFICE
+	fire_controled = TRUE
+	show_area_name = TRUE
+	domain = TRUE
+
+/area/vtm/palm_desert/interior/setite
+	name = "'All Set' Therapy And Counseling"
+	icon_state = "hotel"
+	zone_type = ZONE_ELYSIUM
+	ambience_index = AMBIENCE_OFFICE
+	fire_controled = TRUE
+	show_area_name = TRUE
+	domain = TRUE

@@ -20,7 +20,7 @@
 	fax_id = "anarchsadmin"
 
 /obj/machinery/fax/admin/police
-	fax_name = "Federal Government"
+	fax_name = "California State Government" // NOCTURNE EDIT - ORIGINAL: fax_name = "Federal Government"
 	fax_id = "policeadmin"
 
 /obj/machinery/fax/admin/fbi
@@ -56,7 +56,7 @@
 /obj/machinery/fax/police
 	fax_name = CITY_POLICE_DEPARTMENT
 	fax_id = "police"
-	special_networks = list(policeadmin = list(fax_name = "Federal Government", fax_id = "policeadmin", color = "blue", emag_needed = FALSE))
+	special_networks = list(policeadmin = list(fax_name = "California State Government", fax_id = "policeadmin", color = "blue", emag_needed = FALSE)) // NOCTURNE EDIT - ORIGINAL: special_networks = list(policeadmin = list(fax_name = "Federal Government", fax_id = "policeadmin", color = "blue", emag_needed = FALSE))
 
 /obj/machinery/fax/fbi
 	fax_name = "FBI"
