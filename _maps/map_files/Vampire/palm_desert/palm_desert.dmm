@@ -104,6 +104,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/canalplating,
 /area/vtm/interior/sewer)
+"aib" = (
+/obj/effect/decal/wallpaper/paper/darkgreen,
+/turf/closed/wall/vampwall/junk,
+/area/vtm/interior/sewer/nosferatu_town)
 "aih" = (
 /obj/effect/turf_decal/siding/wood/dark{
 	dir = 1
@@ -211,6 +215,13 @@
 /obj/effect/turf_decal/siding/white/inner_corner,
 /turf/open/floor/carpet/darkpack/redsilver,
 /area/vtm/palm_desert/interior/hotel)
+"aoG" = (
+/obj/effect/decal/rugs,
+/obj/machinery/telecomms/allinone/public,
+/turf/open/floor/plating/rough{
+	icon_state = "carpet_black"
+	},
+/area/vtm/interior/sewer/nosferatu_town)
 "aoL" = (
 /obj/effect/decal/cleanable/trash,
 /turf/open/floor/wood/smooth/old,
@@ -605,6 +616,12 @@
 "aLm" = (
 /turf/closed/indestructible/the_matrix,
 /area/vtm/palm_desert/outside/industrial)
+"aLw" = (
+/obj/effect/turf_decal/darkpack/dirt{
+	dir = 1
+	},
+/turf/open/floor/plating/rough/cave,
+/area/vtm/interior/sewer/nosferatu_town)
 "aLB" = (
 /obj/item/reagent_containers/cup/glass/bottle/beer/vampire/blue_stripe,
 /turf/open/floor/plating/sidewalk/poor,
@@ -684,6 +701,21 @@
 /obj/effect/decal/cleanable/litter,
 /turf/open/floor/plating/granite/black,
 /area/vtm/palm_desert/interior/millennium)
+"aSf" = (
+/obj/effect/decal/rugs,
+/obj/structure/closet/mini_fridge,
+/obj/item/reagent_containers/blood/random,
+/obj/item/reagent_containers/blood/random,
+/turf/open/floor/plating/rough{
+	icon_state = "carpet_black"
+	},
+/area/vtm/interior/sewer/nosferatu_town)
+"aSh" = (
+/obj/structure/bed,
+/obj/structure/coclock,
+/obj/item/bedsheet/yellow,
+/turf/open/floor/carpet/darkpack/greengold,
+/area/vtm/interior/sewer/nosferatu_town)
 "aSv" = (
 /obj/structure/rack/tall/metal_shelf,
 /obj/item/reagent_containers/spray/baldium{
@@ -845,6 +877,10 @@
 	},
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior)
+"beX" = (
+/obj/effect/decal/wallpaper/low,
+/turf/closed/wall/vampwall/junk,
+/area/vtm/interior/sewer/nosferatu_town)
 "bfS" = (
 /turf/closed/wall/vampwall/rustbad,
 /area/vtm/interior/ghetto)
@@ -1512,6 +1548,10 @@
 /obj/machinery/light/cold/directional/south,
 /turf/open/floor/plating/asphalt,
 /area/vtm/palm_desert/outside/commercial)
+"cfm" = (
+/obj/item/kirbyplants/darkpack/random,
+/turf/open/floor/plating/canalplating,
+/area/vtm/interior/sewer/nosferatu_town)
 "cfJ" = (
 /obj/structure/chair/plastic/darkpack{
 	dir = 1
@@ -1588,6 +1628,9 @@
 /obj/structure/chair/wood/darkpack/red,
 /turf/open/floor/carpet/darkpack/blackgold,
 /area/vtm/palm_desert/interior/giovanni)
+"clm" = (
+/turf/closed/wall/vampwall/junk/alt,
+/area/vtm/interior/sewer/nosferatu_town)
 "clt" = (
 /obj/structure/table/countertop/red,
 /obj/machinery/griddle,
@@ -1608,6 +1651,14 @@
 "cmF" = (
 /turf/open/floor/carpet/darkpack/purplegold,
 /area/vtm/interior/theatre)
+"cmT" = (
+/obj/structure/vampdoor/old{
+	dir = 8
+	},
+/obj/effect/mapping_helpers/door/access/nosferatu,
+/obj/effect/mapping_helpers/door/lock,
+/turf/open/floor/plating/canalplating,
+/area/vtm/palm_desert)
 "cmU" = (
 /obj/structure/chair/sofa/corp/right{
 	dir = 4;
@@ -2297,6 +2348,14 @@
 /obj/effect/mapping_helpers/door/lock_difficulty/two,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/palm_desert/interior/motel)
+"dmN" = (
+/obj/structure/vampdoor/wood{
+	dir = 4
+	},
+/obj/effect/mapping_helpers/door/access/nosferatu,
+/obj/effect/mapping_helpers/door/lock,
+/turf/open/floor/city/industrial,
+/area/vtm/interior/sewer/nosferatu_town)
 "dno" = (
 /obj/machinery/light/directional/east,
 /turf/open/floor/plating/concrete,
@@ -3062,6 +3121,13 @@
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm/palm_desert/outside/office)
+"ecl" = (
+/obj/effect/decal/rugs,
+/obj/structure/vampdoor/old,
+/obj/effect/mapping_helpers/door/access/nosferatu,
+/obj/effect/mapping_helpers/door/lock,
+/turf/open/floor/plating/canalplating,
+/area/vtm/interior/sewer/nosferatu_town)
 "ecN" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/cup/watering_can/metal,
@@ -3307,6 +3373,9 @@
 /obj/structure/hedge,
 /turf/open/floor/city/gummaguts,
 /area/vtm/palm_desert/interior/millennium)
+"eol" = (
+/turf/open/floor/plating/stone,
+/area/vtm/interior/sewer/nosferatu_town)
 "eoJ" = (
 /obj/structure/sink/directional/east,
 /mob/living/basic/mouse/vampire,
@@ -3457,6 +3526,13 @@
 	},
 /turf/open/floor/wood/smooth,
 /area/vtm/palm_desert/interior/clinic)
+"ewf" = (
+/obj/structure/chair/sofa/corner/brown{
+	dir = 4
+	},
+/obj/item/toy/plush/shark,
+/turf/open/floor/plating/canalplating,
+/area/vtm/interior/sewer/nosferatu_town)
 "ewQ" = (
 /obj/item/kirbyplants/random,
 /turf/open/floor/wood/smooth,
@@ -3700,6 +3776,17 @@
 /obj/machinery/light/small/directional/east,
 /turf/open/floor/plating/canal,
 /area/vtm/interior/sewer)
+"eOT" = (
+/obj/structure/table,
+/obj/effect/decal/rugs,
+/obj/machinery/light/blacklight/directional/west,
+/obj/item/vamp/keys/nosferatu,
+/obj/item/vamp/keys/nosferatu,
+/obj/item/vamp/keys/nosferatu,
+/turf/open/floor/plating/rough{
+	icon_state = "carpet_black"
+	},
+/area/vtm/interior/sewer/nosferatu_town)
 "eOU" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/city/toilet,
@@ -4086,6 +4173,16 @@
 /obj/machinery/light/small/directional/north,
 /turf/open/water/vamp_sewer/border,
 /area/vtm/interior/sewer)
+"fpr" = (
+/obj/effect/decal/rugs,
+/obj/effect/decal/rugs,
+/obj/structure/chair/office/darkpack/green{
+	dir = 1
+	},
+/turf/open/floor/plating/rough{
+	icon_state = "carpet_black"
+	},
+/area/vtm/interior/sewer/nosferatu_town)
 "fpx" = (
 /obj/structure/closet/cabinet,
 /turf/open/floor/wood/smooth/old,
@@ -4247,6 +4344,10 @@
 /obj/effect/turf_decal/bordur,
 /turf/open/floor/plating/concrete,
 /area/vtm/palm_desert/interior/townhall)
+"fBt" = (
+/obj/structure/flora/rock/stalagmite,
+/turf/open/floor/plating/rough/cave,
+/area/vtm/interior/sabbat_lair)
 "fBR" = (
 /obj/structure/chair/darkpack/green{
 	dir = 4
@@ -4272,6 +4373,12 @@
 /obj/effect/decal/rugs,
 /turf/open/floor/plating/concrete,
 /area/vtm/palm_desert/interior/supply)
+"fCA" = (
+/obj/structure/chair/plastic/darkpack{
+	dir = 1
+	},
+/turf/open/floor/plating/canalplating,
+/area/vtm/interior/sewer/nosferatu_town)
 "fDd" = (
 /turf/open/floor/plating/concrete,
 /area/vtm/palm_desert/interior/hunter)
@@ -4304,6 +4411,12 @@
 	},
 /turf/open/floor/city/factory,
 /area/vtm/palm_desert/interior/clinic)
+"fHv" = (
+/obj/structure/table,
+/obj/underplate,
+/obj/vampire_computer/prince,
+/turf/open/floor/plating/canalplating,
+/area/vtm/interior/sewer/nosferatu_town)
 "fHL" = (
 /obj/structure/table/wood,
 /obj/vampire_computer{
@@ -4327,6 +4440,10 @@
 /obj/structure/platform/lowwall/brick,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/palm_desert/interior/townhall)
+"fIW" = (
+/obj/effect/decal/wallpaper,
+/turf/closed/wall/vampwall/junk/alt,
+/area/vtm/interior/sewer/nosferatu_town)
 "fJc" = (
 /obj/structure/roadblock/alt{
 	dir = 4;
@@ -4430,6 +4547,14 @@
 /obj/item/storage/bag/books,
 /turf/open/floor/carpet/darkpack/redsilver,
 /area/vtm/interior/library)
+"fQM" = (
+/obj/structure/vampdoor/old{
+	dir = 8
+	},
+/obj/effect/mapping_helpers/door/access/nosferatu,
+/obj/effect/mapping_helpers/door/lock,
+/turf/open/floor/plating/canalplating,
+/area/vtm/interior/sewer/nosferatu_town)
 "fQT" = (
 /obj/effect/turf_decal/siding/wideplating/dark,
 /obj/structure/curtain/bounty{
@@ -4485,6 +4610,23 @@
 /obj/item/clothing/suit/hooded/robes/grey,
 /turf/open/floor/plating/rough/cave,
 /area/vtm/interior/caves)
+"fTi" = (
+/obj/effect/turf_decal/weather/dirt{
+	dir = 1
+	},
+/obj/structure/roadsign{
+	icon_state = "wrongway";
+	pixel_y = 10
+	},
+/obj/effect/decal/cleanable/garbage{
+	pixel_x = -6;
+	pixel_y = -6
+	},
+/obj/effect/decal/cleanable/cardboard,
+/obj/effect/decal/cleanable/trash,
+/obj/machinery/light/small/red/directional/east,
+/turf/open/floor/plating/canalplating,
+/area/vtm/palm_desert)
 "fTn" = (
 /obj/effect/turf_decal/trimline/yellow/warning{
 	dir = 5
@@ -4662,6 +4804,11 @@
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/city/toilet,
 /area/vtm/interior/ghetto)
+"gid" = (
+/obj/structure/chair/sofa/corner/brown,
+/obj/structure/sign/poster/city/dmc/directional/north,
+/turf/open/floor/city/industrial,
+/area/vtm/interior/sewer/nosferatu_town)
 "giS" = (
 /obj/effect/decal/wallpaper/paper/darkred,
 /turf/closed/wall/vampwall/junk,
@@ -4833,6 +4980,11 @@
 	},
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/theatre)
+"gwn" = (
+/obj/structure/coclock,
+/obj/machinery/photocopier/prebuilt,
+/turf/open/floor/city/industrial,
+/area/vtm/interior/sewer/nosferatu_town)
 "gwC" = (
 /obj/structure/chair/wood/darkpack/red{
 	dir = 4
@@ -4865,6 +5017,10 @@
 /obj/structure/stone_tile/cracked,
 /turf/open/floor/plating/stone,
 /area/vtm/interior/caves)
+"gxS" = (
+/obj/effect/decal/wallpaper,
+/turf/closed/wall/vampwall/junk,
+/area/vtm/interior/sewer/nosferatu_town)
 "gym" = (
 /obj/structure/chair/office/darkpack{
 	dir = 1
@@ -4902,6 +5058,20 @@
 /obj/machinery/light/directional/north,
 /turf/open/floor/city/factory,
 /area/vtm/interior/police)
+"gzC" = (
+/obj/effect/turf_decal/weather/dirt{
+	dir = 1
+	},
+/obj/structure/closet/crate/dumpster,
+/obj/effect/decal/cleanable/garbage{
+	pixel_x = -6;
+	pixel_y = -6
+	},
+/obj/effect/decal/cleanable/cardboard,
+/obj/effect/decal/cleanable/trash,
+/obj/machinery/light/small/red/directional/west,
+/turf/open/floor/plating/canalplating,
+/area/vtm/palm_desert)
 "gzP" = (
 /turf/open/floor/carpet/darkpack/redsilver,
 /area/vtm/interior/ghetto)
@@ -4977,6 +5147,10 @@
 "gDy" = (
 /turf/open/floor/plating/rough/cave,
 /area/vtm/interior/caves)
+"gDE" = (
+/obj/effect/spawner/random/trash/mess,
+/turf/open/floor/plating/canalplating,
+/area/vtm/interior/sewer)
 "gED" = (
 /turf/open/floor/carpet/darkpack/greengold,
 /area/vtm/interior/ghetto)
@@ -5266,6 +5440,16 @@
 	},
 /turf/open/floor/city/bacotell,
 /area/vtm/palm_desert/interior/giovanni)
+"hbB" = (
+/obj/structure/table/wood,
+/obj/item/kirbyplants/darkpack/plant2{
+	pixel_y = 13;
+	pixel_x = 7
+	},
+/obj/underplate,
+/obj/item/clothing/mask/gas/vampire,
+/turf/open/floor/plating/concrete,
+/area/vtm/interior/sewer/nosferatu_town)
 "hcE" = (
 /obj/structure/railing,
 /turf/open/floor/plating/concrete,
@@ -5274,6 +5458,11 @@
 /obj/machinery/light/directional/east,
 /turf/open/floor/carpet/darkpack/blackgold,
 /area/vtm/palm_desert/interior/giovanni)
+"hdA" = (
+/obj/structure/mirror,
+/obj/effect/decal/wallpaper/low,
+/turf/closed/wall/vampwall/junk,
+/area/vtm/interior/sewer/nosferatu_town)
 "hdK" = (
 /obj/structure/coclock,
 /obj/structure/filingcabinet{
@@ -5461,6 +5650,17 @@
 	},
 /turf/open/floor/carpet/darkpack/bluesilver,
 /area/vtm/interior/theatre)
+"hqw" = (
+/obj/structure/flora/bush/sparsegrass/style_random,
+/obj/structure/flora/bush/flowers_yw/style_random{
+	pixel_y = 2
+	},
+/obj/effect/decal/graffiti,
+/obj/structure/railing/darkpack/wood{
+	dir = 6
+	},
+/turf/open/misc/dirt,
+/area/vtm/interior/sewer/nosferatu_town)
 "hra" = (
 /obj/effect/turf_decal/bordur{
 	dir = 1
@@ -5633,6 +5833,14 @@
 	},
 /turf/open/floor/plating/sidewalk/rich,
 /area/vtm/palm_desert/outside/office)
+"hzV" = (
+/obj/structure/chair/sofa/left/brown,
+/obj/structure/sign/painting{
+	pixel_y = 32;
+	dir = 1
+	},
+/turf/open/floor/plating/canalplating,
+/area/vtm/interior/sewer/nosferatu_town)
 "hzZ" = (
 /obj/effect/decal/pallet,
 /obj/item/reagent_containers/cup/jerrycan/robustharvest{
@@ -5720,6 +5928,12 @@
 	dir = 4
 	},
 /area/vtm/palm_desert/interior/anarch)
+"hEJ" = (
+/obj/machinery/light/warm/directional/south,
+/turf/open/floor/plating/rough{
+	icon_state = "carpet_black"
+	},
+/area/vtm/interior/sewer/nosferatu_town)
 "hEN" = (
 /obj/effect/turf_decal/siding/wood/dark{
 	dir = 8
@@ -6070,6 +6284,9 @@
 /obj/effect/mapping_helpers/door/lock_difficulty/four,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/ghetto)
+"ilW" = (
+/turf/open/floor/plating/canalplating,
+/area/vtm/interior/sewer/nosferatu_town)
 "imf" = (
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/city/factory,
@@ -6493,6 +6710,10 @@
 "iMD" = (
 /turf/closed/wall/vampwall/painted,
 /area/vtm/palm_desert/interior/restaurant)
+"iMV" = (
+/obj/machinery/camera/directional/west,
+/turf/open/floor/plating/canalplating,
+/area/vtm/palm_desert)
 "iNe" = (
 /turf/open/floor/carpet/darkpack/redsilver,
 /area/vtm/palm_desert/interior/hotel)
@@ -6747,6 +6968,16 @@
 "jcX" = (
 /turf/open/floor/city/plating,
 /area/vtm/palm_desert/interior/salon)
+"jdn" = (
+/obj/effect/turf_decal/bordur,
+/obj/effect/decal/rugs,
+/obj/structure/vampdoor/old,
+/obj/effect/mapping_helpers/door/access/nosferatu,
+/obj/effect/mapping_helpers/door/lock,
+/turf/open/floor/plating/rough{
+	icon_state = "carpet_black"
+	},
+/area/vtm/interior/sewer/nosferatu_town)
 "jdy" = (
 /obj/structure/chair/wood/darkpack,
 /turf/open/floor/plating/rough,
@@ -6985,6 +7216,16 @@
 /obj/machinery/light/directional/east,
 /turf/open/floor/city/plating_mono,
 /area/vtm/palm_desert/interior/clinic)
+"jAD" = (
+/obj/effect/decal/graffiti,
+/obj/effect/decal/pallet,
+/obj/structure/fluff/tv{
+	icon_state = "tv_nature";
+	pixel_y = 12
+	},
+/obj/effect/decal/cleanable/trash,
+/turf/open/floor/city/industrial,
+/area/vtm/interior/sewer/nosferatu_town)
 "jAL" = (
 /obj/effect/spawner/random/trash/hobo_squat,
 /obj/effect/decal/cleanable/dirt,
@@ -7027,6 +7268,14 @@
 	},
 /turf/open/floor/carpet/darkpack/bluesilver,
 /area/vtm/interior/theatre)
+"jDR" = (
+/obj/structure/toilet{
+	dir = 8;
+	pixel_y = 6
+	},
+/obj/structure/sink/directional/south,
+/turf/open/floor/plating/concrete,
+/area/vtm/interior/sewer/nosferatu_town)
 "jEa" = (
 /turf/closed/wall/vampwall/rock,
 /area/vtm/palm_desert/outside/industrial)
@@ -7120,6 +7369,10 @@
 /obj/effect/decal/rugs,
 /turf/open/floor/city/factory,
 /area/vtm/interior/police)
+"jJU" = (
+/obj/effect/spawner/random/trash/garbage,
+/turf/open/floor/plating/rough/cave,
+/area/vtm/interior/sewer/nosferatu_town)
 "jKJ" = (
 /obj/machinery/light/directional/west,
 /turf/open/floor/wood/smooth,
@@ -7260,6 +7513,10 @@
 /obj/structure/platform/lowwall/junk/window,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior)
+"jUE" = (
+/obj/effect/spawner/random/trash/mess,
+/turf/open/floor/plating/rough/cave,
+/area/vtm/palm_desert)
 "jUF" = (
 /obj/effect/turf_decal/trimline/blue/corner{
 	dir = 1
@@ -7789,6 +8046,15 @@
 /obj/effect/turf_decal/asphaltline,
 /turf/open/floor/plating/asphalt,
 /area/vtm/palm_desert/outside/commercial)
+"kEi" = (
+/obj/structure/flora/bush/sparsegrass/style_random,
+/obj/structure/flora/bush/style_random,
+/obj/structure/railing,
+/obj/effect/turf_decal/weather/dirt{
+	dir = 5
+	},
+/turf/open/misc/dirt,
+/area/vtm/interior/sewer/nosferatu_town)
 "kEr" = (
 /obj/structure/stone_tile/block/cracked{
 	dir = 1
@@ -7863,6 +8129,9 @@
 /obj/effect/decal/pallet,
 /turf/open/floor/plating/canalplating,
 /area/vtm/interior/sewer)
+"kJh" = (
+/turf/open/floor/plating/canalplating,
+/area/vtm/palm_desert)
 "kJF" = (
 /obj/machinery/light/prince/directional/south,
 /turf/open/floor/city/plating_stone,
@@ -7918,6 +8187,9 @@
 /obj/structure/flora/bush/flowers_pp/style_random,
 /turf/open/floor/city/industrial,
 /area/vtm/palm_desert/interior/millennium)
+"kNZ" = (
+/turf/closed/wall/vampwall/rock,
+/area/vtm/interior/sewer/nosferatu_town)
 "kOy" = (
 /obj/structure/hedge,
 /obj/structure/flora/bush/flowers_pp/style_random,
@@ -8163,6 +8435,10 @@
 /obj/effect/decal/wallpaper/grey,
 /turf/closed/wall/vampwall/city,
 /area/vtm/interior/ghetto)
+"lhQ" = (
+/obj/machinery/light/warm/directional/west,
+/turf/open/floor/plating/concrete,
+/area/vtm/interior/sewer/nosferatu_town)
 "lhR" = (
 /obj/structure/vampdoor/wood{
 	dir = 4
@@ -8268,6 +8544,14 @@
 "llg" = (
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/ghetto)
+"lmk" = (
+/obj/machinery/light/dim/directional/west,
+/obj/structure/chair/comfy/brown{
+	color = "#50C878";
+	dir = 4
+	},
+/turf/open/floor/plating/concrete,
+/area/vtm/interior/sewer/nosferatu_town)
 "lnM" = (
 /obj/structure/stairs/north{
 	color = "#876E4B"
@@ -8481,6 +8765,9 @@
 	},
 /turf/closed/wall/vampwall/bar,
 /area/vtm/palm_desert/interior/anarch)
+"lyf" = (
+/turf/open/floor/plating/stone,
+/area/vtm/palm_desert)
 "lyq" = (
 /obj/effect/turf_decal/arrows/white{
 	dir = 1
@@ -8778,6 +9065,9 @@
 "lQc" = (
 /turf/open/floor/plating/canal,
 /area/vtm/interior/sewer)
+"lQd" = (
+/turf/open/floor/carpet/darkpack/greengold,
+/area/vtm/interior/sewer/nosferatu_town)
 "lQt" = (
 /obj/machinery/light/small/directional/west,
 /turf/open/floor/carpet/darkpack/redsilver,
@@ -9304,6 +9594,12 @@
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/palm_desert/interior/supply)
+"mxg" = (
+/obj/structure/chair/sofa/middle/brown{
+	dir = 4
+	},
+/turf/open/floor/city/industrial,
+/area/vtm/interior/sewer/nosferatu_town)
 "mxz" = (
 /obj/structure/vampdoor/glass{
 	dir = 4
@@ -9498,6 +9794,12 @@
 	},
 /turf/open/floor/city/toilet,
 /area/vtm/interior/police)
+"mOa" = (
+/obj/structure/chair/sofa/right/brown{
+	dir = 4
+	},
+/turf/open/floor/city/industrial,
+/area/vtm/interior/sewer/nosferatu_town)
 "mOd" = (
 /obj/structure/flora/tree/vamp{
 	icon_state = "tree5"
@@ -9831,6 +10133,20 @@
 	},
 /turf/closed/wall/vampwall/old,
 /area/vtm/palm_desert/interior/motel)
+"nnn" = (
+/obj/vampire_computer{
+	pixel_y = 3;
+	pixel_x = 4
+	},
+/obj/effect/decal/pallet,
+/obj/structure/table/wood,
+/obj/underplate,
+/obj/item/flashlight/lamp{
+	pixel_y = 13;
+	pixel_x = -11
+	},
+/turf/open/floor/city/industrial,
+/area/vtm/interior/sewer/nosferatu_town)
 "nnR" = (
 /turf/closed/wall/vampwall/rock,
 /area/vtm/palm_desert/interior/supply)
@@ -10512,6 +10828,17 @@
 	},
 /turf/open/floor/carpet/royalblack,
 /area/vtm/palm_desert/interior/millennium)
+"nZW" = (
+/obj/structure/table,
+/obj/effect/decal/rugs,
+/obj/machinery/computer/security/wooden_tv{
+	pixel_x = 4;
+	pixel_y = 12
+	},
+/turf/open/floor/plating/rough{
+	icon_state = "carpet_black"
+	},
+/area/vtm/interior/sewer/nosferatu_town)
 "oag" = (
 /obj/effect/decal/cleanable/cardboard,
 /turf/open/floor/plating/concrete,
@@ -10636,6 +10963,11 @@
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm/palm_desert/interior/clinic)
+"okX" = (
+/turf/open/floor/plating/rough{
+	icon_state = "carpet_black"
+	},
+/area/vtm/interior/sewer/nosferatu_town)
 "oms" = (
 /obj/effect/turf_decal/bordur{
 	dir = 5
@@ -11348,6 +11680,10 @@
 /obj/item/storage/medkit/darkpack/brute,
 /turf/open/floor/city/plating_mono,
 /area/vtm/palm_desert/interior/clinic)
+"pcW" = (
+/obj/effect/spawner/random/trash/garbage,
+/turf/open/floor/plating/rough/cave,
+/area/vtm/palm_desert)
 "pdc" = (
 /obj/structure/chair/office/darkpack/blue,
 /obj/effect/landmark/start/darkpack/law_enforcement/officer,
@@ -11371,6 +11707,14 @@
 	},
 /turf/open/floor/city/plating_mono,
 /area/vtm/palm_desert/interior/clinic)
+"peg" = (
+/obj/effect/turf_decal/bordur{
+	dir = 1
+	},
+/turf/open/floor/plating/rough{
+	icon_state = "carpet_black"
+	},
+/area/vtm/interior/sewer/nosferatu_town)
 "pel" = (
 /obj/effect/turf_decal/siding/wideplating/dark{
 	dir = 9
@@ -11768,10 +12112,8 @@
 /turf/open/floor/plating/stone,
 /area/vtm/interior/caves)
 "pCd" = (
-/obj/structure/werewolf_totem/wendigo{
-	pixel_y = 5
-	},
 /obj/structure/stone_tile/surrounding,
+/obj/structure/werewolf_totem/generic/alltribes,
 /turf/open/floor/plating/stone,
 /area/vtm/interior/caves)
 "pCk" = (
@@ -11931,6 +12273,9 @@
 /obj/effect/mapping_helpers/door/lock_difficulty/four,
 /turf/open/floor/city/toilet,
 /area/vtm/interior/ghetto)
+"pLa" = (
+/turf/closed/wall/vampwall/junk/alt,
+/area/vtm/palm_desert)
 "pMQ" = (
 /obj/effect/turf_decal/crosswalk,
 /turf/open/floor/plating/asphalt,
@@ -12160,6 +12505,15 @@
 /obj/machinery/light/directional/north,
 /turf/open/floor/city/plating,
 /area/vtm/palm_desert/interior/giovanni)
+"qaF" = (
+/obj/machinery/shower/directional/south,
+/obj/effect/turf_decal/stock{
+	dir = 1
+	},
+/obj/structure/window/spawner/directional/east,
+/obj/effect/spawner/random/trash/soap,
+/turf/open/floor/city/industrial,
+/area/vtm/interior/sewer/nosferatu_town)
 "qaZ" = (
 /obj/structure/closet,
 /obj/item/clothing/under/vampire/police,
@@ -12263,9 +12617,28 @@
 /obj/item/food/meat/rawcutlet/plain/human,
 /turf/open/floor/plating/stone,
 /area/vtm/interior/caves)
+"qho" = (
+/turf/open/floor/city/industrial,
+/area/vtm/interior/sewer/nosferatu_town)
 "qhV" = (
 /turf/open/openspace,
 /area/vtm/palm_desert)
+"qiu" = (
+/obj/effect/decal/wallpaper/paper/darkgreen/low,
+/obj/structure/table/wood,
+/obj/structure/bookcase/random/fiction{
+	pixel_y = 23;
+	density = 0
+	},
+/obj/underplate,
+/obj/item/kirbyplants/darkpack/plant3{
+	pixel_y = 15;
+	pixel_x = 11
+	},
+/obj/item/toy/figure/ian,
+/obj/structure/platform/lowwall/junk,
+/turf/open/floor/plating/rough,
+/area/vtm/interior/sewer/nosferatu_town)
 "qiJ" = (
 /obj/effect/spawner/random/structure/shipping_container/blank,
 /turf/open/misc/dirt,
@@ -12772,6 +13145,12 @@
 /obj/machinery/light/small/directional/south,
 /turf/open/floor/plating/rough,
 /area/vtm/palm_desert/interior/anarch)
+"qEF" = (
+/obj/structure/chair/office/darkpack/blue{
+	dir = 1
+	},
+/turf/open/floor/plating/canalplating,
+/area/vtm/interior/sewer/nosferatu_town)
 "qEQ" = (
 /obj/effect/decal/wallpaper/paper,
 /turf/closed/wall/vampwall/old,
@@ -13031,6 +13410,11 @@
 /obj/item/flashlight/seclite,
 /turf/open/floor/plating/concrete,
 /area/vtm/palm_desert/interior/supply)
+"qQf" = (
+/obj/structure/table,
+/obj/item/modular_computer/laptop/preset/civilian,
+/turf/open/floor/plating/canalplating,
+/area/vtm/interior/sewer/nosferatu_town)
 "qQx" = (
 /turf/open/floor/carpet/darkpack/bluegold,
 /area/vtm/interior/theatre)
@@ -13048,6 +13432,9 @@
 "qQV" = (
 /turf/open/floor/city/plating,
 /area/vtm/palm_desert/interior/clinic)
+"qRU" = (
+/turf/open/floor/plating/rough/cave,
+/area/vtm/palm_desert)
 "qSP" = (
 /obj/effect/turf_decal/bordur,
 /turf/open/floor/plating/roofwalk,
@@ -13360,6 +13747,13 @@
 	},
 /turf/open/floor/city/plating,
 /area/vtm/palm_desert/interior/salon)
+"rmJ" = (
+/obj/effect/turf_decal/weather/dirt{
+	dir = 1
+	},
+/obj/effect/decal/rugs,
+/turf/open/floor/plating/canalplating,
+/area/vtm/palm_desert)
 "rmQ" = (
 /obj/structure/chair/wood/darkpack{
 	dir = 1
@@ -13663,6 +14057,15 @@
 /obj/effect/landmark/start/darkpack/forest_wolves/council,
 /turf/open/floor/plating/stone,
 /area/vtm/interior/caves)
+"rLk" = (
+/obj/effect/decal/cleanable/trash,
+/obj/structure/flora/bush/sparsegrass/style_random,
+/obj/structure/flora/bush/flowers_yw/style_random{
+	pixel_y = 2
+	},
+/obj/structure/railing/darkpack/wood,
+/turf/open/misc/dirt,
+/area/vtm/interior/sewer/nosferatu_town)
 "rLs" = (
 /obj/structure/closet/crate/dumpster{
 	anchored = 1
@@ -13681,6 +14084,10 @@
 	},
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/palm_desert/outside/commercial)
+"rNi" = (
+/obj/structure/platform/lowwall/junk/alt/window,
+/turf/open/floor/plating/rough,
+/area/vtm/interior/sewer/nosferatu_town)
 "rNA" = (
 /obj/item/clothing/under/vampire/clerk,
 /obj/item/clothing/shoes/vampire/heels,
@@ -13743,6 +14150,11 @@
 	},
 /turf/open/floor/city/gummaguts,
 /area/vtm/palm_desert/interior/millennium)
+"rSw" = (
+/obj/effect/decal/wallpaper,
+/obj/effect/decal/wallpaper/papers/three,
+/turf/closed/wall/vampwall/junk/alt,
+/area/vtm/interior/sewer/nosferatu_town)
 "rSW" = (
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/plating/stone,
@@ -13829,6 +14241,12 @@
 /obj/effect/mapping_helpers/door/autoname,
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/palm_desert/interior/farm)
+"rXz" = (
+/obj/structure/chair/sofa/left/brown{
+	dir = 8
+	},
+/turf/open/floor/city/industrial,
+/area/vtm/interior/sewer/nosferatu_town)
 "rXP" = (
 /obj/structure/chair/wood/darkpack/red,
 /turf/open/floor/city/gummaguts,
@@ -13978,6 +14396,14 @@
 /obj/machinery/light/prince/directional/south,
 /turf/open/floor/wood/smooth,
 /area/vtm/palm_desert/interior/hotel)
+"shS" = (
+/obj/effect/decal/cleanable/trash,
+/obj/machinery/camera/directional/west,
+/obj/effect/turf_decal/darkpack/dirt{
+	dir = 1
+	},
+/turf/open/floor/plating/rough/cave,
+/area/vtm/interior/sewer/nosferatu_town)
 "shT" = (
 /obj/structure/vampfence/rich{
 	dir = 4
@@ -14158,6 +14584,14 @@
 /obj/effect/landmark/latejoin,
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/palm_desert/outside/commercial)
+"swO" = (
+/obj/machinery/light/warm/directional/south,
+/turf/open/floor/plating/canalplating,
+/area/vtm/interior/sewer/nosferatu_town)
+"swP" = (
+/obj/effect/decal/cleanable/trash,
+/turf/open/floor/plating/canalplating,
+/area/vtm/palm_desert)
 "sxc" = (
 /obj/structure/curtain/bounty{
 	pixel_y = -27
@@ -14266,6 +14700,19 @@
 	},
 /turf/open/floor/plating/rough,
 /area/vtm/palm_desert/interior/anarch)
+"sGD" = (
+/obj/effect/turf_decal/bordur{
+	dir = 1
+	},
+/obj/structure/rack/clothing_hanger{
+	pixel_x = -10;
+	density = 0
+	},
+/obj/machinery/light/warm/directional/west,
+/turf/open/floor/plating/rough{
+	icon_state = "carpet_black"
+	},
+/area/vtm/interior/sewer/nosferatu_town)
 "sGL" = (
 /obj/structure/pole{
 	pixel_w = -16
@@ -14395,6 +14842,13 @@
 /obj/effect/decal/wallpaper/grey,
 /turf/closed/wall/vampwall/rich,
 /area/vtm/palm_desert/interior/millennium)
+"sPt" = (
+/obj/structure/extinguisher_cabinet/directional/north,
+/obj/effect/turf_decal/darkpack/dirt{
+	dir = 9
+	},
+/turf/open/floor/plating/stone,
+/area/vtm/interior/sewer/nosferatu_town)
 "sPz" = (
 /obj/structure/closet/crate/freezer/blood,
 /turf/open/floor/city/toilet,
@@ -14642,6 +15096,21 @@
 /obj/effect/turf_decal/crosswalk,
 /turf/open/floor/plating/asphalt,
 /area/vtm/palm_desert/outside/office)
+"tgr" = (
+/obj/structure/vampfence/rich{
+	dir = 4;
+	name = "window bars"
+	},
+/obj/structure/platform/lowwall/junk/window,
+/turf/open/floor/plating/rough,
+/area/vtm/interior/sewer/nosferatu_town)
+"tgJ" = (
+/obj/structure/table,
+/obj/vampire_computer,
+/obj/machinery/light/blacklight/directional/east,
+/obj/underplate,
+/turf/open/floor/city/industrial,
+/area/vtm/interior/sewer/nosferatu_town)
 "thA" = (
 /obj/structure/vampipe{
 	icon_state = "piping32"
@@ -14914,6 +15383,11 @@
 /obj/item/clothing/under/vampire/janitor,
 /turf/open/floor/plating/concrete,
 /area/vtm/palm_desert/interior/motel)
+"tFV" = (
+/obj/effect/decal/wallpaper/papers/six,
+/obj/effect/decal/wallpaper/paper/darkgreen,
+/turf/closed/wall/vampwall/junk,
+/area/vtm/interior/sewer/nosferatu_town)
 "tGn" = (
 /obj/machinery/light/small/directional/west,
 /turf/open/floor/plating/rough,
@@ -15278,6 +15752,10 @@
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/police)
+"tZo" = (
+/obj/effect/decal/wallpaper/paper/darkgreen/low,
+/turf/closed/wall/vampwall/junk,
+/area/vtm/interior/sewer/nosferatu_town)
 "tZv" = (
 /obj/structure/platform/lowwall/brick/window,
 /obj/structure/curtain/bounty{
@@ -15420,6 +15898,12 @@
 	},
 /turf/open/floor/carpet/royalblack,
 /area/vtm/palm_desert/interior/giovanni)
+"ujt" = (
+/obj/structure/table,
+/obj/underplate,
+/obj/vampire_computer/prince,
+/turf/open/floor/city/industrial,
+/area/vtm/interior/sewer/nosferatu_town)
 "ujw" = (
 /obj/effect/decal/pallet,
 /obj/structure/closet/crate/cardboard{
@@ -15465,6 +15949,9 @@
 /obj/structure/bookcase/random/fiction,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/library)
+"ulq" = (
+/turf/open/floor/plating/concrete,
+/area/vtm/interior/sewer/nosferatu_town)
 "unE" = (
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/city/industrial,
@@ -15526,6 +16013,14 @@
 /obj/effect/decal/wallpaper/lightpadded,
 /turf/closed/wall/vampwall/brick,
 /area/vtm/interior/ghetto)
+"uqE" = (
+/obj/effect/turf_decal/weather/dirt{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/trash,
+/obj/structure/sign/warning/directional/north,
+/turf/open/floor/plating/canalplating,
+/area/vtm/palm_desert)
 "uqT" = (
 /obj/fake_platform/grey{
 	color = "#6d6d6d"
@@ -15546,6 +16041,9 @@
 /obj/item/clothing/suit/vampire/jacket,
 /turf/open/floor/plating/rough,
 /area/vtm/palm_desert/interior/anarch)
+"urI" = (
+/turf/open/floor/plating/rough/cave,
+/area/vtm/interior/sewer/nosferatu_town)
 "usd" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/trash{
@@ -15605,6 +16103,10 @@
 /obj/item/ammo_box/darkpack/c12g/buck,
 /turf/open/floor/plating/stone,
 /area/vtm/interior/caves)
+"uxe" = (
+/obj/structure/table,
+/turf/open/floor/city/industrial,
+/area/vtm/interior/sewer/nosferatu_town)
 "uyr" = (
 /obj/structure/flora/bush/sparsegrass/style_random,
 /obj/effect/turf_decal/darkpack/dirt/corner{
@@ -15828,6 +16330,11 @@
 	},
 /turf/open/water/vamp_sewer,
 /area/vtm/interior/sewer)
+"uOG" = (
+/obj/structure/coclock,
+/obj/structure/chair/sofa/right/brown,
+/turf/open/floor/city/industrial,
+/area/vtm/interior/sewer/nosferatu_town)
 "uOU" = (
 /obj/structure/table,
 /obj/item/storage/belt/sheath/vamp/rapier,
@@ -16232,6 +16739,13 @@
 /obj/effect/decal/wallpaper/red,
 /turf/closed/wall/vampwall/junk,
 /area/vtm/interior)
+"vvN" = (
+/obj/effect/decal/cleanable/trash,
+/obj/structure/chair/office/darkpack/green{
+	dir = 8
+	},
+/turf/open/floor/plating/concrete,
+/area/vtm/interior/sewer/nosferatu_town)
 "vwv" = (
 /obj/structure/closet/cabinet,
 /obj/item/ammo_box/darkpack/c556,
@@ -16429,6 +16943,16 @@
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/palm_desert/interior/townhall)
+"vLK" = (
+/obj/effect/turf_decal/weather/dirt{
+	dir = 8
+	},
+/obj/structure/flora/bush/sparsegrass/style_random,
+/obj/structure/flora/bush/style_random,
+/obj/machinery/light/blacklight/directional/west,
+/obj/structure/railing/darkpack/wood,
+/turf/open/misc/dirt,
+/area/vtm/interior/sewer/nosferatu_town)
 "vMg" = (
 /obj/structure/flora/bush/sparsegrass/style_random,
 /obj/effect/turf_decal/darkpack/dirt/corner{
@@ -16554,6 +17078,9 @@
 /obj/structure/bookcase/random/reference,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/library)
+"vVf" = (
+/turf/closed/wall/vampwall/junk,
+/area/vtm/interior/sewer/nosferatu_town)
 "vVy" = (
 /obj/machinery/light/directional/east,
 /turf/open/floor/plating/sidewalk,
@@ -16607,6 +17134,26 @@
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm/palm_desert/interior/clinic)
+"wdb" = (
+/obj/effect/decal/carpet{
+	pixel_x = -14;
+	pixel_y = -13
+	},
+/turf/open/floor/city/industrial,
+/area/vtm/interior/sewer/nosferatu_town)
+"wdB" = (
+/obj/effect/decal/rugs,
+/obj/structure/vampdoor/wood{
+	dir = 4
+	},
+/turf/open/floor/city/industrial,
+/area/vtm/interior/sewer/nosferatu_town)
+"wes" = (
+/obj/vampire_computer,
+/obj/structure/table,
+/obj/underplate,
+/turf/open/floor/city/industrial,
+/area/vtm/interior/sewer/nosferatu_town)
 "wfm" = (
 /obj/structure/table/wood,
 /obj/vampire_computer{
@@ -16643,6 +17190,13 @@
 /obj/effect/decal/wallpaper/lightpadded,
 /turf/closed/wall/vampwall/rich,
 /area/vtm/palm_desert/interior/hotel)
+"wit" = (
+/obj/effect/turf_decal/weather/dirt{
+	dir = 1
+	},
+/obj/structure/closet/crate/dumpster,
+/turf/open/floor/plating/canalplating,
+/area/vtm/palm_desert)
 "wiN" = (
 /obj/structure/table/wood,
 /obj/item/stack/sheet/animalhide/generic,
@@ -17067,6 +17621,13 @@
 "wQb" = (
 /turf/closed/wall/vampwall/old,
 /area/vtm/palm_desert/interior/motel)
+"wQN" = (
+/obj/effect/decal/wallpaper,
+/obj/effect/decal/wallpaper/papers/eight{
+	pixel_y = -4
+	},
+/turf/closed/wall/vampwall/junk/alt,
+/area/vtm/interior/sewer/nosferatu_town)
 "wQX" = (
 /obj/structure/platform/lowwall/rich/window,
 /obj/structure/curtain/bounty{
@@ -17079,6 +17640,10 @@
 /obj/item/veil_contract,
 /turf/open/floor/city/factory,
 /area/vtm/palm_desert/interior/clinic)
+"wRw" = (
+/obj/structure/table,
+/turf/open/floor/plating/canalplating,
+/area/vtm/interior/sewer/nosferatu_town)
 "wSj" = (
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/plating/rough,
@@ -17245,6 +17810,13 @@
 	},
 /turf/open/floor/plating/sidewalk/rich,
 /area/vtm/palm_desert/outside/office)
+"wYa" = (
+/obj/structure/table,
+/obj/effect/decal/rugs,
+/turf/open/floor/plating/rough{
+	icon_state = "carpet_black"
+	},
+/area/vtm/interior/sewer/nosferatu_town)
 "wYA" = (
 /turf/open/misc/dirt,
 /area/vtm/interior/caves)
@@ -17266,6 +17838,13 @@
 	},
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/palm_desert/outside/commercial)
+"xba" = (
+/obj/effect/decal/cleanable/trash,
+/obj/effect/turf_decal/darkpack/dirt{
+	dir = 1
+	},
+/turf/open/floor/plating/rough/cave,
+/area/vtm/interior/sewer/nosferatu_town)
 "xbC" = (
 /obj/structure/table/countertop/red,
 /obj/effect/turf_decal/siding/grey/inner_corner{
@@ -17276,6 +17855,12 @@
 "xcI" = (
 /turf/closed/wall/vampwall/brick,
 /area/vtm/palm_desert/interior/salon)
+"xcQ" = (
+/obj/effect/turf_decal/weather/dirt{
+	dir = 1
+	},
+/turf/open/floor/plating/stone,
+/area/vtm/interior/sewer/nosferatu_town)
 "xdb" = (
 /obj/structure/vampfence/rich{
 	dir = 4;
@@ -17924,6 +18509,31 @@
 "xWF" = (
 /turf/open/openspace,
 /area/vtm/interior/caves)
+"xWI" = (
+/obj/effect/decal/rugs,
+/turf/open/floor/plating/rough{
+	icon_state = "carpet_black"
+	},
+/area/vtm/interior/sewer/nosferatu_town)
+"xXJ" = (
+/obj/effect/turf_decal/darkpack/dirt/corner,
+/turf/open/floor/plating/rough/cave,
+/area/vtm/interior/sewer/nosferatu_town)
+"xXW" = (
+/obj/structure/dresser,
+/obj/effect/decal/cleanable/trash,
+/obj/item/flashlight/lamp/green{
+	pixel_x = 2;
+	pixel_y = 9
+	},
+/obj/item/toy/plush/moth{
+	pixel_z = 10;
+	pixel_y = -3;
+	pixel_x = -4
+	},
+/obj/structure/noticeboard/directional/north,
+/turf/open/floor/carpet/darkpack/greengold,
+/area/vtm/interior/sewer/nosferatu_town)
 "xYI" = (
 /obj/effect/landmark/start/darkpack/chantry/gargoyle,
 /turf/open/floor/city/plating,
@@ -17962,6 +18572,10 @@
 	},
 /turf/closed/wall/vampwall/bar,
 /area/vtm/palm_desert/interior/anarch)
+"ycm" = (
+/obj/effect/spawner/random/trash/mess,
+/turf/open/floor/plating/canalplating,
+/area/vtm/palm_desert)
 "ycw" = (
 /obj/structure/railing,
 /obj/machinery/light/directional/north,
@@ -18948,9 +19562,9 @@ gGv
 gGv
 wIi
 shG
-kKo
-kKo
-kKo
+shG
+shG
+shG
 kKo
 kKo
 kKo
@@ -25498,12 +26112,12 @@ kKo
 kKo
 kKo
 kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
+kNZ
+kNZ
+kNZ
+kNZ
+kNZ
+kNZ
 kKo
 kKo
 kKo
@@ -25645,24 +26259,24 @@ kKo
 kKo
 kKo
 kKo
+clm
+clm
+clm
+clm
+clm
+clm
+urI
+urI
+urI
+urI
+kNZ
 kKo
 kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
+kNZ
+kNZ
+kNZ
+kNZ
+kNZ
 kKo
 kKo
 kKo
@@ -25797,25 +26411,25 @@ kKo
 kKo
 kKo
 kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
+fIW
+wYa
+eOT
+aoG
+okX
+clm
+kNZ
+kNZ
+jJU
+urI
+urI
+kNZ
+kNZ
+kNZ
+urI
+urI
+urI
+kNZ
+kNZ
 kKo
 kKo
 kKo
@@ -25949,26 +26563,26 @@ kKo
 kKo
 kKo
 kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
+fIW
+nZW
+fpr
+xWI
+hEJ
+clm
+kNZ
+eol
+urI
+eol
+urI
+urI
+eol
+urI
+urI
+eol
+eol
+urI
+kNZ
+kNZ
 kKo
 kKo
 kKo
@@ -26101,26 +26715,26 @@ kKo
 kKo
 kKo
 kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
+fIW
+wYa
+aSf
+xWI
+okX
+clm
+kEi
+urI
+urI
+urI
+eol
+eol
+urI
+eol
+urI
+urI
+eol
+eol
+urI
+kNZ
 kKo
 kKo
 kKo
@@ -26253,27 +26867,27 @@ kKo
 kKo
 kKo
 kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
+clm
+clm
+clm
+fIW
+dmN
+clm
+rNi
+fQM
+clm
+kNZ
+urI
+urI
+vVf
+vVf
+vVf
+vVf
+urI
+eol
+urI
+kNZ
+kNZ
 kKo
 kKo
 kKo
@@ -26405,27 +27019,27 @@ kKo
 kKo
 kKo
 kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
+rSw
+ewf
+mxg
+mOa
+qho
+ilW
+ilW
+ilW
+clm
+kNZ
+kNZ
+kNZ
+beX
+qaF
+lhQ
+vVf
+kNZ
+jJU
+urI
+urI
+kNZ
 kKo
 kKo
 kKo
@@ -26557,28 +27171,28 @@ kKo
 kKo
 kKo
 kKo
+fIW
+hzV
+qQf
+uxe
+ilW
+qho
+ilW
+swO
+clm
 kKo
 kKo
 kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
+hdA
+jDR
+ulq
+vVf
+kNZ
+urI
+urI
+urI
+kNZ
+kNZ
 kKo
 kKo
 kKo
@@ -26709,28 +27323,28 @@ kKo
 kKo
 kKo
 kKo
+fIW
+gwn
+qho
+qho
+qho
+qho
+qho
+uxe
+clm
 kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
+vVf
+vVf
+vVf
+beX
+wdB
+vVf
+vVf
+vVf
+eol
+urI
+urI
+kNZ
 kKo
 kKo
 kKo
@@ -26861,28 +27475,28 @@ kKo
 kKo
 kKo
 kKo
+wQN
+wes
+qEF
+ujt
+qEF
+qho
+qho
+wRw
+clm
 kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
+tZo
+jAD
+lmk
+qho
+qho
+sGD
+okX
+vVf
+xcQ
+urI
+urI
+kNZ
 kKo
 kKo
 kKo
@@ -27013,28 +27627,28 @@ kKo
 kKo
 kKo
 kKo
+fIW
+fHv
+fCA
+tgJ
+fCA
+ilW
+ilW
+cfm
+clm
 kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
+tZo
+uOG
+hbB
+qho
+ulq
+peg
+okX
+jdn
+eol
+urI
+urI
+kNZ
 kKo
 kKo
 kKo
@@ -27110,7 +27724,7 @@ nvE
 cmg
 rTN
 cmg
-cmg
+fBt
 nDJ
 kKo
 kKo
@@ -27165,28 +27779,28 @@ kKo
 kKo
 kKo
 kKo
+clm
+clm
+clm
+clm
+clm
+clm
+clm
+clm
+clm
 kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
+tZo
+gid
+rXz
+wdb
+ulq
+vVf
+vVf
+vVf
+eol
+urI
+urI
+kNZ
 kKo
 kKo
 kKo
@@ -27327,21 +27941,21 @@ kKo
 kKo
 kKo
 kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
+vVf
+gxS
+qiu
+qho
+qho
+vVf
+vLK
+shS
+eol
+eol
+pLa
+pLa
+pLa
+pLa
+pLa
 kKo
 kKo
 kKo
@@ -27479,21 +28093,21 @@ kKo
 kKo
 kKo
 kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
+aib
+aSh
+lQd
+qho
+nnn
+tgr
+rLk
+xba
+urI
+eol
+pLa
+gzC
+iMV
+swP
+pLa
 kKo
 kKo
 kKo
@@ -27631,21 +28245,21 @@ kKo
 kKo
 kKo
 kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
+tFV
+xXW
+lQd
+qho
+vvN
+vVf
+hqw
+aLw
+urI
+urI
+pLa
+uqE
+kJh
+kJh
+pLa
 kKo
 kKo
 kKo
@@ -27783,21 +28397,21 @@ kKo
 kKo
 kKo
 kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
+vVf
+vVf
+vVf
+vVf
+vVf
+vVf
+sPt
+xXJ
+jJU
+urI
+ecl
+rmJ
+kJh
+kJh
+pLa
 kKo
 kKo
 kKo
@@ -27941,15 +28555,15 @@ kKo
 kKo
 kKo
 kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
+kNZ
+urI
+urI
+urI
+pLa
+wit
+kJh
+ycm
+pLa
 kKo
 kKo
 kKo
@@ -28093,15 +28707,15 @@ kKo
 kKo
 kKo
 kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
+kNZ
+kNZ
+kNZ
+kNZ
+pLa
+fTi
+kJh
+swP
+pLa
 kKo
 kKo
 kKo
@@ -28249,11 +28863,11 @@ kKo
 kKo
 kKo
 kKo
-kKo
-kKo
-kKo
-kKo
-kKo
+pLa
+pLa
+cmT
+pLa
+pLa
 kKo
 kKo
 kKo
@@ -28403,8 +29017,8 @@ kKo
 kKo
 kKo
 kKo
-kKo
-kKo
+lyf
+jUE
 kKo
 kKo
 kKo
@@ -28472,7 +29086,7 @@ oJJ
 hZH
 mPd
 nDJ
-cmg
+fBt
 rTN
 cmg
 kQv
@@ -28555,8 +29169,8 @@ kKo
 kKo
 kKo
 kKo
-kKo
-kKo
+lyf
+lyf
 kKo
 kKo
 kKo
@@ -28707,9 +29321,9 @@ kKo
 kKo
 kKo
 kKo
-kKo
-kKo
-kKo
+qRU
+lyf
+qRU
 kKo
 kKo
 kKo
@@ -28859,14 +29473,14 @@ kKo
 kKo
 kKo
 kKo
-kKo
-kKo
-kKo
+pcW
+lyf
+qRU
 kKo
 kKo
 kKo
 rfr
-ruw
+gDE
 vKG
 xtD
 ruw
@@ -29011,12 +29625,12 @@ kKo
 kKo
 kKo
 kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-kKo
+qRU
+qRU
+lyf
+qRU
+qRU
+qRU
 rfr
 ruw
 vKG
@@ -29068,7 +29682,7 @@ vKG
 lQc
 rfr
 vTM
-qEo
+sOf
 qEo
 fsz
 fsz
@@ -29164,12 +29778,12 @@ kKo
 kKo
 kKo
 kKo
-kKo
-kKo
-kKo
-kKo
-kKo
-rfr
+qRU
+qRU
+lyf
+qRU
+lyf
+qEo
 ruw
 uFY
 uMB
@@ -29225,7 +29839,7 @@ qEo
 vTM
 vTM
 fsz
-qEo
+sOf
 vTM
 vTM
 qEo
@@ -29316,11 +29930,11 @@ kKo
 kKo
 kKo
 kKo
-kKo
-kKo
-kKo
-kKo
-kKo
+qRU
+qRU
+qRU
+qRU
+qRU
 rfr
 ruw
 vKG
