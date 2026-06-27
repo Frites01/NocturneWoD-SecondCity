@@ -33,3 +33,9 @@
 	music_index = MUSIC_HOLLYWOOD
 	domain = TRUE
 	show_area_name = TRUE
+
+/area/vtm/palm_desert/outside/supply
+	name = "Warehouse"
+	icon_state = "supply"
+	show_area_name = TRUE
+	domain = TRUE
