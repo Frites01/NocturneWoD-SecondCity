@@ -759,6 +759,12 @@
 	},
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/palm_desert/outside/supply)
+"aWx" = (
+/obj/structure/chair/sofa/left/maroon{
+	dir = 4
+	},
+/turf/open/floor/wood/smooth,
+/area/vtm/palm_desert/interior/hotel)
 "aXF" = (
 /obj/effect/turf_decal/siding/white,
 /obj/structure/vampdoor/wood,
@@ -1266,6 +1272,7 @@
 "bKa" = (
 /obj/effect/decal/cleanable/litter,
 /obj/structure/chair/office/darkpack/blue,
+/obj/effect/landmark/start/darkpack/law_enforcement/dispatcher,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/police)
 "bKT" = (
@@ -1520,6 +1527,7 @@
 	dir = 4
 	},
 /obj/effect/mapping_helpers/door/lock_difficulty/eight,
+/obj/effect/mapping_helpers/door/lock,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/palm_desert/interior/townhall)
 "cda" = (
@@ -1628,9 +1636,6 @@
 /obj/structure/chair/wood/darkpack/red,
 /turf/open/floor/carpet/darkpack/blackgold,
 /area/vtm/palm_desert/interior/giovanni)
-"clm" = (
-/turf/closed/wall/vampwall/junk/alt,
-/area/vtm/interior/sewer/nosferatu_town)
 "clt" = (
 /obj/structure/table/countertop/red,
 /obj/machinery/griddle,
@@ -3373,9 +3378,6 @@
 /obj/structure/hedge,
 /turf/open/floor/city/gummaguts,
 /area/vtm/palm_desert/interior/millennium)
-"eol" = (
-/turf/open/floor/plating/stone,
-/area/vtm/interior/sewer/nosferatu_town)
 "eoJ" = (
 /obj/structure/sink/directional/east,
 /mob/living/basic/mouse/vampire,
@@ -4224,6 +4226,12 @@
 	},
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/palm_desert/outside/industrial)
+"frr" = (
+/obj/structure/chair/sofa/right/maroon{
+	dir = 4
+	},
+/turf/open/floor/wood/smooth,
+/area/vtm/palm_desert/interior/hotel)
 "frK" = (
 /obj/structure/hedge,
 /obj/structure/flora/bush/flowers_br/style_random,
@@ -4547,14 +4555,6 @@
 /obj/item/storage/bag/books,
 /turf/open/floor/carpet/darkpack/redsilver,
 /area/vtm/interior/library)
-"fQM" = (
-/obj/structure/vampdoor/old{
-	dir = 8
-	},
-/obj/effect/mapping_helpers/door/access/nosferatu,
-/obj/effect/mapping_helpers/door/lock,
-/turf/open/floor/plating/canalplating,
-/area/vtm/interior/sewer/nosferatu_town)
 "fQT" = (
 /obj/effect/turf_decal/siding/wideplating/dark,
 /obj/structure/curtain/bounty{
@@ -4739,6 +4739,9 @@
 /obj/structure/table/wood,
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/palm_desert/outside/commercial)
+"gaP" = (
+/turf/open/floor/plating/stone,
+/area/vtm/interior/sewer/nosferatu_town)
 "gaZ" = (
 /obj/effect/turf_decal/bordur/corner{
 	dir = 8
@@ -4922,6 +4925,9 @@
 "grm" = (
 /turf/open/floor/carpet/green,
 /area/vtm/palm_desert/interior/townhall)
+"grD" = (
+/turf/open/floor/plating/canalplating,
+/area/vtm/interior/sewer/nosferatu_town)
 "gsi" = (
 /obj/item/reagent_containers/cup/bottle/morphine,
 /obj/item/reagent_containers/cup/bottle/morphine,
@@ -5900,7 +5906,8 @@
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/police)
 "hCP" = (
-/obj/machinery/logging_machine,
+/obj/structure/table/wood,
+/obj/item/smartphone/emergency,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/police)
 "hDX" = (
@@ -6284,9 +6291,6 @@
 /obj/effect/mapping_helpers/door/lock_difficulty/four,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/ghetto)
-"ilW" = (
-/turf/open/floor/plating/canalplating,
-/area/vtm/interior/sewer/nosferatu_town)
 "imf" = (
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/city/factory,
@@ -6959,6 +6963,12 @@
 	},
 /turf/open/floor/plating/sidewalk/rich,
 /area/vtm/palm_desert/outside/office)
+"jbY" = (
+/obj/structure/chair/sofa/right/maroon{
+	dir = 1
+	},
+/turf/open/floor/wood/smooth,
+/area/vtm/palm_desert/interior/hotel)
 "jcV" = (
 /obj/fake_platform/grey{
 	color = "#6d6d6d"
@@ -7369,10 +7379,6 @@
 /obj/effect/decal/rugs,
 /turf/open/floor/city/factory,
 /area/vtm/interior/police)
-"jJU" = (
-/obj/effect/spawner/random/trash/garbage,
-/turf/open/floor/plating/rough/cave,
-/area/vtm/interior/sewer/nosferatu_town)
 "jKJ" = (
 /obj/machinery/light/directional/west,
 /turf/open/floor/wood/smooth,
@@ -7872,6 +7878,9 @@
 /obj/item/kirbyplants/random,
 /turf/open/floor/carpet/darkpack/bluesilver,
 /area/vtm/interior/ghetto)
+"kqT" = (
+/turf/closed/wall/vampwall/junk/alt,
+/area/vtm/interior/sewer/nosferatu_town)
 "krH" = (
 /obj/structure/flora/tree/vamp{
 	icon_state = "tree8"
@@ -8160,6 +8169,12 @@
 "kKo" = (
 /turf/closed/wall/vampwall/rock,
 /area/vtm/palm_desert)
+"kKx" = (
+/obj/structure/chair/sofa/left/maroon{
+	dir = 1
+	},
+/turf/open/floor/wood/smooth,
+/area/vtm/palm_desert/interior/hotel)
 "kKV" = (
 /obj/structure/table/countertop/red,
 /obj/structure/sink/basin/directional/west,
@@ -8187,9 +8202,6 @@
 /obj/structure/flora/bush/flowers_pp/style_random,
 /turf/open/floor/city/industrial,
 /area/vtm/palm_desert/interior/millennium)
-"kNZ" = (
-/turf/closed/wall/vampwall/rock,
-/area/vtm/interior/sewer/nosferatu_town)
 "kOy" = (
 /obj/structure/hedge,
 /obj/structure/flora/bush/flowers_pp/style_random,
@@ -12428,6 +12440,13 @@
 /obj/effect/gibspawner/human,
 /turf/open/floor/city/factory,
 /area/vtm/palm_desert/interior/giovanni)
+"pUl" = (
+/obj/structure/table/wood,
+/obj/item/smartphone/emergency{
+	pixel_y = 8
+	},
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior/police)
 "pUy" = (
 /obj/machinery/vending/snack,
 /turf/open/floor/wood/smooth/old,
@@ -12836,6 +12855,7 @@
 /obj/structure/chair/office/darkpack/blue{
 	dir = 8
 	},
+/obj/effect/landmark/start/darkpack/law_enforcement/dispatcher,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/police)
 "quH" = (
@@ -13189,6 +13209,10 @@
 /obj/structure/window/reinforced/tinted/spawner/directional/west,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/police)
+"qHl" = (
+/obj/effect/spawner/random/trash/garbage,
+/turf/open/floor/plating/rough/cave,
+/area/vtm/interior/sewer/nosferatu_town)
 "qHD" = (
 /obj/effect/decal/wallpaper/grey,
 /turf/closed/wall/vampwall/brick_old,
@@ -13574,6 +13598,14 @@
 /obj/effect/decal/wallpaper/paper/darkred,
 /turf/closed/wall/vampwall/brick,
 /area/vtm/interior/ghetto)
+"rbK" = (
+/obj/structure/vampdoor/old{
+	dir = 8
+	},
+/obj/effect/mapping_helpers/door/access/nosferatu,
+/obj/effect/mapping_helpers/door/lock,
+/turf/open/floor/plating/canalplating,
+/area/vtm/interior/sewer/nosferatu_town)
 "rbT" = (
 /obj/structure/hedge,
 /obj/effect/turf_decal/siding/grey,
@@ -14508,6 +14540,10 @@
 	},
 /turf/open/floor/city/gummaguts,
 /area/vtm/palm_desert/interior/millennium)
+"soO" = (
+/obj/structure/closet/cabinet,
+/turf/open/floor/wood/smooth,
+/area/vtm/palm_desert/interior/hotel)
 "spQ" = (
 /obj/structure/stone_tile/surrounding/cracked,
 /obj/effect/bump_teleporter{
@@ -15560,6 +15596,9 @@
 /obj/effect/decal/wallpaper/light/low,
 /turf/open/floor/carpet/darkpack/bluesilver,
 /area/vtm/palm_desert/interior/clinic)
+"tQS" = (
+/turf/open/floor/plating/rough/cave,
+/area/vtm/interior/sewer/nosferatu_town)
 "tQT" = (
 /obj/machinery/light/directional/south,
 /turf/open/floor/plating/concrete,
@@ -16041,9 +16080,6 @@
 /obj/item/clothing/suit/vampire/jacket,
 /turf/open/floor/plating/rough,
 /area/vtm/palm_desert/interior/anarch)
-"urI" = (
-/turf/open/floor/plating/rough/cave,
-/area/vtm/interior/sewer/nosferatu_town)
 "usd" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/trash{
@@ -17539,6 +17575,10 @@
 /obj/structure/platform/lowwall/brick/window,
 /turf/open/floor/city/circled,
 /area/vtm/interior/laundromat)
+"wJy" = (
+/obj/structure/table/wood,
+/turf/open/floor/wood/smooth,
+/area/vtm/palm_desert/interior/hotel)
 "wKT" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin{
@@ -17618,6 +17658,9 @@
 /obj/effect/mapping_helpers/door/lock_difficulty/six,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/palm_desert/interior/setite)
+"wPe" = (
+/turf/closed/wall/vampwall/rock,
+/area/vtm/interior/sewer/nosferatu_town)
 "wQb" = (
 /turf/closed/wall/vampwall/old,
 /area/vtm/palm_desert/interior/motel)
@@ -26112,12 +26155,12 @@ kKo
 kKo
 kKo
 kKo
-kNZ
-kNZ
-kNZ
-kNZ
-kNZ
-kNZ
+wPe
+wPe
+wPe
+wPe
+wPe
+wPe
 kKo
 kKo
 kKo
@@ -26259,24 +26302,24 @@ kKo
 kKo
 kKo
 kKo
-clm
-clm
-clm
-clm
-clm
-clm
-urI
-urI
-urI
-urI
-kNZ
+kqT
+kqT
+kqT
+kqT
+kqT
+kqT
+tQS
+tQS
+tQS
+tQS
+wPe
 kKo
 kKo
-kNZ
-kNZ
-kNZ
-kNZ
-kNZ
+wPe
+wPe
+wPe
+wPe
+wPe
 kKo
 kKo
 kKo
@@ -26416,20 +26459,20 @@ wYa
 eOT
 aoG
 okX
-clm
-kNZ
-kNZ
-jJU
-urI
-urI
-kNZ
-kNZ
-kNZ
-urI
-urI
-urI
-kNZ
-kNZ
+kqT
+wPe
+wPe
+qHl
+tQS
+tQS
+wPe
+wPe
+wPe
+tQS
+tQS
+tQS
+wPe
+wPe
 kKo
 kKo
 kKo
@@ -26568,21 +26611,21 @@ nZW
 fpr
 xWI
 hEJ
-clm
-kNZ
-eol
-urI
-eol
-urI
-urI
-eol
-urI
-urI
-eol
-eol
-urI
-kNZ
-kNZ
+kqT
+wPe
+gaP
+tQS
+gaP
+tQS
+tQS
+gaP
+tQS
+tQS
+gaP
+gaP
+tQS
+wPe
+wPe
 kKo
 kKo
 kKo
@@ -26720,21 +26763,21 @@ wYa
 aSf
 xWI
 okX
-clm
+kqT
 kEi
-urI
-urI
-urI
-eol
-eol
-urI
-eol
-urI
-urI
-eol
-eol
-urI
-kNZ
+tQS
+tQS
+tQS
+gaP
+gaP
+tQS
+gaP
+tQS
+tQS
+gaP
+gaP
+tQS
+wPe
 kKo
 kKo
 kKo
@@ -26867,27 +26910,27 @@ kKo
 kKo
 kKo
 kKo
-clm
-clm
-clm
+kqT
+kqT
+kqT
 fIW
 dmN
-clm
+kqT
 rNi
-fQM
-clm
-kNZ
-urI
-urI
+rbK
+kqT
+wPe
+tQS
+tQS
 vVf
 vVf
 vVf
 vVf
-urI
-eol
-urI
-kNZ
-kNZ
+tQS
+gaP
+tQS
+wPe
+wPe
 kKo
 kKo
 kKo
@@ -27024,22 +27067,22 @@ ewf
 mxg
 mOa
 qho
-ilW
-ilW
-ilW
-clm
-kNZ
-kNZ
-kNZ
+grD
+grD
+grD
+kqT
+wPe
+wPe
+wPe
 beX
 qaF
 lhQ
 vVf
-kNZ
-jJU
-urI
-urI
-kNZ
+wPe
+qHl
+tQS
+tQS
+wPe
 kKo
 kKo
 kKo
@@ -27175,11 +27218,11 @@ fIW
 hzV
 qQf
 uxe
-ilW
+grD
 qho
-ilW
+grD
 swO
-clm
+kqT
 kKo
 kKo
 kKo
@@ -27187,12 +27230,12 @@ hdA
 jDR
 ulq
 vVf
-kNZ
-urI
-urI
-urI
-kNZ
-kNZ
+wPe
+tQS
+tQS
+tQS
+wPe
+wPe
 kKo
 kKo
 kKo
@@ -27331,7 +27374,7 @@ qho
 qho
 qho
 uxe
-clm
+kqT
 kKo
 vVf
 vVf
@@ -27341,10 +27384,10 @@ wdB
 vVf
 vVf
 vVf
-eol
-urI
-urI
-kNZ
+gaP
+tQS
+tQS
+wPe
 kKo
 kKo
 kKo
@@ -27483,7 +27526,7 @@ qEF
 qho
 qho
 wRw
-clm
+kqT
 kKo
 tZo
 jAD
@@ -27494,9 +27537,9 @@ sGD
 okX
 vVf
 xcQ
-urI
-urI
-kNZ
+tQS
+tQS
+wPe
 kKo
 kKo
 kKo
@@ -27632,10 +27675,10 @@ fHv
 fCA
 tgJ
 fCA
-ilW
-ilW
+grD
+grD
 cfm
-clm
+kqT
 kKo
 tZo
 uOG
@@ -27645,10 +27688,10 @@ ulq
 peg
 okX
 jdn
-eol
-urI
-urI
-kNZ
+gaP
+tQS
+tQS
+wPe
 kKo
 kKo
 kKo
@@ -27779,15 +27822,15 @@ kKo
 kKo
 kKo
 kKo
-clm
-clm
-clm
-clm
-clm
-clm
-clm
-clm
-clm
+kqT
+kqT
+kqT
+kqT
+kqT
+kqT
+kqT
+kqT
+kqT
 kKo
 tZo
 gid
@@ -27797,10 +27840,10 @@ ulq
 vVf
 vVf
 vVf
-eol
-urI
-urI
-kNZ
+gaP
+tQS
+tQS
+wPe
 kKo
 kKo
 kKo
@@ -27949,8 +27992,8 @@ qho
 vVf
 vLK
 shS
-eol
-eol
+gaP
+gaP
 pLa
 pLa
 pLa
@@ -28101,8 +28144,8 @@ nnn
 tgr
 rLk
 xba
-urI
-eol
+tQS
+gaP
 pLa
 gzC
 iMV
@@ -28253,8 +28296,8 @@ vvN
 vVf
 hqw
 aLw
-urI
-urI
+tQS
+tQS
 pLa
 uqE
 kJh
@@ -28405,8 +28448,8 @@ vVf
 vVf
 sPt
 xXJ
-jJU
-urI
+qHl
+tQS
 ecl
 rmJ
 kJh
@@ -28555,10 +28598,10 @@ kKo
 kKo
 kKo
 kKo
-kNZ
-urI
-urI
-urI
+wPe
+tQS
+tQS
+tQS
 pLa
 wit
 kJh
@@ -28707,10 +28750,10 @@ kKo
 kKo
 kKo
 kKo
-kNZ
-kNZ
-kNZ
-kNZ
+wPe
+wPe
+wPe
+wPe
 pLa
 fTi
 kJh
@@ -28994,7 +29037,7 @@ kKo
 kKo
 kKo
 noI
-edb
+xYI
 cMy
 cMy
 cMy
@@ -29301,11 +29344,11 @@ noI
 edb
 twD
 noI
-edb
+xYI
 crM
 nzk
 xns
-edb
+xYI
 noI
 kKo
 kKo
@@ -70859,23 +70902,23 @@ qhV
 qhV
 qhV
 hrH
+soO
 oEL
-oEL
-oEL
-oEL
+aWx
+frr
 hrH
 iNe
 iNe
 hrH
+soO
 oEL
 oEL
-oEL
-oEL
+wJy
 hrH
+soO
 oEL
 oEL
-oEL
-oEL
+wJy
 bcq
 qhV
 qhV
@@ -71166,7 +71209,7 @@ hrH
 hCs
 oEL
 oEL
-oEL
+wJy
 hrH
 iNe
 iNe
@@ -71174,12 +71217,12 @@ hrH
 hCs
 oEL
 oEL
-oEL
+kKx
 hrH
 hCs
 oEL
 oEL
-oEL
+kKx
 bcq
 qhV
 qhV
@@ -71326,12 +71369,12 @@ bcq
 bcq
 hrH
 oEL
-oEL
+jbY
 bcq
 bcq
 hrH
 oEL
-oEL
+jbY
 bcq
 qhV
 qhV
@@ -79190,7 +79233,7 @@ rVr
 sRv
 eaB
 tKc
-cSx
+pUl
 rVr
 eaB
 eaB
