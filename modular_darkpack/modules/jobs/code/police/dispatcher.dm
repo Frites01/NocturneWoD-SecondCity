@@ -12,7 +12,7 @@
 	department_for_prefs = /datum/job_department/police
 	departments_list = list(
 		/datum/job_department/police,
-		/datum/job_department/clinic,
+		// /datum/job_department/clinic, // NOCTURNE REMOVAL
 	)
 
 	allowed_splats = list(SPLAT_GHOUL, SPLAT_KINFOLK, SPLAT_NONE)
