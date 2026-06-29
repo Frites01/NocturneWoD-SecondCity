@@ -18859,10 +18859,6 @@
 	dir = 1
 	},
 /area/vtm/palm_desert/outside/commercial)
-"xNN" = (
-/obj/effect/landmark/latejoin_masquerade,
-/turf/open/floor/plating/asphalt,
-/area/vtm/palm_desert/outside/commercial)
 "xOp" = (
 /obj/effect/turf_decal/floor_graffiti/random,
 /turf/open/floor/wood/smooth/old,
@@ -47876,7 +47872,7 @@ eie
 eie
 eie
 eie
-xNN
+eie
 eie
 eie
 reE
