@@ -10,8 +10,8 @@
 #define JOB_MAGADON_SECURITY "Clinic Security Officer"
 #define JOB_MAGADON_DOCTOR "Clinic Doctor"
 
-#define JOB_HUNTER_HEAD "Magadon Security"
-#define JOB_HUNTER_GOON "Autumn Health Doctor"
+#define JOB_HUNTER_HEAD "Hunter Head"
+#define JOB_HUNTER_GOON "Hunter Goon"
 
 // job display order
 // WHY CANT THIS STUPID FUCKING LANGUAGE HAVE ACTUAL FUCKING ENUMS
