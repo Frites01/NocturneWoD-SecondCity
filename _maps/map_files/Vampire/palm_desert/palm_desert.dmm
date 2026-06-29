@@ -1090,7 +1090,6 @@
 	dir = 1
 	},
 /obj/structure/stone_tile/slab/cracked,
-/obj/effect/landmark/start/darkpack/forest_wolves/council,
 /turf/open/floor/plating/rough/cave,
 /area/vtm/interior/caves)
 "bvU" = (
@@ -1168,6 +1167,7 @@
 	dir = 8;
 	pixel_y = 4
 	},
+/obj/effect/landmark/start/darkpack/forest_wolves/council,
 /turf/open/floor/plating/rough/cave,
 /area/vtm/interior/caves)
 "bEk" = (
@@ -7203,6 +7203,7 @@
 /obj/structure/chair/plastic/darkpack{
 	dir = 4
 	},
+/obj/effect/landmark/start/darkpack/forest_wolves/wyrmfoe,
 /turf/open/floor/plating/stone,
 /area/vtm/interior/caves)
 "jkp" = (
@@ -11001,6 +11002,7 @@
 /obj/structure/chair/plastic/darkpack{
 	dir = 8
 	},
+/obj/effect/landmark/start/darkpack/forest_wolves/guardian,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/caves)
 "nWS" = (
@@ -14365,7 +14367,7 @@
 "rKD" = (
 /obj/structure/chair/sofa/left/brown,
 /obj/structure/stone_tile/slab,
-/obj/effect/landmark/start/darkpack/forest_wolves/council,
+/obj/effect/landmark/start/darkpack/forest_wolves/guardian,
 /turf/open/floor/plating/stone,
 /area/vtm/interior/caves)
 "rLk" = (
@@ -14532,6 +14534,10 @@
 	},
 /turf/open/floor/city/circled,
 /area/vtm/palm_desert/interior/gas_station)
+"rWh" = (
+/obj/effect/landmark/start/darkpack/forest_wolves/council,
+/turf/open/floor/plating/stone,
+/area/vtm/interior/caves)
 "rWt" = (
 /obj/structure/vampdoor/wood,
 /obj/effect/turf_decal/siding/wood/dark,
@@ -15201,6 +15207,7 @@
 /area/vtm/palm_desert/interior/hunter)
 "sPY" = (
 /obj/structure/chair/wood/darkpack,
+/obj/effect/landmark/start/darkpack/forest_wolves/warder,
 /turf/open/floor/plating/rough/cave,
 /area/vtm/interior/caves)
 "sQQ" = (
@@ -15922,7 +15929,6 @@
 	dir = 1
 	},
 /obj/structure/stone_tile/slab,
-/obj/effect/landmark/start/darkpack/forest_wolves/council,
 /turf/open/floor/plating/stone,
 /area/vtm/interior/caves)
 "tPP" = (
@@ -17048,7 +17054,7 @@
 "vrS" = (
 /obj/structure/chair/sofa/right/brown,
 /obj/structure/stone_tile/slab/cracked,
-/obj/effect/landmark/start/darkpack/forest_wolves/council,
+/obj/effect/landmark/start/darkpack/forest_wolves/guardian,
 /turf/open/floor/plating/rough/cave,
 /area/vtm/interior/caves)
 "vsr" = (
@@ -17528,6 +17534,10 @@
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/plating/canal,
 /area/vtm/interior/sewer)
+"vXP" = (
+/obj/effect/landmark/start/darkpack/forest_wolves/council,
+/turf/open/floor/plating/rough/cave,
+/area/vtm/interior/caves)
 "wau" = (
 /obj/machinery/iv_drip,
 /obj/machinery/light/small/directional/north,
@@ -17874,6 +17884,7 @@
 	dir = 1;
 	name = "Seat of Shame"
 	},
+/obj/effect/landmark/start/darkpack/forest_wolves/guardian,
 /turf/open/floor/plating/stone,
 /area/vtm/interior/caves)
 "wEn" = (
@@ -19865,7 +19876,7 @@ kKo
 kKo
 shG
 gGv
-gGv
+rWh
 jYb
 enD
 qef
@@ -42970,7 +42981,7 @@ xWF
 xWF
 shG
 nLm
-gDy
+vXP
 rSW
 oRg
 shG

@@ -85,8 +85,12 @@
 		"Supply Technician": {
 			"spawn_positions": 5,
 			"total_positions": 5
-		}
+		},
 
+		"Truthcatcher": {
+			"spawn_positions": 0,
+			"total_positions": 0
+		}
 	},
 	"max_npcs": 45
 }
