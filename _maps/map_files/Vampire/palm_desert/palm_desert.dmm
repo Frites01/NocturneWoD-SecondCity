@@ -2139,6 +2139,7 @@
 	},
 /obj/effect/mapping_helpers/door/lock,
 /obj/effect/mapping_helpers/door/lock_difficulty/eight,
+/obj/effect/mapping_helpers/door/access/magadon,
 /turf/open/floor/wood/smooth,
 /area/vtm/palm_desert/interior/clinic)
 "cTX" = (
@@ -4335,6 +4336,13 @@
 /obj/structure/table/wood,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/library)
+"fuP" = (
+/obj/effect/decal/cleanable/trash{
+	icon_state = "trash8"
+	},
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior/ghetto)
 "fvs" = (
 /obj/machinery/light/directional/north,
 /turf/open/floor/city/plating_mono,
@@ -4534,6 +4542,12 @@
 /obj/structure/platform/lowwall/brick,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/palm_desert/interior/townhall)
+"fIB" = (
+/obj/structure/chair/office/darkpack/blue,
+/mob/living/carbon/human/npc/pharmacystore_magadon,
+/obj/effect/mapping_helpers/mob_buckler,
+/turf/open/floor/city/circled,
+/area/vtm/palm_desert/interior/clinic)
 "fIW" = (
 /obj/effect/decal/wallpaper,
 /turf/closed/wall/vampwall/junk/alt,
@@ -5467,6 +5481,11 @@
 /mob/living/basic/pet/cat/darkpack/cain,
 /turf/open/floor/plating/rough,
 /area/vtm/palm_desert/interior/anarch)
+"gWA" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small/directional/east,
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior/ghetto)
 "gWW" = (
 /turf/open/floor/carpet/red,
 /area/vtm/interior)
@@ -6944,7 +6963,11 @@
 /obj/item/reagent_containers/cup/bottle/morphine,
 /obj/item/reagent_containers/cup/bottle/morphine,
 /obj/item/storage/box/syringes,
-/obj/structure/closet/secure_closet/medical2,
+/obj/structure/closet/secure_closet/medical2{
+	locked = 0;
+	secure = 0;
+	req_access = null
+	},
 /turf/open/floor/city/plating_mono,
 /area/vtm/palm_desert/interior/clinic)
 "iSm" = (
@@ -9208,6 +9231,11 @@
 /obj/structure/table,
 /obj/structure/platform/lowwall/painted,
 /obj/effect/decal/wallpaper/light/low,
+/obj/structure/vampfence/rich{
+	dir = 4;
+	pixel_y = 15;
+	name = "bars"
+	},
 /turf/open/floor/city/circled,
 /area/vtm/palm_desert/interior/clinic)
 "lJe" = (
@@ -9399,7 +9427,11 @@
 /turf/open/floor/plating/asphalt,
 /area/vtm/palm_desert/outside/commercial)
 "lYV" = (
-/obj/structure/closet/secure_closet/chemical/heisenberg,
+/obj/structure/closet/secure_closet/chemical/heisenberg{
+	secure = 0;
+	req_access = null;
+	locked = 0
+	},
 /turf/open/floor/city/plating_mono,
 /area/vtm/palm_desert/interior/clinic)
 "lZg" = (
@@ -9932,8 +9964,8 @@
 /area/vtm/palm_desert/interior/clinic)
 "mHm" = (
 /obj/structure/table,
-/obj/machinery/computer/order_console/mining/restricted/police,
 /obj/structure/platform/lowwall/market,
+/obj/structure/retail/police,
 /turf/open/floor/city/factory,
 /area/vtm/interior/police)
 "mHF" = (
@@ -9983,6 +10015,11 @@
 	},
 /turf/open/floor/city/toilet,
 /area/vtm/interior/police)
+"mLG" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior/ghetto)
 "mLH" = (
 /obj/structure/vampdoor/woodglass{
 	dir = 4
@@ -12679,13 +12716,17 @@
 /turf/open/floor/plating/stone,
 /area/vtm/interior/caves)
 "pTb" = (
-/obj/structure/closet/secure_closet/medical2,
 /obj/item/storage/medkit/darkpack/brute,
 /obj/item/storage/medkit/darkpack/doctor,
 /obj/item/storage/medkit/darkpack/burn,
 /obj/item/storage/medkit/darkpack/advanced,
 /obj/item/storage/medkit/darkpack/tox,
 /obj/item/storage/medkit/darkpack/oxy,
+/obj/structure/closet/secure_closet/medical2{
+	locked = 0;
+	secure = 0;
+	req_access = null
+	},
 /turf/open/floor/wood/smooth,
 /area/vtm/palm_desert/interior/clinic)
 "pTh" = (
@@ -14118,6 +14159,12 @@
 /obj/structure/vampdoor/wood,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/palm_desert/interior/motel)
+"rrs" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/landmark/latejoin_daytime,
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior/ghetto)
 "rrv" = (
 /obj/darkpack_car/rand{
 	dir = 4
@@ -14899,6 +14946,11 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/palm_desert/interior/setite)
+"stN" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light/small/directional/east,
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior/ghetto)
 "sum" = (
 /obj/structure/spirit_board,
 /turf/open/floor/plating/rough/cave,
@@ -18342,6 +18394,7 @@
 /obj/item/surgery_tray/full,
 /obj/item/stack/medical/bone_gel,
 /obj/item/clothing/suit/apron/surgical,
+/obj/machinery/light/directional/north,
 /turf/open/floor/wood/smooth,
 /area/vtm/palm_desert/interior/clinic)
 "xey" = (
@@ -18445,18 +18498,11 @@
 /area/vtm/palm_desert/interior/supply)
 "xme" = (
 /obj/structure/table,
-/obj/item/paper_bin{
-	pixel_y = 6
-	},
-/obj/item/pen{
-	pixel_y = 7
-	},
-/obj/item/flashlight/lamp{
-	pixel_y = 13;
-	pixel_x = -11
-	},
 /obj/structure/platform/lowwall/painted,
 /obj/effect/decal/wallpaper/light/low,
+/obj/structure/retail/pharmacy{
+	dir = 1
+	},
 /turf/open/floor/city/circled,
 /area/vtm/palm_desert/interior/clinic)
 "xns" = (
@@ -53813,7 +53859,7 @@ jjf
 nEs
 nEs
 xxv
-pmu
+fvs
 pmu
 pmu
 oAb
@@ -54699,19 +54745,19 @@ nEs
 gpM
 bpH
 bvl
-acj
+fuP
 bvl
 llg
 llg
 llg
 llg
-bvl
+mLG
 llg
 llg
 llg
 aoL
 qAj
-llg
+alY
 bvl
 bvl
 gpM
@@ -54849,7 +54895,7 @@ ncp
 jjf
 nEs
 gpM
-dnX
+rrs
 llg
 llg
 llg
@@ -55005,19 +55051,19 @@ dnX
 bvl
 llg
 llg
-bvl
+stN
 llg
 llg
 aoL
 llg
 bvl
-qAj
+gWA
 bvl
 llg
 bvl
 llg
 llg
-sLS
+keS
 gpM
 nEs
 nEs
@@ -56269,7 +56315,7 @@ xyB
 tYk
 tOu
 qZS
-qZS
+fIB
 xme
 sOp
 sOp
@@ -56421,7 +56467,7 @@ gYM
 tYk
 qZS
 qZS
-wpf
+qZS
 lIW
 sOp
 sOp
@@ -56573,7 +56619,7 @@ gYM
 tYk
 abq
 qZS
-qZS
+wpf
 gRf
 sOp
 sOp

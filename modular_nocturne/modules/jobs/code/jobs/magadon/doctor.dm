@@ -22,10 +22,10 @@
 	)
 
 	alt_titles = list(
-		"Autumn Health Nurse",
-		"Autumn Health Surgeon",
-		"Autumn Health Physician",
-		"Autumn Health Paramedic",
+		"Clinic Nurse",
+		"Clinic Surgeon",
+		"Clinic Physician",
+		"Clinic Paramedic",
 	)
 
 
