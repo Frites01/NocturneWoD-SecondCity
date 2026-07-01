@@ -8064,6 +8064,7 @@
 #include "modular_nocturne\master_files\code\modules\mob\living\carbon\human\human_defines.dm"
 #include "modular_nocturne\master_files\code\modules\mob\living\carbon\human\species_types\humans.dm"
 #include "modular_nocturne\master_files\code\modules\surgery\organs\_organ.dm"
+#include "modular_nocturne\master_files\code\modules\walls\code\walls.dm"
 #include "modular_nocturne\modules\areas\code\_palm_desert.dm"
 #include "modular_nocturne\modules\areas\code\interiors.dm"
 #include "modular_nocturne\modules\areas\code\mapgen.dm"
