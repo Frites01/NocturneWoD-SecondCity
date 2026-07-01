@@ -49,3 +49,12 @@
 		LOCKACCESS_MAGADON_CORPORATE,
 		LOCKACCESS_MAGADON_SECURITY
 	)
+
+// police
+
+/obj/item/vamp/keys/police/dispatcher
+	name = "emergency dispatcher keys"
+	accesslocks = list(
+		LOCKACCESS_POLICE,
+		LOCKACCESS_DISPATCH
+	)
