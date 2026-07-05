@@ -1630,6 +1630,11 @@
 /obj/effect/turf_decal/siding/grey,
 /turf/open/floor/plating/granite/black,
 /area/vtm/palm_desert/interior/millennium)
+"cil" = (
+/obj/structure/table/countertop/black,
+/obj/item/reagent_containers/condiment/enzyme,
+/turf/open/floor/city/circled/large,
+/area/vtm/palm_desert/interior/restaurant)
 "cji" = (
 /obj/machinery/light/directional/south,
 /turf/open/floor/city/factory,
@@ -3874,6 +3879,11 @@
 	},
 /turf/open/floor/plating/stone,
 /area/vtm/interior/caves)
+"eQj" = (
+/obj/structure/table/countertop/black,
+/obj/machinery/reagentgrinder/kitchen,
+/turf/open/floor/city/circled/large,
+/area/vtm/palm_desert/interior/restaurant)
 "eQM" = (
 /obj/effect/decal/cleanable/litter,
 /obj/effect/decal/cleanable/dirt,
@@ -4334,6 +4344,9 @@
 /area/vtm/interior/police)
 "ftk" = (
 /obj/structure/table/wood,
+/obj/structure/retail/occult{
+	pixel_y = 5
+	},
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/library)
 "fuP" = (
@@ -8389,11 +8402,6 @@
 	},
 /turf/open/floor/iron/stairs,
 /area/vtm/interior/theatre)
-"kNm" = (
-/obj/structure/table/countertop/black,
-/obj/item/reagent_containers/condiment/enzyme,
-/turf/open/floor/city/circled/large,
-/area/vtm/palm_desert/interior/restaurant)
 "kNs" = (
 /obj/structure/railing{
 	dir = 8
@@ -11614,6 +11622,27 @@
 /obj/machinery/light/directional/north,
 /turf/open/floor/plating/granite/black,
 /area/vtm/palm_desert/interior/millennium)
+"oIk" = (
+/obj/structure/table/countertop/black,
+/obj/item/kitchen/rollingpin{
+	pixel_y = 10;
+	pixel_x = -6
+	},
+/obj/item/storage/bag/tray{
+	pixel_x = 7
+	},
+/obj/item/storage/bag/tray{
+	pixel_x = 7
+	},
+/obj/item/storage/bag/tray{
+	pixel_x = 7
+	},
+/obj/item/kitchen/rollingpin{
+	pixel_y = 10;
+	pixel_x = -6
+	},
+/turf/open/floor/city/circled/large,
+/area/vtm/palm_desert/interior/restaurant)
 "oIz" = (
 /obj/structure/platform/lowwall/brick_old/window,
 /obj/structure/barricade/wooden/crude{
@@ -15669,11 +15698,6 @@
 /obj/structure/table/countertop/black,
 /turf/open/floor/city/circled/large,
 /area/vtm/palm_desert/interior/restaurant)
-"tuy" = (
-/obj/structure/table/countertop/black,
-/obj/machinery/reagentgrinder/kitchen,
-/turf/open/floor/city/circled/large,
-/area/vtm/palm_desert/interior/restaurant)
 "tuG" = (
 /obj/structure/closet/crate/trashcart/laundry,
 /obj/item/clothing/suit/costume/striped_sweater,
@@ -16967,27 +16991,6 @@
 /obj/effect/decal/wallpaper/grey,
 /turf/closed/wall/vampwall/brick,
 /area/vtm/interior)
-"vhB" = (
-/obj/structure/table/countertop/black,
-/obj/item/kitchen/rollingpin{
-	pixel_y = 10;
-	pixel_x = -6
-	},
-/obj/item/storage/bag/tray{
-	pixel_x = 7
-	},
-/obj/item/storage/bag/tray{
-	pixel_x = 7
-	},
-/obj/item/storage/bag/tray{
-	pixel_x = 7
-	},
-/obj/item/kitchen/rollingpin{
-	pixel_y = 10;
-	pixel_x = -6
-	},
-/turf/open/floor/city/circled/large,
-/area/vtm/palm_desert/interior/restaurant)
 "via" = (
 /obj/structure/roadblock/alt{
 	pixel_y = 10
@@ -45516,7 +45519,7 @@ wqn
 sle
 eOX
 jIf
-vhB
+oIk
 cRy
 hfR
 sle
@@ -45668,7 +45671,7 @@ uex
 sle
 clt
 cRy
-kNm
+cil
 cRy
 cRy
 tux
@@ -45820,7 +45823,7 @@ hed
 sle
 lGS
 cRy
-tuy
+eQj
 cRy
 cRy
 tux
