@@ -1,0 +1,10 @@
+{
+	"nocturne_field_jacket": [
+		{
+			"type": "icon_state",
+			"icon_state": "field_jacket",
+			"blend_mode": "overlay",
+			"color_ids": [1]
+		}
+	]
+}

@@ -1,0 +1,10 @@
+{
+	"nocturne_dress_shirt": [
+		{
+			"type": "icon_state",
+			"icon_state": "dress_shirt",
+			"blend_mode": "overlay",
+			"color_ids": [1]
+		}
+	]
+}

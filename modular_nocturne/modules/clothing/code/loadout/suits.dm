@@ -145,3 +145,25 @@
 /datum/loadout_item/suit/jacket/flannel/brown_short
 	name = "Flannel (Brown, Short-sleeved)"
 	item_path = /obj/item/clothing/suit/vampire/flannel/short/brown
+
+// colorable
+
+/datum/loadout_item/suit/jacket/nocturne_fancy_jacket
+	name = "Fancy Jacket"
+	item_path = /obj/item/clothing/suit/vampire/nocturne_fancy_jacket
+
+/datum/loadout_item/suit/jacket/nocturne_field_jacket
+	name = "Field Jacket"
+	item_path = /obj/item/clothing/suit/vampire/nocturne_field_jacket
+
+/datum/loadout_item/suit/nocturne_turtleneck
+	name = "Turtleneck"
+	item_path = /obj/item/clothing/suit/vampire/nocturne_turtleneck
+
+/datum/loadout_item/suit/nocturne_turtleneck/cropped
+	name = "Turtleneck (Cropped)"
+	item_path = /obj/item/clothing/suit/vampire/nocturne_turtleneck/cropped
+
+/datum/loadout_item/suit/nocturne_dress_shirt
+	name = "Dress Shirt"
+	item_path = /obj/item/clothing/suit/vampire/nocturne_dress_shirt

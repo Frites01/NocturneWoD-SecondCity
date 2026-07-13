@@ -1,0 +1,15 @@
+{
+	"nocturne_jeans_ripped": [
+		{
+			"type": "icon_state",
+			"icon_state": "jeans",
+			"blend_mode": "overlay",
+			"color_ids": [1]
+		},
+		{
+			"type": "icon_state",
+			"icon_state": "jeans_rips",
+			"blend_mode": "overlay"
+		}
+	]
+}

@@ -23,3 +23,9 @@
 /datum/loadout_item/neck/choker/fancy
 	name = "Choker (Fancy)"
 	item_path = /obj/item/clothing/neck/vampire/choker/fancy
+
+// scarf
+
+/datum/loadout_item/neck/colorable_scarf
+	name = "Scarf (Colorable)"
+	item_path = /obj/item/clothing/neck/vampire/scarf/colorable

@@ -11,9 +11,11 @@
 /datum/loadout_item/neck/insert_path_into_outfit(datum/outfit/outfit, mob/living/carbon/human/equipper, visuals_only = FALSE)
 	outfit.neck = item_path
 
+/* // NOCTURNE REMOVAL START
 /datum/loadout_item/neck/scarf_greyscale
 	name = "Scarf (Colorable)"
 	item_path = /obj/item/clothing/neck/scarf
+*/ // NOCTURNE REMOVAL END
 
 /datum/loadout_item/neck/greyscale_large
 	name = "Scarf (Large, Colorable)"

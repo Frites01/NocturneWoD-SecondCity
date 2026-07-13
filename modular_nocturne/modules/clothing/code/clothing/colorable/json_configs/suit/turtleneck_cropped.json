@@ -1,0 +1,10 @@
+{
+	"nocturne_turtleneck_cropped": [
+		{
+			"type": "icon_state",
+			"icon_state": "turtleneck_cropped",
+			"blend_mode": "overlay",
+			"color_ids": [1]
+		}
+	]
+}
