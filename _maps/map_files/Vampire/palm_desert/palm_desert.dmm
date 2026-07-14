@@ -976,17 +976,6 @@
 "bcq" = (
 /turf/closed/wall/vampwall/rich,
 /area/vtm/palm_desert/interior/hotel)
-"bcL" = (
-/obj/structure/curtain/bounty{
-	pixel_y = 38
-	},
-/obj/structure/table/wood,
-/obj/structure/fluff/tv{
-	icon_state = "tv_nature";
-	pixel_y = 12
-	},
-/turf/open/floor/wood/smooth/old,
-/area/vtm/interior)
 "bcN" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 4;
@@ -1335,6 +1324,11 @@
 	},
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/police)
+"bEW" = (
+/obj/structure/rack/wide/store_shelf,
+/obj/machinery/light/cold/directional/south,
+/turf/open/floor/city/bacotell,
+/area/vtm/interior/shop)
 "bFc" = (
 /obj/structure/table/wood/fancy/royalblack,
 /obj/item/food/cannoli{
@@ -2033,10 +2027,11 @@
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/palm_desert/outside/industrial)
 "cxO" = (
-/obj/structure/curtain/bounty{
-	pixel_y = -27
+/obj/structure/chair/sofa/corp/left{
+	color = "#CD5C5C";
+	dir = 1
 	},
-/turf/open/floor/city/circled,
+/turf/open/floor/carpet/red,
 /area/vtm/interior)
 "cyF" = (
 /obj/machinery/light/small/directional/east,
@@ -3380,8 +3375,15 @@
 /turf/open/floor/carpet/darkpack/bluesilver,
 /area/vtm/interior/ghetto)
 "eaj" = (
-/obj/structure/platform/lowwall/brick/window,
-/turf/open/floor/city/circled,
+/obj/structure/curtain/bounty{
+	pixel_y = 38
+	},
+/obj/structure/table/wood,
+/obj/structure/fluff/tv{
+	icon_state = "tv_nature";
+	pixel_y = 12
+	},
+/turf/open/floor/wood/smooth/old,
 /area/vtm/interior)
 "eaB" = (
 /turf/open/floor/wood/smooth/old,
@@ -5010,16 +5012,15 @@
 /turf/open/floor/carpet/darkpack/blackgold,
 /area/vtm/palm_desert/interior/giovanni)
 "fJt" = (
-/obj/item/flashlight/flare/candle/infinite{
-	pixel_y = 8;
-	pixel_x = -7
+/obj/structure/curtain/bounty{
+	pixel_y = -27
 	},
-/turf/open/floor/carpet/darkpack/redsilver,
-/area/vtm/interior/library)
+/turf/open/floor/city/circled,
+/area/vtm/interior)
 "fJw" = (
-/obj/structure/chair/sofa/corp/corner{
-	dir = 8;
-	color = "#CD5C5C"
+/obj/structure/chair/sofa/corp{
+	color = "#CD5C5C";
+	dir = 1
 	},
 /turf/open/floor/carpet/red,
 /area/vtm/interior)
@@ -5192,9 +5193,9 @@
 /turf/open/floor/city/toilet,
 /area/vtm/interior/ghetto)
 "fVu" = (
-/obj/structure/chair/sofa/corp/left{
-	color = "#CD5C5C";
-	dir = 1
+/obj/structure/chair/sofa/corp/corner{
+	dir = 8;
+	color = "#CD5C5C"
 	},
 /turf/open/floor/carpet/red,
 /area/vtm/interior)
@@ -6011,9 +6012,10 @@
 /turf/open/floor/plating/sidewalk,
 /area/vtm/interior/church)
 "gRS" = (
-/obj/structure/chair/sofa/corp{
-	color = "#CD5C5C";
-	dir = 1
+/obj/machinery/light/small/directional/east,
+/obj/structure/chair/sofa/corp/right{
+	dir = 8;
+	color = "#CD5C5C"
 	},
 /turf/open/floor/carpet/red,
 /area/vtm/interior)
@@ -11487,15 +11489,12 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/ghetto)
 "nhI" = (
-/obj/structure/curtain/bounty{
-	pixel_y = 38
+/obj/item/flashlight/flare/candle/infinite{
+	pixel_y = 8;
+	pixel_x = -7
 	},
-/obj/structure/table/wood,
-/obj/item/kirbyplants/darkpack/random{
-	pixel_y = 11
-	},
-/turf/open/floor/wood/smooth/old,
-/area/vtm/interior)
+/turf/open/floor/carpet/darkpack/redsilver,
+/area/vtm/interior/library)
 "nhM" = (
 /obj/structure/vampdoor/glass,
 /obj/effect/turf_decal/siding/wood/dark,
@@ -17563,10 +17562,9 @@
 /turf/open/floor/plating/concrete,
 /area/vtm/palm_desert/interior/gun_store)
 "tPi" = (
-/obj/structure/rack/wide/store_shelf,
-/obj/machinery/light/cold/directional/south,
-/turf/open/floor/city/bacotell,
-/area/vtm/interior/shop)
+/obj/structure/platform/lowwall/brick/window,
+/turf/open/floor/city/circled,
+/area/vtm/interior)
 "tPk" = (
 /obj/structure/closet/cabinet,
 /turf/open/floor/wood/smooth,
@@ -17829,12 +17827,14 @@
 /turf/open/floor/city/plating_stone,
 /area/vtm/palm_desert/interior/giovanni)
 "uaL" = (
-/obj/machinery/light/small/directional/east,
-/obj/structure/chair/sofa/corp/right{
-	dir = 8;
-	color = "#CD5C5C"
+/obj/structure/curtain/bounty{
+	pixel_y = 38
 	},
-/turf/open/floor/carpet/red,
+/obj/structure/table/wood,
+/obj/item/kirbyplants/darkpack/random{
+	pixel_y = 11
+	},
+/turf/open/floor/wood/smooth/old,
 /area/vtm/interior)
 "uaO" = (
 /obj/structure/table/wood,
@@ -31705,7 +31705,7 @@ mYO
 aFg
 jjl
 nzk
-fJt
+nhI
 nzk
 jjl
 mxK
@@ -47881,7 +47881,7 @@ ftI
 otA
 ftI
 otA
-tPi
+bEW
 rdy
 dqD
 xSF
@@ -48796,7 +48796,7 @@ rdy
 rdy
 rdy
 dqD
-xSF
+aHg
 lEk
 lEk
 lEk
@@ -48999,8 +48999,8 @@ esC
 wbi
 wbi
 wbi
-cxO
-eaj
+fJt
+tPi
 ncp
 ncp
 kKo
@@ -50059,10 +50059,10 @@ dJD
 dJD
 miA
 djp
-nhI
+uaL
 lLt
 nbU
-fVu
+cxO
 lLt
 djQ
 ncp
@@ -50211,10 +50211,10 @@ vIj
 vIj
 bxO
 djp
-bcL
+eaj
 lLt
 nbU
-gRS
+fJw
 lLt
 djQ
 ncp
@@ -50365,8 +50365,8 @@ dJD
 vvn
 ljl
 sBQ
-uaL
-fJw
+gRS
+fVu
 lLt
 djQ
 ncp
