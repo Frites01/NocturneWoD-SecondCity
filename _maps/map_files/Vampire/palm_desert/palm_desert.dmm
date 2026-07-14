@@ -744,7 +744,8 @@
 "aMy" = (
 /obj/structure/noticeboard/directional/north,
 /obj/item/gun/ballistic/automatic/darkpack/ak74{
-	pixel_y = 29
+	pixel_y = 29;
+	pinless = 1
 	},
 /obj/structure/table/reinforced,
 /turf/open/floor/plating/concrete,
@@ -1935,7 +1936,8 @@
 "csv" = (
 /obj/structure/noticeboard/directional/north,
 /obj/item/gun/ballistic/shotgun/vampire{
-	pixel_y = 29
+	pixel_y = 29;
+	pinless = 1
 	},
 /obj/structure/table/reinforced,
 /turf/open/floor/plating/concrete,
@@ -2020,7 +2022,8 @@
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/palm_desert/outside/industrial)
 "cxO" = (
-/obj/structure/chair/sofa/corp/left{
+/obj/structure/chair/sofa/corp/corner{
+	dir = 8;
 	color = "#CD5C5C"
 	},
 /turf/open/floor/carpet/red,
@@ -3367,7 +3370,13 @@
 /turf/open/floor/carpet/darkpack/bluesilver,
 /area/vtm/interior/ghetto)
 "eaj" = (
-/obj/item/kirbyplants/darkpack/random,
+/obj/structure/curtain/bounty{
+	pixel_y = 38
+	},
+/obj/structure/table/wood,
+/obj/item/kirbyplants/darkpack/random{
+	pixel_y = 11
+	},
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior)
 "eaB" = (
@@ -4770,12 +4779,6 @@
 	dir = 1;
 	pixel_y = 6
 	},
-/obj/structure/sign/city/order/directional/south{
-	pixel_y = -14
-	},
-/obj/structure/fluff/tv/order/random{
-	pixel_y = 10
-	},
 /turf/open/floor/city/gummaguts,
 /area/vtm/palm_desert/interior/restaurant)
 "fwX" = (
@@ -5003,13 +5006,16 @@
 /turf/open/floor/carpet/darkpack/blackgold,
 /area/vtm/palm_desert/interior/giovanni)
 "fJt" = (
-/obj/structure/railing/wooden_fence,
-/turf/open/floor/wood/large,
-/area/vtm/palm_desert/interior/millennium)
+/obj/structure/chair/sofa/corp{
+	color = "#CD5C5C";
+	dir = 1
+	},
+/turf/open/floor/carpet/red,
+/area/vtm/interior)
 "fJw" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/closed/wall/vampwall/city,
-/area/vtm/interior/library)
+/obj/structure/platform/lowwall/brick/window,
+/turf/open/floor/city/circled,
+/area/vtm/interior)
 "fLi" = (
 /mob/living/carbon/human/npc/shop,
 /turf/open/floor/city/circled/large,
@@ -5179,11 +5185,10 @@
 /turf/open/floor/city/toilet,
 /area/vtm/interior/ghetto)
 "fVu" = (
-/obj/structure/chair/sofa/corp/right{
-	dir = 4;
-	color = "#CD5C5C"
+/obj/structure/curtain/bounty{
+	pixel_y = -27
 	},
-/turf/open/floor/carpet/red,
+/turf/open/floor/city/circled,
 /area/vtm/interior)
 "fVA" = (
 /obj/structure/curtain/bounty{
@@ -8067,7 +8072,7 @@
 /area/vtm/interior/ghetto)
 "jup" = (
 /obj/structure/railing/wooden_fence{
-	dir = 10
+	dir = 8
 	},
 /turf/open/floor/wood/large,
 /area/vtm/palm_desert/interior/millennium)
@@ -9723,7 +9728,8 @@
 "ljV" = (
 /obj/structure/noticeboard/directional/north,
 /obj/item/gun/ballistic/automatic/darkpack/ar15{
-	pixel_y = 29
+	pixel_y = 29;
+	pinless = 1
 	},
 /obj/structure/table/reinforced,
 /turf/open/floor/plating/concrete,
@@ -10250,6 +10256,7 @@
 /obj/item/stamp/granted{
 	pixel_x = 11
 	},
+/obj/item/veil_contract,
 /turf/open/floor/carpet/darkpack/redsilver,
 /area/vtm/palm_desert/interior/clinic)
 "lKx" = (
@@ -10876,7 +10883,7 @@
 /turf/open/floor/iron/stairs,
 /area/vtm/palm_desert/outside/residential)
 "muU" = (
-/obj/effect/decal/shadow,
+/obj/fake_platform/dred/double,
 /turf/open/floor/wood/parquet,
 /area/vtm/palm_desert/interior/millennium)
 "muX" = (
@@ -11469,9 +11476,11 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/ghetto)
 "nhI" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/wallpaper/paper/rich,
-/turf/closed/wall/vampwall/city,
+/obj/item/flashlight/flare/candle/infinite{
+	pixel_y = 8;
+	pixel_x = -7
+	},
+/turf/open/floor/carpet/darkpack/redsilver,
 /area/vtm/interior/library)
 "nhM" = (
 /obj/structure/vampdoor/glass,
@@ -12870,6 +12879,17 @@
 "oJJ" = (
 /turf/open/floor/plating/canalplating,
 /area/vtm/interior/sabbat_lair)
+"oKd" = (
+/obj/structure/curtain/bounty{
+	pixel_y = 38
+	},
+/obj/structure/table/wood,
+/obj/structure/fluff/tv{
+	icon_state = "tv_nature";
+	pixel_y = 12
+	},
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior)
 "oKN" = (
 /obj/structure/stone_tile/surrounding_tile{
 	dir = 1
@@ -12963,7 +12983,7 @@
 /area/vtm/palm_desert/interior/hunter)
 "oPm" = (
 /obj/structure/railing/wooden_fence{
-	dir = 6
+	dir = 4
 	},
 /turf/open/floor/wood/large,
 /area/vtm/palm_desert/interior/millennium)
@@ -16632,7 +16652,6 @@
 /area/vtm/palm_desert/outside/residential)
 "sLa" = (
 /obj/structure/table/wood,
-/obj/item/veil_contract,
 /turf/open/floor/wood/smooth,
 /area/vtm/palm_desert/interior/clinic)
 "sLw" = (
@@ -17541,9 +17560,9 @@
 /turf/open/floor/plating/concrete,
 /area/vtm/palm_desert/interior/gun_store)
 "tPi" = (
-/obj/structure/chair/sofa/corp/corner{
-	dir = 4;
-	color = "#CD5C5C"
+/obj/structure/chair/sofa/corp/left{
+	color = "#CD5C5C";
+	dir = 1
 	},
 /turf/open/floor/carpet/red,
 /area/vtm/interior)
@@ -17808,7 +17827,9 @@
 /turf/open/floor/city/plating_stone,
 /area/vtm/palm_desert/interior/giovanni)
 "uaL" = (
-/obj/structure/chair/sofa/corp{
+/obj/machinery/light/small/directional/east,
+/obj/structure/chair/sofa/corp/right{
+	dir = 8;
 	color = "#CD5C5C"
 	},
 /turf/open/floor/carpet/red,
@@ -20287,7 +20308,10 @@
 /turf/open/floor/city/circled,
 /area/vtm/palm_desert/interior/clinic)
 "xns" = (
-/obj/item/flashlight/flare/candle/infinite,
+/obj/item/flashlight/flare/candle/infinite{
+	pixel_y = -7;
+	pixel_x = 10
+	},
 /turf/open/floor/carpet/darkpack/redsilver,
 /area/vtm/interior/library)
 "xnE" = (
@@ -31679,7 +31703,7 @@ mYO
 aFg
 jjl
 nzk
-xns
+nhI
 nzk
 jjl
 mxK
@@ -48973,8 +48997,8 @@ esC
 wbi
 wbi
 wbi
-wbi
-djQ
+fVu
+fJw
 ncp
 ncp
 kKo
@@ -49882,8 +49906,8 @@ vIj
 bxO
 vvn
 lLt
-tPi
-fVu
+lLt
+lLt
 lLt
 lLt
 djQ
@@ -50033,11 +50057,11 @@ dJD
 dJD
 miA
 djp
-xvt
-uaL
-nbU
+eaj
 lLt
-irt
+nbU
+tPi
+lLt
 djQ
 ncp
 ncp
@@ -50185,11 +50209,11 @@ vIj
 vIj
 bxO
 djp
-xvt
-cxO
-nbU
+oKd
 lLt
-irt
+nbU
+fJt
+lLt
 djQ
 ncp
 ncp
@@ -50337,11 +50361,11 @@ oNL
 dJD
 dJD
 vvn
-lLt
+ljl
 sBQ
-cyF
+uaL
+cxO
 lLt
-eaj
 djQ
 ncp
 ncp
@@ -53267,7 +53291,7 @@ aPW
 vvY
 oyQ
 kjA
-fJw
+noI
 dqD
 vie
 pGX
@@ -53419,7 +53443,7 @@ iIM
 jjl
 gVP
 gtB
-fJw
+noI
 dqD
 vie
 qkl
@@ -53712,7 +53736,7 @@ rYe
 rYe
 wNJ
 dqD
-nhI
+aPW
 hUJ
 rAL
 jjl
@@ -54179,7 +54203,7 @@ oQa
 cQk
 edb
 edb
-fJw
+noI
 dqD
 vie
 jXT
@@ -78527,7 +78551,7 @@ xIh
 pmu
 lil
 aMo
-fJt
+aMo
 muU
 dCz
 dCz
