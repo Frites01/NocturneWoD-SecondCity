@@ -1,0 +1,18 @@
+{
+	"nocturne_bunnysuit": [
+		{
+			"type": "icon_state",
+			"icon_state": "bunnysuit_base",
+			"blend_mode": "overlay",
+			"color_ids": [1]
+		}
+	],
+	"nocturne_bunnysuit_d": [
+		{
+			"type": "icon_state",
+			"icon_state": "bunnysuit_base_displaced",
+			"blend_mode": "overlay",
+			"color_ids": [1]
+		}
+	]
+}

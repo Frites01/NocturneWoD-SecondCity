@@ -45,3 +45,9 @@
 /datum/loadout_item/uniform/nocturne_skirt/striped
 	name = "Skirt (Striped)"
 	item_path = /obj/item/clothing/under/vampire/nocturne_skirt/striped
+
+// costumes
+
+/datum/loadout_item/uniform/nocturne_bunnysuit
+	name = "Bunny Suit"
+	item_path = /obj/item/clothing/under/costume/nocturne_bunnysuit

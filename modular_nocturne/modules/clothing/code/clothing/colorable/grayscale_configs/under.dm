@@ -147,3 +147,19 @@
 /datum/greyscale_config/nocturne_skirt_striped/onfloor
 	name = "Skirt (Striped, Onfloor)"
 	icon_file = 'modular_nocturne/modules/clothing/icons/colorable/onfloor.dmi'
+
+// bunny
+
+/datum/greyscale_config/nocturne_bunnysuit
+	name = "Bunny Suit"
+	icon_file = 'modular_nocturne/modules/clothing/icons/colorable/clothing.dmi'
+	json_config = 'modular_nocturne/modules/clothing/code/clothing/colorable/json_configs/under/bunnysuit.json'
+
+/datum/greyscale_config/nocturne_bunnysuit/worn
+	name = "Bunny Suit (Worn)"
+	icon_file = 'modular_nocturne/modules/clothing/icons/colorable/worn.dmi'
+	json_config = 'modular_nocturne/modules/clothing/code/clothing/colorable/json_configs/under/bunnysuit_worn.json'
+
+/datum/greyscale_config/nocturne_bunnysuit/onfloor
+	name = "Bunny Suit (Onfloor)"
+	icon_file = 'modular_nocturne/modules/clothing/icons/colorable/onfloor.dmi'

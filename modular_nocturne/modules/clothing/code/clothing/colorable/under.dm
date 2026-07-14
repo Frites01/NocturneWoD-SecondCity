@@ -92,6 +92,8 @@
 	greyscale_colors = "#A6A49A"
 	flags_1 = IS_PLAYER_COLORABLE_1
 
+	supports_variations_flags = CLOTHING_DIGITIGRADE_VARIATION_NO_NEW_ICON
+
 /obj/item/clothing/under/vampire/nocturne_skirt/striped
 	name = "striped skirt"
 	desc = "A striped miniskirt."
@@ -101,3 +103,23 @@
 	greyscale_config_worn = /datum/greyscale_config/nocturne_skirt_striped/worn
 	greyscale_config_onfloor = /datum/greyscale_config/nocturne_skirt_striped/onfloor
 	greyscale_colors = "#A6A49A#3C5353"
+
+// costumes
+
+// my thinly veiled sexual fetish:
+/obj/item/clothing/under/costume/nocturne_bunnysuit
+	name = "bunny suit"
+	desc = "A pin-up staple."
+	icon = 'icons/map_icons/clothing/under/costume.dmi'
+	icon_state = "/obj/item/clothing/under/costume/nocturne_bunnysuit"
+	post_init_icon_state = "nocturne_bunnysuit"
+	greyscale_config = /datum/greyscale_config/nocturne_bunnysuit
+	greyscale_config_worn = /datum/greyscale_config/nocturne_bunnysuit/worn
+	greyscale_config_onfloor = /datum/greyscale_config/nocturne_bunnysuit/onfloor
+	greyscale_colors = "#202020"
+	flags_1 = IS_PLAYER_COLORABLE_1
+
+	supports_variations_flags = CLOTHING_DIGITIGRADE_VARIATION_NO_NEW_ICON
+	body_parts_covered = CHEST|GROIN
+	can_adjust = TRUE
+	alt_covers_chest = FALSE
