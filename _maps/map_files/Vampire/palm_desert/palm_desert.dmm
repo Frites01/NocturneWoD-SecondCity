@@ -976,6 +976,17 @@
 "bcq" = (
 /turf/closed/wall/vampwall/rich,
 /area/vtm/palm_desert/interior/hotel)
+"bcL" = (
+/obj/structure/curtain/bounty{
+	pixel_y = 38
+	},
+/obj/structure/table/wood,
+/obj/structure/fluff/tv{
+	icon_state = "tv_nature";
+	pixel_y = 12
+	},
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior)
 "bcN" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 4;
@@ -2022,11 +2033,10 @@
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/palm_desert/outside/industrial)
 "cxO" = (
-/obj/structure/chair/sofa/corp/corner{
-	dir = 8;
-	color = "#CD5C5C"
+/obj/structure/curtain/bounty{
+	pixel_y = -27
 	},
-/turf/open/floor/carpet/red,
+/turf/open/floor/city/circled,
 /area/vtm/interior)
 "cyF" = (
 /obj/machinery/light/small/directional/east,
@@ -3370,14 +3380,8 @@
 /turf/open/floor/carpet/darkpack/bluesilver,
 /area/vtm/interior/ghetto)
 "eaj" = (
-/obj/structure/curtain/bounty{
-	pixel_y = 38
-	},
-/obj/structure/table/wood,
-/obj/item/kirbyplants/darkpack/random{
-	pixel_y = 11
-	},
-/turf/open/floor/wood/smooth/old,
+/obj/structure/platform/lowwall/brick/window,
+/turf/open/floor/city/circled,
 /area/vtm/interior)
 "eaB" = (
 /turf/open/floor/wood/smooth/old,
@@ -5006,15 +5010,18 @@
 /turf/open/floor/carpet/darkpack/blackgold,
 /area/vtm/palm_desert/interior/giovanni)
 "fJt" = (
-/obj/structure/chair/sofa/corp{
-	color = "#CD5C5C";
-	dir = 1
+/obj/item/flashlight/flare/candle/infinite{
+	pixel_y = 8;
+	pixel_x = -7
+	},
+/turf/open/floor/carpet/darkpack/redsilver,
+/area/vtm/interior/library)
+"fJw" = (
+/obj/structure/chair/sofa/corp/corner{
+	dir = 8;
+	color = "#CD5C5C"
 	},
 /turf/open/floor/carpet/red,
-/area/vtm/interior)
-"fJw" = (
-/obj/structure/platform/lowwall/brick/window,
-/turf/open/floor/city/circled,
 /area/vtm/interior)
 "fLi" = (
 /mob/living/carbon/human/npc/shop,
@@ -5185,10 +5192,11 @@
 /turf/open/floor/city/toilet,
 /area/vtm/interior/ghetto)
 "fVu" = (
-/obj/structure/curtain/bounty{
-	pixel_y = -27
+/obj/structure/chair/sofa/corp/left{
+	color = "#CD5C5C";
+	dir = 1
 	},
-/turf/open/floor/city/circled,
+/turf/open/floor/carpet/red,
 /area/vtm/interior)
 "fVA" = (
 /obj/structure/curtain/bounty{
@@ -6003,9 +6011,12 @@
 /turf/open/floor/plating/sidewalk,
 /area/vtm/interior/church)
 "gRS" = (
-/obj/machinery/light/cold/directional/south,
-/turf/closed/wall/vampwall/market,
-/area/vtm/interior/shop)
+/obj/structure/chair/sofa/corp{
+	color = "#CD5C5C";
+	dir = 1
+	},
+/turf/open/floor/carpet/red,
+/area/vtm/interior)
 "gTG" = (
 /obj/structure/bed/maint{
 	pixel_y = 2
@@ -11476,12 +11487,15 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/ghetto)
 "nhI" = (
-/obj/item/flashlight/flare/candle/infinite{
-	pixel_y = 8;
-	pixel_x = -7
+/obj/structure/curtain/bounty{
+	pixel_y = 38
 	},
-/turf/open/floor/carpet/darkpack/redsilver,
-/area/vtm/interior/library)
+/obj/structure/table/wood,
+/obj/item/kirbyplants/darkpack/random{
+	pixel_y = 11
+	},
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior)
 "nhM" = (
 /obj/structure/vampdoor/glass,
 /obj/effect/turf_decal/siding/wood/dark,
@@ -12879,17 +12893,6 @@
 "oJJ" = (
 /turf/open/floor/plating/canalplating,
 /area/vtm/interior/sabbat_lair)
-"oKd" = (
-/obj/structure/curtain/bounty{
-	pixel_y = 38
-	},
-/obj/structure/table/wood,
-/obj/structure/fluff/tv{
-	icon_state = "tv_nature";
-	pixel_y = 12
-	},
-/turf/open/floor/wood/smooth/old,
-/area/vtm/interior)
 "oKN" = (
 /obj/structure/stone_tile/surrounding_tile{
 	dir = 1
@@ -17560,12 +17563,10 @@
 /turf/open/floor/plating/concrete,
 /area/vtm/palm_desert/interior/gun_store)
 "tPi" = (
-/obj/structure/chair/sofa/corp/left{
-	color = "#CD5C5C";
-	dir = 1
-	},
-/turf/open/floor/carpet/red,
-/area/vtm/interior)
+/obj/structure/rack/wide/store_shelf,
+/obj/machinery/light/cold/directional/south,
+/turf/open/floor/city/bacotell,
+/area/vtm/interior/shop)
 "tPk" = (
 /obj/structure/closet/cabinet,
 /turf/open/floor/wood/smooth,
@@ -17742,6 +17743,7 @@
 	dir = 1
 	},
 /obj/effect/mapping_helpers/mob_buckler,
+/obj/machinery/light/cold/directional/south,
 /turf/open/floor/city/bacotell,
 /area/vtm/interior/shop)
 "tWk" = (
@@ -31703,7 +31705,7 @@ mYO
 aFg
 jjl
 nzk
-nhI
+fJt
 nzk
 jjl
 mxK
@@ -47879,8 +47881,8 @@ ftI
 otA
 ftI
 otA
-ftI
-gRS
+tPi
+rdy
 dqD
 xSF
 lEk
@@ -48640,7 +48642,7 @@ otA
 otA
 qbo
 tWd
-gRS
+rdy
 dqD
 xSF
 lEk
@@ -48997,8 +48999,8 @@ esC
 wbi
 wbi
 wbi
-fVu
-fJw
+cxO
+eaj
 ncp
 ncp
 kKo
@@ -50057,10 +50059,10 @@ dJD
 dJD
 miA
 djp
-eaj
+nhI
 lLt
 nbU
-tPi
+fVu
 lLt
 djQ
 ncp
@@ -50209,10 +50211,10 @@ vIj
 vIj
 bxO
 djp
-oKd
+bcL
 lLt
 nbU
-fJt
+gRS
 lLt
 djQ
 ncp
@@ -50364,7 +50366,7 @@ vvn
 ljl
 sBQ
 uaL
-cxO
+fJw
 lLt
 djQ
 ncp
