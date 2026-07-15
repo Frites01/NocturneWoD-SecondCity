@@ -11,6 +11,16 @@
 		target_items |= vendor.contraband
 		qdel(vendor)
 
+	// NOCTURNE ADDITION START - RETAIL VENDORS ARE PEOPLE TOO!!!
+	for(var/obj/structure/retail/retail_vendor as anything in subtypesof(/obj/structure/retail))
+		retail_vendor = new retail_vendor()
+
+		for(var/datum/data/vending_product/record as anything in retail_vendor.products_list)
+			target_items |= record.product_path
+
+		qdel(retail_vendor)
+	// NOCTURNE ADDITION END
+
 	// building icons for each item
 	for (var/atom/item as anything in target_items)
 		if (!ispath(item, /atom))
