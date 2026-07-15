@@ -401,6 +401,12 @@
 		return
 	if(greyscale_config_worn)
 		worn_icon = SSgreyscale.GetColoredIconByType(greyscale_config_worn, greyscale_colors)
+	// NOCTURNE ADDITION START
+	if(greyscale_config_worn_digi)
+		worn_icon_digi = SSgreyscale.GetColoredIconByType(greyscale_config_worn_digi, greyscale_colors)
+	if(greyscale_config_worn_muzzled)
+		worn_icon_muzzled = SSgreyscale.GetColoredIconByType(greyscale_config_worn_muzzled, greyscale_colors)
+	// NOCTURNE ADDITION END
 	if(greyscale_config_inhand_left)
 		lefthand_file = SSgreyscale.GetColoredIconByType(greyscale_config_inhand_left, greyscale_colors)
 	if(greyscale_config_inhand_right)

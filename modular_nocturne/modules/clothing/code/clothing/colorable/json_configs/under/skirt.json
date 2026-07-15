@@ -1,0 +1,10 @@
+{
+	"nocturne_skirt": [
+		{
+			"type": "icon_state",
+			"icon_state": "skirt_base",
+			"blend_mode": "overlay",
+			"color_ids": [1]
+		}
+	]
+}

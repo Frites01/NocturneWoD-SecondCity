@@ -1,0 +1,10 @@
+{
+	"nocturne_baggy_pants": [
+		{
+			"type": "icon_state",
+			"icon_state": "baggy_pants",
+			"blend_mode": "overlay",
+			"color_ids": [1]
+		}
+	]
+}

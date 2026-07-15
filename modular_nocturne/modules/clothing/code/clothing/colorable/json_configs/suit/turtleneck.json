@@ -1,0 +1,10 @@
+{
+	"nocturne_turtleneck": [
+		{
+			"type": "icon_state",
+			"icon_state": "turtleneck",
+			"blend_mode": "overlay",
+			"color_ids": [1]
+		}
+	]
+}

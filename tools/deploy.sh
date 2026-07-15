@@ -31,11 +31,13 @@ find modular_darkpack/ -name \*.dmi -exec cp --parents {} $1 \;
 # DARKPACK EDIT ADD END
 
 
-# NOCTURNE EDIT START - Get all the .dmis from modular_nocturne
+# NOCTURNE EDIT START - Get all the .dmis/.jsons from modular_nocturne
 mkdir -p \
 		$1/modular_nocturne \
+    $1/modular_nocturne/modules/clothing/code/clothing/colorable/json_configs \
 
 find modular_nocturne/ -name \*.dmi -exec cp --parents {} $1 \;
+find modular_nocturne/modules/clothing/code/clothing/colorable/json_configs/ -name \*.json -exec cp --parents {} $1 \;
 # NOCTURNE EDIT END
 
 cp tgstation.dmb tgstation.rsc $1/

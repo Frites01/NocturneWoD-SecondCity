@@ -1,0 +1,10 @@
+{
+	"nocturne_bunnyears": [
+		{
+			"type": "icon_state",
+			"icon_state": "bunnyears",
+			"blend_mode": "overlay",
+			"color_ids": [1]
+		}
+	]
+}

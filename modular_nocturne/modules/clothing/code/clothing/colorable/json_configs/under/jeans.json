@@ -1,0 +1,10 @@
+{
+	"nocturne_jeans": [
+		{
+			"type": "icon_state",
+			"icon_state": "jeans",
+			"blend_mode": "overlay",
+			"color_ids": [1]
+		}
+	]
+}

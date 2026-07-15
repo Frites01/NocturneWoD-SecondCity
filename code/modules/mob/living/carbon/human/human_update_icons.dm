@@ -98,7 +98,7 @@ There are several things that need to be remembered:
 		var/woman
 		//BEGIN SPECIES HANDLING
 		if((bodyshape & BODYSHAPE_DIGITIGRADE) && (uniform.supports_variations_flags & CLOTHING_DIGITIGRADE_VARIATION))
-			icon_file = DIGITIGRADE_UNIFORM_FILE
+			icon_file = uniform.worn_icon_digi || DIGITIGRADE_UNIFORM_FILE // NOCTURNE EDIT - ORIGINAL: icon_file = DIGITIGRADE_UNIFORM_FILE
 		//Female sprites have lower priority than digitigrade sprites
 		else if(dna.species.sexes && (bodyshape & BODYSHAPE_HUMANOID) && physique == FEMALE && !(uniform.female_sprite_flags & NO_FEMALE_UNIFORM)) //Agggggggghhhhh
 			woman = TRUE
@@ -260,7 +260,16 @@ There are several things that need to be remembered:
 
 		var/icon_file = 'icons/mob/clothing/neck.dmi'
 
-		var/mutable_appearance/neck_overlay = worn_item.build_worn_icon(default_layer = NECK_LAYER, default_icon_file = icon_file, bodyshape = bodyshape)
+		// NOCTURNE ADDITION START
+		var/mutant_override = FALSE
+		if((bodyshape & BODYSHAPE_SNOUTED) && (worn_item.supports_variations_flags & CLOTHING_SNOUTED_VARIATION) && worn_item.worn_icon_muzzled)
+			var/snout_icon_file = worn_item.worn_icon_muzzled
+			if(snout_icon_file && icon_exists(snout_icon_file, RESOLVE_ICON_STATE(worn_item)))
+				icon_file = snout_icon_file
+				mutant_override = TRUE
+		// NOCTURNE ADDITION END
+
+		var/mutable_appearance/neck_overlay = worn_item.build_worn_icon(default_layer = NECK_LAYER, default_icon_file = icon_file, bodyshape = bodyshape, override_file = mutant_override ? icon_file : null) // NOCTURNE EDIT - ORIGINAL: var/mutable_appearance/neck_overlay = worn_item.build_worn_icon(default_layer = NECK_LAYER, default_icon_file = icon_file, bodyshape = bodyshape)
 		var/obj/item/bodypart/chest/my_chest = get_bodypart(BODY_ZONE_CHEST)
 		my_chest?.worn_neck_offset?.apply_offset(neck_overlay)
 		overlays_standing[NECK_LAYER] = neck_overlay
@@ -282,7 +291,17 @@ There are several things that need to be remembered:
 
 		var/icon_file = DEFAULT_SHOES_FILE
 
-		var/mutable_appearance/shoes_overlay = shoes.build_worn_icon(default_layer = SHOES_LAYER, default_icon_file = icon_file, bodyshape = bodyshape)
+		// NOCTURNE ADDITION START
+		var/mutant_override = FALSE
+
+		if((bodyshape & BODYSHAPE_DIGITIGRADE) && (worn_item.supports_variations_flags & CLOTHING_DIGITIGRADE_VARIATION))
+			var/obj/item/bodypart/leg = src.get_bodypart(BODY_ZONE_L_LEG)
+			if(leg.bodyshape & BODYSHAPE_DIGITIGRADE)
+				icon_file = worn_item.worn_icon_digi || DIGITIGRADE_SHOES_FILE
+				mutant_override = TRUE
+		// NOCTURNE ADDITION END
+
+		var/mutable_appearance/shoes_overlay = shoes.build_worn_icon(default_layer = SHOES_LAYER, default_icon_file = icon_file, bodyshape = bodyshape, override_file = mutant_override ? icon_file : null) // NOCTURNE EDIT - ORIGINAL: var/mutable_appearance/shoes_overlay = shoes.build_worn_icon(default_layer = SHOES_LAYER, default_icon_file = icon_file, bodyshape = bodyshape)
 		if(!shoes_overlay)
 			return
 
@@ -326,7 +345,16 @@ There are several things that need to be remembered:
 
 		var/icon_file = 'icons/mob/clothing/head/default.dmi'
 
-		var/mutable_appearance/head_overlay = head.build_worn_icon(default_layer = HEAD_LAYER, default_icon_file = icon_file, bodyshape = bodyshape)
+		// NOCTURNE ADDITION START - This needs to be refactored.
+		var/mutant_override = FALSE
+		if((icon_file == 'icons/mob/clothing/head/default.dmi') && (bodyshape & BODYSHAPE_SNOUTED) && (worn_item.supports_variations_flags & CLOTHING_SNOUTED_VARIATION))
+			var/snout_icon_file = worn_item.worn_icon_muzzled || SNOUTED_HEAD_FILE
+			if(snout_icon_file && icon_exists(snout_icon_file, RESOLVE_ICON_STATE(worn_item)))
+				icon_file = snout_icon_file
+				mutant_override = TRUE
+		// NOCTURNE ADDITION END
+
+		var/mutable_appearance/head_overlay = head.build_worn_icon(default_layer = HEAD_LAYER, default_icon_file = icon_file, bodyshape = bodyshape, override_file = mutant_override ? icon_file : null) // NOCTURNE EDIT - ORIGINAL: var/mutable_appearance/head_overlay = head.build_worn_icon(default_layer = HEAD_LAYER, default_icon_file = icon_file, bodyshape = bodyshape)
 		var/obj/item/bodypart/head/my_head = get_bodypart(BODY_ZONE_HEAD)
 		my_head?.worn_head_offset?.apply_offset(head_overlay)
 		overlays_standing[HEAD_LAYER] = head_overlay
@@ -363,13 +391,21 @@ There are several things that need to be remembered:
 
 		var/icon_file = DEFAULT_SUIT_FILE
 
-		var/mutable_appearance/suit_overlay = wear_suit.build_worn_icon(default_layer = SUIT_LAYER, default_icon_file = icon_file, bodyshape = bodyshape)
+		// NOCTURNE ADDITION START
+		var/mutant_override = FALSE
+		if(bodyshape & BODYSHAPE_DIGITIGRADE)
+			if(worn_item.supports_variations_flags & CLOTHING_DIGITIGRADE_VARIATION)
+				icon_file = worn_item.worn_icon_digi || DIGITIGRADE_SUIT_FILE
+				mutant_override = TRUE
+		// NOCTURNE ADDITION END
+
+		var/mutable_appearance/suit_overlay = wear_suit.build_worn_icon(default_layer = SUIT_LAYER, default_icon_file = icon_file, bodyshape = bodyshape, override_file = mutant_override ? icon_file : null) // NOCTURNE EDIT - ORIGINAL: var/mutable_appearance/suit_overlay = wear_suit.build_worn_icon(default_layer = SUIT_LAYER, default_icon_file = icon_file, bodyshape = bodyshape)
 		var/obj/item/bodypart/chest/my_chest = get_bodypart(BODY_ZONE_CHEST)
 		my_chest?.worn_suit_offset?.apply_offset(suit_overlay)
 		overlays_standing[SUIT_LAYER] = suit_overlay
 
 	apply_overlay(SUIT_LAYER)
-	update_body_parts() // NOCTURNE EDIT
+	update_body_parts() // NOCTURNE ADDITION
 
 /mob/living/carbon/human/update_pockets()
 	if (hud_used)
@@ -391,8 +427,17 @@ There are several things that need to be remembered:
 
 		var/icon_file = 'icons/mob/clothing/mask.dmi'
 
+		// NOVA EDIT ADDITION START
+		var/mutant_override = FALSE
+		if(!mutant_override && (bodyshape & BODYSHAPE_SNOUTED) && (worn_item.supports_variations_flags & CLOTHING_SNOUTED_VARIATION))
+			var/snout_icon_file = worn_item.worn_icon_muzzled || SNOUTED_MASK_FILE
+			if(snout_icon_file && icon_exists(snout_icon_file, RESOLVE_ICON_STATE(worn_item)))
+				icon_file = snout_icon_file
+				mutant_override = TRUE
+		// NOVA EDIT ADDITION END
+
 		var/mutable_appearance/mask_overlay = wear_mask.build_worn_icon(default_layer = FACEMASK_LAYER, default_icon_file = icon_file, bodyshape = bodyshape)
-		my_head.worn_mask_offset?.apply_offset(mask_overlay)
+		if(!mutant_override) my_head.worn_mask_offset?.apply_offset(mask_overlay) // NOVA EDIT CHANGE - ORIGINAL: my_head.worn_mask_offset?.apply_offset(mask_overlay)
 		overlays_standing[FACEMASK_LAYER] = mask_overlay
 
 	apply_overlay(FACEMASK_LAYER)

@@ -1,0 +1,10 @@
+{
+	"nocturne_shorts_short": [
+		{
+			"type": "icon_state",
+			"icon_state": "shorts_shorter",
+			"blend_mode": "overlay",
+			"color_ids": [1]
+		}
+	]
+}
