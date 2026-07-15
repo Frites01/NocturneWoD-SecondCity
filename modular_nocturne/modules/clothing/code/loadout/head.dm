@@ -40,3 +40,7 @@
 /datum/loadout_item/head/costume/headband_frilly
 	name = "Frilly Headband"
 	item_path = /obj/item/clothing/head/vampire/headband_frilly
+
+/datum/loadout_item/head/costume/nocturne_bunnyears
+	name = "Bunny Ears"
+	item_path = /obj/item/clothing/head/vampire/nocturne_bunnyears
