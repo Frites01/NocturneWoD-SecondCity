@@ -1,0 +1,5 @@
+author: "lpeapnni"
+delete-after: True
+changes:
+  - rscadd: "Added new colorable clothing to the loadout menu"
+  - rscadd: "Added digitigrade variants to some of the shoes"
