@@ -1,0 +1,4 @@
+author: "Lyroy"
+delete-after: True
+changes:
+  - balance: "lowered starting discipline points for vampires"
