@@ -43,6 +43,10 @@
 			to_chat(src, span_notice("It's too late for that, the round is already starting!"))
 			return
 		play_lobby_button_sound()
+
+		if(!check_discipline_warning())
+			return
+
 		if(CONFIG_GET(flag/min_flavor_text))
 			if(length_char(client.prefs.read_preference(/datum/preference/text/flavor_text)) < CONFIG_GET(number/flavor_text_character_requirement))
 				tgui_alert(usr, "You need at least [CONFIG_GET(number/flavor_text_character_requirement)] characters of flavor text to join the round. You have [length_char(client.prefs.read_preference(/datum/preference/text/flavor_text))] characters.", "Oh No!")
@@ -59,6 +63,10 @@
 
 	if(href_list["late_join"])
 		play_lobby_button_sound()
+
+		if(!check_discipline_warning())
+			return
+
 		if(CONFIG_GET(flag/min_flavor_text))
 			if(length_char(client.prefs.read_preference(/datum/preference/text/flavor_text)) < CONFIG_GET(number/flavor_text_character_requirement))
 				tgui_alert(usr, "You need at least [CONFIG_GET(number/flavor_text_character_requirement)] characters of flavor text to join the round. You have [length_char(client.prefs.read_preference(/datum/preference/text/flavor_text))] characters.", "Oh No!")
