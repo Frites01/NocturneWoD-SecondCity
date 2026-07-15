@@ -191,6 +191,19 @@
 			"name" = "Paraphernalia",
 			"icon" = "smoking",
 			"products" = list(
+				/obj/item/storage/fancy/cigarettes/cigpack_robust = 30,
+				/obj/item/storage/fancy/cigarettes/cigpack_robustgold = 30,
+				/obj/item/storage/fancy/cigarettes/cigpack_xeno = 30,
+				/obj/item/storage/fancy/cigarettes/dromedaryco = 30,
+				/obj/item/storage/fancy/cigarettes/cigars = 100,
+				/obj/item/storage/fancy/cigarettes/cigars/cohiba = 100,
+				/obj/item/storage/fancy/cigarettes/cigars/havana = 100,
+				/obj/item/rollingpaper = 10,
+				/obj/item/bong = 50,
+				/obj/item/lighter = 20,
+				/obj/item/lighter/greyscale = 10,
+				/obj/item/storage/box/matches = 10,
+				/obj/item/storage/ashtray = 10,
 			),
 		),
 
@@ -198,6 +211,8 @@
 			"name" = "Lewd",
 			"icon" = "heart",
 			"products" = list(
+				/obj/item/clothing/head/vampire/nocturne_bunnyears = 10,
+				/obj/item/clothing/under/costume/nocturne_bunnysuit = 10,
 			),
 		),
 	)

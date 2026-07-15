@@ -5,11 +5,13 @@ import {
   Box,
   Button,
   DmIcon,
+  Image, // NOCTURNE ADDITION
   NoticeBox,
   Section,
   Stack,
   Table,
 } from 'tgui-core/components';
+import { classes } from 'tgui-core/react'; // NOCTURNE ADDITION
 
 import { useBackend } from '../backend';
 import { Window } from '../layouts';
@@ -130,13 +132,22 @@ export const RetailVendor = (props) => {
                           'width': '100%',
                         }}
                       >
-                        <DmIcon
-                          icon={product.icon}
-                          icon_state={product.icon_state}
-                          style={{
-                            'vertical-align': 'middle',
-                          }}
-                        />{' '}
+                        {product.icon && product.icon_state ? (
+                          <DmIcon
+                            icon={product.icon}
+                            icon_state={product.icon_state}
+                            style={{
+                              'vertical-align': 'middle',
+                            }}
+                          />
+                        ) : (
+                          <Image
+                            className={classes(['vending32x32', product.path])}
+                            style={{
+                              'vertical-align': 'middle',
+                            }}
+                          />
+                        )}{' '}
                         <b>{product.name}</b>
                       </Table.Cell>
                       <Table.Cell>
