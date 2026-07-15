@@ -3110,12 +3110,11 @@
 /turf/open/floor/carpet/darkpack/redsilver,
 /area/vtm/palm_desert/interior/restaurant)
 "dOr" = (
-/obj/structure/vampdoor/reinf,
-/obj/effect/mapping_helpers/door/access/police,
-/obj/effect/mapping_helpers/door/lock,
-/obj/effect/mapping_helpers/door/lock_difficulty/six,
-/turf/open/floor/plating/concrete,
-/area/vtm/interior/police)
+/obj/effect/turf_decal/stock{
+	dir = 8
+	},
+/turf/open/floor/plating/asphalt,
+/area/vtm/palm_desert/outside/residential)
 "dOF" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 1
@@ -7113,6 +7112,12 @@
 	},
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/palm_desert/outside/supply)
+"ikE" = (
+/obj/effect/turf_decal/stock{
+	dir = 4
+	},
+/turf/open/floor/plating/asphalt,
+/area/vtm/palm_desert/outside/residential)
 "ikN" = (
 /obj/structure/platform/lowwall/brick_old/window,
 /obj/structure/barricade/wooden/crude,
@@ -49245,7 +49250,7 @@ eie
 fEJ
 mfB
 eie
-eie
+aFW
 eie
 eie
 eie
@@ -49549,7 +49554,7 @@ eie
 fEJ
 mfB
 eie
-eie
+onw
 eie
 eie
 eie
@@ -50005,7 +50010,7 @@ eie
 xcM
 doX
 doX
-dqD
+hxA
 ojz
 eie
 eie
@@ -61956,7 +61961,7 @@ ncp
 qax
 nEs
 nEs
-nEs
+baD
 fBZ
 fBZ
 fBZ
@@ -62115,6 +62120,7 @@ eHR
 eHR
 kvU
 eHR
+dOr
 eHR
 eHR
 eHR
@@ -62124,8 +62130,7 @@ eHR
 eHR
 eHR
 eHR
-eHR
-eHR
+dOr
 eHR
 eHR
 eHR
@@ -62419,6 +62424,7 @@ eHR
 eHR
 kvU
 eHR
+ikE
 eHR
 eHR
 eHR
@@ -62428,8 +62434,7 @@ eHR
 eHR
 eHR
 eHR
-eHR
-eHR
+ikE
 eHR
 eHR
 eHR
@@ -66668,7 +66673,7 @@ ncp
 qax
 nEs
 nEs
-nEs
+nsi
 uLQ
 uLQ
 uLQ
@@ -82198,7 +82203,7 @@ qhV
 qhV
 qhV
 qhV
-dOr
+rVr
 cjl
 cjl
 lVL
